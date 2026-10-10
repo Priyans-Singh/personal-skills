@@ -1,0 +1,6 @@
+interface:
+  display_name: "MCP Client"
+  short_description: "Reference for MCP Python client work"
+  default_prompt: "Use $mcp-client to explain or implement an MCP Python client workflow."
+policy:
+  allow_implicit_invocation: true

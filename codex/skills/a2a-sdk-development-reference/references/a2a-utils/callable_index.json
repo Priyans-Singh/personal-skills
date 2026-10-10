@@ -1,0 +1,821 @@
+[
+  {
+    "id": "_async_queue_compat.py:12:create_async_queue",
+    "file": "_async_queue_compat.py",
+    "line": 12,
+    "name": "create_async_queue",
+    "kind": "FunctionDef",
+    "guide": "_async_queue_compat_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "_async_queue_compat.py:23:create_async_queue",
+    "file": "_async_queue_compat.py",
+    "line": 23,
+    "name": "create_async_queue",
+    "kind": "FunctionDef",
+    "guide": "_async_queue_compat_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "_jcs.py:62:CanonicalizationError",
+    "file": "_jcs.py",
+    "line": 62,
+    "name": "CanonicalizationError",
+    "kind": "ClassDef",
+    "guide": "_jcs_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "_jcs.py:66:canonicalize",
+    "file": "_jcs.py",
+    "line": 66,
+    "name": "canonicalize",
+    "kind": "FunctionDef",
+    "guide": "_jcs_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "_jcs.py:98:_write",
+    "file": "_jcs.py",
+    "line": 98,
+    "name": "_write",
+    "kind": "FunctionDef",
+    "guide": "_jcs_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "_jcs.py:125:_format_scalar",
+    "file": "_jcs.py",
+    "line": 125,
+    "name": "_format_scalar",
+    "kind": "FunctionDef",
+    "guide": "_jcs_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "_jcs.py:148:_sorted_items",
+    "file": "_jcs.py",
+    "line": 148,
+    "name": "_sorted_items",
+    "kind": "FunctionDef",
+    "guide": "_jcs_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "_jcs.py:167:_quote",
+    "file": "_jcs.py",
+    "line": 167,
+    "name": "_quote",
+    "kind": "FunctionDef",
+    "guide": "_jcs_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "_jcs.py:172:_format_number",
+    "file": "_jcs.py",
+    "line": 172,
+    "name": "_format_number",
+    "kind": "FunctionDef",
+    "guide": "_jcs_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "constants.py:15:TransportProtocol",
+    "file": "constants.py",
+    "line": 15,
+    "name": "TransportProtocol",
+    "kind": "ClassDef",
+    "guide": "constants_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "error_handlers.py:40:_error_info",
+    "file": "error_handlers.py",
+    "line": 40,
+    "name": "_error_info",
+    "kind": "FunctionDef",
+    "guide": "error_handlers_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "error_handlers.py:52:build_error_details",
+    "file": "error_handlers.py",
+    "line": 52,
+    "name": "build_error_details",
+    "kind": "FunctionDef",
+    "guide": "error_handlers_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "error_handlers.py:84:_build_error_payload",
+    "file": "error_handlers.py",
+    "line": 84,
+    "name": "_build_error_payload",
+    "kind": "FunctionDef",
+    "guide": "error_handlers_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "error_handlers.py:101:build_rest_error_payload",
+    "file": "error_handlers.py",
+    "line": 101,
+    "name": "build_rest_error_payload",
+    "kind": "FunctionDef",
+    "guide": "error_handlers_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "error_handlers.py:134:_create_error_response",
+    "file": "error_handlers.py",
+    "line": 134,
+    "name": "_create_error_response",
+    "kind": "FunctionDef",
+    "guide": "error_handlers_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "error_handlers.py:164:rest_error_handler",
+    "file": "error_handlers.py",
+    "line": 164,
+    "name": "rest_error_handler",
+    "kind": "FunctionDef",
+    "guide": "error_handlers_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "error_handlers.py:170:rest_error_handler.wrapper",
+    "file": "error_handlers.py",
+    "line": 170,
+    "name": "rest_error_handler.wrapper",
+    "kind": "AsyncFunctionDef",
+    "guide": "error_handlers_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "error_handlers.py:179:rest_stream_error_handler",
+    "file": "error_handlers.py",
+    "line": 179,
+    "name": "rest_stream_error_handler",
+    "kind": "FunctionDef",
+    "guide": "error_handlers_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "error_handlers.py:184:rest_stream_error_handler._log_error",
+    "file": "error_handlers.py",
+    "line": 184,
+    "name": "rest_stream_error_handler._log_error",
+    "kind": "FunctionDef",
+    "guide": "error_handlers_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "error_handlers.py:202:rest_stream_error_handler.wrapper",
+    "file": "error_handlers.py",
+    "line": 202,
+    "name": "rest_stream_error_handler.wrapper",
+    "kind": "AsyncFunctionDef",
+    "guide": "error_handlers_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "error_handlers.py:213:rest_stream_error_handler.wrapper.error_catching_iterator",
+    "file": "error_handlers.py",
+    "line": 213,
+    "name": "rest_stream_error_handler.wrapper.error_catching_iterator",
+    "kind": "AsyncFunctionDef",
+    "guide": "error_handlers_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "errors.py:10:ErrorMapping",
+    "file": "errors.py",
+    "line": 10,
+    "name": "ErrorMapping",
+    "kind": "ClassDef",
+    "guide": "errors_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "errors.py:18:A2AError",
+    "file": "errors.py",
+    "line": 18,
+    "name": "A2AError",
+    "kind": "ClassDef",
+    "guide": "errors_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "errors.py:24:A2AError.__init__",
+    "file": "errors.py",
+    "line": 24,
+    "name": "A2AError.__init__",
+    "kind": "FunctionDef",
+    "guide": "errors_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "errors.py:31:TaskNotFoundError",
+    "file": "errors.py",
+    "line": 31,
+    "name": "TaskNotFoundError",
+    "kind": "ClassDef",
+    "guide": "errors_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "errors.py:37:TaskNotCancelableError",
+    "file": "errors.py",
+    "line": 37,
+    "name": "TaskNotCancelableError",
+    "kind": "ClassDef",
+    "guide": "errors_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "errors.py:43:PushNotificationNotSupportedError",
+    "file": "errors.py",
+    "line": 43,
+    "name": "PushNotificationNotSupportedError",
+    "kind": "ClassDef",
+    "guide": "errors_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "errors.py:49:UnsupportedOperationError",
+    "file": "errors.py",
+    "line": 49,
+    "name": "UnsupportedOperationError",
+    "kind": "ClassDef",
+    "guide": "errors_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "errors.py:55:ContentTypeNotSupportedError",
+    "file": "errors.py",
+    "line": 55,
+    "name": "ContentTypeNotSupportedError",
+    "kind": "ClassDef",
+    "guide": "errors_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "errors.py:61:InternalError",
+    "file": "errors.py",
+    "line": 61,
+    "name": "InternalError",
+    "kind": "ClassDef",
+    "guide": "errors_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "errors.py:67:InvalidAgentResponseError",
+    "file": "errors.py",
+    "line": 67,
+    "name": "InvalidAgentResponseError",
+    "kind": "ClassDef",
+    "guide": "errors_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "errors.py:73:ExtendedAgentCardNotConfiguredError",
+    "file": "errors.py",
+    "line": 73,
+    "name": "ExtendedAgentCardNotConfiguredError",
+    "kind": "ClassDef",
+    "guide": "errors_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "errors.py:79:InvalidParamsError",
+    "file": "errors.py",
+    "line": 79,
+    "name": "InvalidParamsError",
+    "kind": "ClassDef",
+    "guide": "errors_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "errors.py:85:InvalidRequestError",
+    "file": "errors.py",
+    "line": 85,
+    "name": "InvalidRequestError",
+    "kind": "ClassDef",
+    "guide": "errors_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "errors.py:91:MethodNotFoundError",
+    "file": "errors.py",
+    "line": 91,
+    "name": "MethodNotFoundError",
+    "kind": "ClassDef",
+    "guide": "errors_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "errors.py:97:JSONParseError",
+    "file": "errors.py",
+    "line": 97,
+    "name": "JSONParseError",
+    "kind": "ClassDef",
+    "guide": "errors_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "errors.py:103:ExtensionSupportRequiredError",
+    "file": "errors.py",
+    "line": 103,
+    "name": "ExtensionSupportRequiredError",
+    "kind": "ClassDef",
+    "guide": "errors_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "errors.py:109:VersionNotSupportedError",
+    "file": "errors.py",
+    "line": 109,
+    "name": "VersionNotSupportedError",
+    "kind": "ClassDef",
+    "guide": "errors_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "grpc_status.py:19:GrpcStatus",
+    "file": "grpc_status.py",
+    "line": 19,
+    "name": "GrpcStatus",
+    "kind": "ClassDef",
+    "guide": "grpc_status_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "grpc_status.py:27:status_to_grpc",
+    "file": "grpc_status.py",
+    "line": 27,
+    "name": "status_to_grpc",
+    "kind": "FunctionDef",
+    "guide": "grpc_status_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "grpc_status.py:46:status_from_call",
+    "file": "grpc_status.py",
+    "line": 46,
+    "name": "status_from_call",
+    "kind": "FunctionDef",
+    "guide": "grpc_status_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "json_utils.py:8:dumps",
+    "file": "json_utils.py",
+    "line": 8,
+    "name": "dumps",
+    "kind": "FunctionDef",
+    "guide": "json_utils_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "proto_utils.py:52:to_stream_response",
+    "file": "proto_utils.py",
+    "line": 52,
+    "name": "to_stream_response",
+    "kind": "FunctionDef",
+    "guide": "proto_utils_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "proto_utils.py:73:make_dict_serializable",
+    "file": "proto_utils.py",
+    "line": 73,
+    "name": "make_dict_serializable",
+    "kind": "FunctionDef",
+    "guide": "proto_utils_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "proto_utils.py:93:normalize_large_integers_to_strings",
+    "file": "proto_utils.py",
+    "line": 93,
+    "name": "normalize_large_integers_to_strings",
+    "kind": "FunctionDef",
+    "guide": "proto_utils_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "proto_utils.py:110:normalize_large_integers_to_strings._normalize",
+    "file": "proto_utils.py",
+    "line": 110,
+    "name": "normalize_large_integers_to_strings._normalize",
+    "kind": "FunctionDef",
+    "guide": "proto_utils_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "proto_utils.py:122:parse_string_integers_in_dict",
+    "file": "proto_utils.py",
+    "line": 122,
+    "name": "parse_string_integers_in_dict",
+    "kind": "FunctionDef",
+    "guide": "proto_utils_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "proto_utils.py:153:parse_params",
+    "file": "proto_utils.py",
+    "line": 153,
+    "name": "parse_params",
+    "kind": "FunctionDef",
+    "guide": "proto_utils_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "proto_utils.py:202:ValidationDetail",
+    "file": "proto_utils.py",
+    "line": 202,
+    "name": "ValidationDetail",
+    "kind": "ClassDef",
+    "guide": "proto_utils_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "proto_utils.py:209:_check_required_field_violation",
+    "file": "proto_utils.py",
+    "line": 209,
+    "name": "_check_required_field_violation",
+    "kind": "FunctionDef",
+    "guide": "proto_utils_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "proto_utils.py:233:_append_nested_errors",
+    "file": "proto_utils.py",
+    "line": 233,
+    "name": "_append_nested_errors",
+    "kind": "FunctionDef",
+    "guide": "proto_utils_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "proto_utils.py:249:_recurse_validation",
+    "file": "proto_utils.py",
+    "line": 249,
+    "name": "_recurse_validation",
+    "kind": "FunctionDef",
+    "guide": "proto_utils_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "proto_utils.py:277:_validate_proto_required_fields_internal",
+    "file": "proto_utils.py",
+    "line": 277,
+    "name": "_validate_proto_required_fields_internal",
+    "kind": "FunctionDef",
+    "guide": "proto_utils_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "proto_utils.py:294:validate_proto_required_fields",
+    "file": "proto_utils.py",
+    "line": 294,
+    "name": "validate_proto_required_fields",
+    "kind": "FunctionDef",
+    "guide": "proto_utils_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "proto_utils.py:311:validation_errors_to_bad_request",
+    "file": "proto_utils.py",
+    "line": 311,
+    "name": "validation_errors_to_bad_request",
+    "kind": "FunctionDef",
+    "guide": "proto_utils_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "proto_utils.py:323:bad_request_to_validation_errors",
+    "file": "proto_utils.py",
+    "line": 323,
+    "name": "bad_request_to_validation_errors",
+    "kind": "FunctionDef",
+    "guide": "proto_utils_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "push_url_validator.py:13:_ip_is_blocked",
+    "file": "push_url_validator.py",
+    "line": 13,
+    "name": "_ip_is_blocked",
+    "kind": "FunctionDef",
+    "guide": "push_url_validator_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "push_url_validator.py:29:validate_push_notification_url",
+    "file": "push_url_validator.py",
+    "line": 29,
+    "name": "validate_push_notification_url",
+    "kind": "AsyncFunctionDef",
+    "guide": "push_url_validator_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "signing.py:27:SignatureVerificationError",
+    "file": "signing.py",
+    "line": 27,
+    "name": "SignatureVerificationError",
+    "kind": "ClassDef",
+    "guide": "signing_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "signing.py:31:NoSignatureError",
+    "file": "signing.py",
+    "line": 31,
+    "name": "NoSignatureError",
+    "kind": "ClassDef",
+    "guide": "signing_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "signing.py:35:InvalidSignaturesError",
+    "file": "signing.py",
+    "line": 35,
+    "name": "InvalidSignaturesError",
+    "kind": "ClassDef",
+    "guide": "signing_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "signing.py:39:ProtectedHeader",
+    "file": "signing.py",
+    "line": 39,
+    "name": "ProtectedHeader",
+    "kind": "ClassDef",
+    "guide": "signing_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "signing.py:55:create_agent_card_signer",
+    "file": "signing.py",
+    "line": 55,
+    "name": "create_agent_card_signer",
+    "kind": "FunctionDef",
+    "guide": "signing_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "signing.py:71:create_agent_card_signer.agent_card_signer",
+    "file": "signing.py",
+    "line": 71,
+    "name": "create_agent_card_signer.agent_card_signer",
+    "kind": "FunctionDef",
+    "guide": "signing_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "signing.py:101:create_signature_verifier",
+    "file": "signing.py",
+    "line": 101,
+    "name": "create_signature_verifier",
+    "kind": "FunctionDef",
+    "guide": "signing_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "signing.py:118:create_signature_verifier.signature_verifier",
+    "file": "signing.py",
+    "line": 118,
+    "name": "create_signature_verifier.signature_verifier",
+    "kind": "FunctionDef",
+    "guide": "signing_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "signing.py:167:_clean_empty",
+    "file": "signing.py",
+    "line": 167,
+    "name": "_clean_empty",
+    "kind": "FunctionDef",
+    "guide": "signing_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "signing.py:198:_canonicalize_agent_card",
+    "file": "signing.py",
+    "line": 198,
+    "name": "_canonicalize_agent_card",
+    "kind": "FunctionDef",
+    "guide": "signing_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "task.py:14:HistoryLengthConfig",
+    "file": "task.py",
+    "line": 14,
+    "name": "HistoryLengthConfig",
+    "kind": "ClassDef",
+    "guide": "task_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "task.py:19:HistoryLengthConfig.HasField",
+    "file": "task.py",
+    "line": 19,
+    "name": "HistoryLengthConfig.HasField",
+    "kind": "FunctionDef",
+    "guide": "task_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "task.py:27:validate_history_length",
+    "file": "task.py",
+    "line": 27,
+    "name": "validate_history_length",
+    "kind": "FunctionDef",
+    "guide": "task_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "task.py:33:apply_history_length",
+    "file": "task.py",
+    "line": 33,
+    "name": "apply_history_length",
+    "kind": "FunctionDef",
+    "guide": "task_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "task.py:73:validate_page_size",
+    "file": "task.py",
+    "line": 73,
+    "name": "validate_page_size",
+    "kind": "FunctionDef",
+    "guide": "task_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "task.py:90:encode_page_token",
+    "file": "task.py",
+    "line": 90,
+    "name": "encode_page_token",
+    "kind": "FunctionDef",
+    "guide": "task_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "task.py:102:decode_page_token",
+    "file": "task.py",
+    "line": 102,
+    "name": "decode_page_token",
+    "kind": "FunctionDef",
+    "guide": "task_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "telemetry.py:126:_NoOp",
+    "file": "telemetry.py",
+    "line": 126,
+    "name": "_NoOp",
+    "kind": "ClassDef",
+    "guide": "telemetry_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "telemetry.py:129:_NoOp.__call__",
+    "file": "telemetry.py",
+    "line": 129,
+    "name": "_NoOp.__call__",
+    "kind": "FunctionDef",
+    "guide": "telemetry_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "telemetry.py:132:_NoOp.__enter__",
+    "file": "telemetry.py",
+    "line": 132,
+    "name": "_NoOp.__enter__",
+    "kind": "FunctionDef",
+    "guide": "telemetry_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "telemetry.py:135:_NoOp.__exit__",
+    "file": "telemetry.py",
+    "line": 135,
+    "name": "_NoOp.__exit__",
+    "kind": "FunctionDef",
+    "guide": "telemetry_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "telemetry.py:138:_NoOp.__getattr__",
+    "file": "telemetry.py",
+    "line": 138,
+    "name": "_NoOp.__getattr__",
+    "kind": "FunctionDef",
+    "guide": "telemetry_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "telemetry.py:155:trace_function",
+    "file": "telemetry.py",
+    "line": 155,
+    "name": "trace_function",
+    "kind": "FunctionDef",
+    "guide": "telemetry_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "telemetry.py:226:trace_function.async_wrapper",
+    "file": "telemetry.py",
+    "line": 226,
+    "name": "trace_function.async_wrapper",
+    "kind": "AsyncFunctionDef",
+    "guide": "telemetry_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "telemetry.py:272:trace_function.sync_wrapper",
+    "file": "telemetry.py",
+    "line": 272,
+    "name": "trace_function.sync_wrapper",
+    "kind": "FunctionDef",
+    "guide": "telemetry_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "telemetry.py:309:trace_class",
+    "file": "telemetry.py",
+    "line": 309,
+    "name": "trace_class",
+    "kind": "FunctionDef",
+    "guide": "telemetry_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "telemetry.py:366:trace_class.decorator",
+    "file": "telemetry.py",
+    "line": 366,
+    "name": "trace_class.decorator",
+    "kind": "FunctionDef",
+    "guide": "telemetry_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "version_validator.py:23:validate_version",
+    "file": "version_validator.py",
+    "line": 23,
+    "name": "validate_version",
+    "kind": "FunctionDef",
+    "guide": "version_validator_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "version_validator.py:51:validate_version.decorator",
+    "file": "version_validator.py",
+    "line": 51,
+    "name": "validate_version.decorator",
+    "kind": "FunctionDef",
+    "guide": "version_validator_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "version_validator.py:52:validate_version.decorator._get_actual_version",
+    "file": "version_validator.py",
+    "line": 52,
+    "name": "validate_version.decorator._get_actual_version",
+    "kind": "FunctionDef",
+    "guide": "version_validator_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "version_validator.py:80:validate_version.decorator._is_version_compatible",
+    "file": "version_validator.py",
+    "line": 80,
+    "name": "validate_version.decorator._is_version_compatible",
+    "kind": "FunctionDef",
+    "guide": "version_validator_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "version_validator.py:95:validate_version.decorator.async_gen_wrapper",
+    "file": "version_validator.py",
+    "line": 95,
+    "name": "validate_version.decorator.async_gen_wrapper",
+    "kind": "FunctionDef",
+    "guide": "version_validator_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "version_validator.py:114:validate_version.decorator.async_wrapper",
+    "file": "version_validator.py",
+    "line": 114,
+    "name": "validate_version.decorator.async_wrapper",
+    "kind": "AsyncFunctionDef",
+    "guide": "version_validator_py_knowledge.md",
+    "stub": false
+  }
+]

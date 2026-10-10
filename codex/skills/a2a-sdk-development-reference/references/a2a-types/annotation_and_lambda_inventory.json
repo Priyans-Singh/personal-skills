@@ -1,0 +1,2435 @@
+{
+  "annotated_entries": [
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 16,
+      "scope": "",
+      "entry": "DESCRIPTOR: _descriptor.FileDescriptor"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 20,
+      "scope": "TaskState",
+      "entry": "TASK_STATE_UNSPECIFIED: _ClassVar[TaskState]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 21,
+      "scope": "TaskState",
+      "entry": "TASK_STATE_SUBMITTED: _ClassVar[TaskState]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 22,
+      "scope": "TaskState",
+      "entry": "TASK_STATE_WORKING: _ClassVar[TaskState]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 23,
+      "scope": "TaskState",
+      "entry": "TASK_STATE_COMPLETED: _ClassVar[TaskState]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 24,
+      "scope": "TaskState",
+      "entry": "TASK_STATE_FAILED: _ClassVar[TaskState]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 25,
+      "scope": "TaskState",
+      "entry": "TASK_STATE_CANCELED: _ClassVar[TaskState]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 26,
+      "scope": "TaskState",
+      "entry": "TASK_STATE_INPUT_REQUIRED: _ClassVar[TaskState]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 27,
+      "scope": "TaskState",
+      "entry": "TASK_STATE_REJECTED: _ClassVar[TaskState]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 28,
+      "scope": "TaskState",
+      "entry": "TASK_STATE_AUTH_REQUIRED: _ClassVar[TaskState]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 32,
+      "scope": "Role",
+      "entry": "ROLE_UNSPECIFIED: _ClassVar[Role]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 33,
+      "scope": "Role",
+      "entry": "ROLE_USER: _ClassVar[Role]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 34,
+      "scope": "Role",
+      "entry": "ROLE_AGENT: _ClassVar[Role]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 35,
+      "scope": "",
+      "entry": "TASK_STATE_UNSPECIFIED: TaskState"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 36,
+      "scope": "",
+      "entry": "TASK_STATE_SUBMITTED: TaskState"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 37,
+      "scope": "",
+      "entry": "TASK_STATE_WORKING: TaskState"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 38,
+      "scope": "",
+      "entry": "TASK_STATE_COMPLETED: TaskState"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 39,
+      "scope": "",
+      "entry": "TASK_STATE_FAILED: TaskState"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 40,
+      "scope": "",
+      "entry": "TASK_STATE_CANCELED: TaskState"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 41,
+      "scope": "",
+      "entry": "TASK_STATE_INPUT_REQUIRED: TaskState"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 42,
+      "scope": "",
+      "entry": "TASK_STATE_REJECTED: TaskState"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 43,
+      "scope": "",
+      "entry": "TASK_STATE_AUTH_REQUIRED: TaskState"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 44,
+      "scope": "",
+      "entry": "ROLE_UNSPECIFIED: Role"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 45,
+      "scope": "",
+      "entry": "ROLE_USER: Role"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 46,
+      "scope": "",
+      "entry": "ROLE_AGENT: Role"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 50,
+      "scope": "SendMessageConfiguration",
+      "entry": "ACCEPTED_OUTPUT_MODES_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 51,
+      "scope": "SendMessageConfiguration",
+      "entry": "TASK_PUSH_NOTIFICATION_CONFIG_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 52,
+      "scope": "SendMessageConfiguration",
+      "entry": "HISTORY_LENGTH_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 53,
+      "scope": "SendMessageConfiguration",
+      "entry": "RETURN_IMMEDIATELY_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 54,
+      "scope": "SendMessageConfiguration",
+      "entry": "accepted_output_modes: _containers.RepeatedScalarFieldContainer[str]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 55,
+      "scope": "SendMessageConfiguration",
+      "entry": "task_push_notification_config: TaskPushNotificationConfig"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 56,
+      "scope": "SendMessageConfiguration",
+      "entry": "history_length: int"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 57,
+      "scope": "SendMessageConfiguration",
+      "entry": "return_immediately: bool"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 62,
+      "scope": "Task",
+      "entry": "ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 63,
+      "scope": "Task",
+      "entry": "CONTEXT_ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 64,
+      "scope": "Task",
+      "entry": "STATUS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 65,
+      "scope": "Task",
+      "entry": "ARTIFACTS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 66,
+      "scope": "Task",
+      "entry": "HISTORY_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 67,
+      "scope": "Task",
+      "entry": "METADATA_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 68,
+      "scope": "Task",
+      "entry": "id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 69,
+      "scope": "Task",
+      "entry": "context_id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 70,
+      "scope": "Task",
+      "entry": "status: TaskStatus"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 71,
+      "scope": "Task",
+      "entry": "artifacts: _containers.RepeatedCompositeFieldContainer[Artifact]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 72,
+      "scope": "Task",
+      "entry": "history: _containers.RepeatedCompositeFieldContainer[Message]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 73,
+      "scope": "Task",
+      "entry": "metadata: _struct_pb2.Struct"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 78,
+      "scope": "TaskStatus",
+      "entry": "STATE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 79,
+      "scope": "TaskStatus",
+      "entry": "MESSAGE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 80,
+      "scope": "TaskStatus",
+      "entry": "TIMESTAMP_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 81,
+      "scope": "TaskStatus",
+      "entry": "state: TaskState"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 82,
+      "scope": "TaskStatus",
+      "entry": "message: Message"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 83,
+      "scope": "TaskStatus",
+      "entry": "timestamp: _timestamp_pb2.Timestamp"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 88,
+      "scope": "Part",
+      "entry": "TEXT_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 89,
+      "scope": "Part",
+      "entry": "RAW_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 90,
+      "scope": "Part",
+      "entry": "URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 91,
+      "scope": "Part",
+      "entry": "DATA_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 92,
+      "scope": "Part",
+      "entry": "METADATA_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 93,
+      "scope": "Part",
+      "entry": "FILENAME_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 94,
+      "scope": "Part",
+      "entry": "MEDIA_TYPE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 95,
+      "scope": "Part",
+      "entry": "text: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 96,
+      "scope": "Part",
+      "entry": "raw: bytes"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 97,
+      "scope": "Part",
+      "entry": "url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 98,
+      "scope": "Part",
+      "entry": "data: _struct_pb2.Value"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 99,
+      "scope": "Part",
+      "entry": "metadata: _struct_pb2.Struct"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 100,
+      "scope": "Part",
+      "entry": "filename: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 101,
+      "scope": "Part",
+      "entry": "media_type: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 106,
+      "scope": "Message",
+      "entry": "MESSAGE_ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 107,
+      "scope": "Message",
+      "entry": "CONTEXT_ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 108,
+      "scope": "Message",
+      "entry": "TASK_ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 109,
+      "scope": "Message",
+      "entry": "ROLE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 110,
+      "scope": "Message",
+      "entry": "PARTS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 111,
+      "scope": "Message",
+      "entry": "METADATA_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 112,
+      "scope": "Message",
+      "entry": "EXTENSIONS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 113,
+      "scope": "Message",
+      "entry": "REFERENCE_TASK_IDS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 114,
+      "scope": "Message",
+      "entry": "message_id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 115,
+      "scope": "Message",
+      "entry": "context_id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 116,
+      "scope": "Message",
+      "entry": "task_id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 117,
+      "scope": "Message",
+      "entry": "role: Role"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 118,
+      "scope": "Message",
+      "entry": "parts: _containers.RepeatedCompositeFieldContainer[Part]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 119,
+      "scope": "Message",
+      "entry": "metadata: _struct_pb2.Struct"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 120,
+      "scope": "Message",
+      "entry": "extensions: _containers.RepeatedScalarFieldContainer[str]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 121,
+      "scope": "Message",
+      "entry": "reference_task_ids: _containers.RepeatedScalarFieldContainer[str]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 126,
+      "scope": "Artifact",
+      "entry": "ARTIFACT_ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 127,
+      "scope": "Artifact",
+      "entry": "NAME_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 128,
+      "scope": "Artifact",
+      "entry": "DESCRIPTION_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 129,
+      "scope": "Artifact",
+      "entry": "PARTS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 130,
+      "scope": "Artifact",
+      "entry": "METADATA_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 131,
+      "scope": "Artifact",
+      "entry": "EXTENSIONS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 132,
+      "scope": "Artifact",
+      "entry": "artifact_id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 133,
+      "scope": "Artifact",
+      "entry": "name: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 134,
+      "scope": "Artifact",
+      "entry": "description: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 135,
+      "scope": "Artifact",
+      "entry": "parts: _containers.RepeatedCompositeFieldContainer[Part]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 136,
+      "scope": "Artifact",
+      "entry": "metadata: _struct_pb2.Struct"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 137,
+      "scope": "Artifact",
+      "entry": "extensions: _containers.RepeatedScalarFieldContainer[str]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 142,
+      "scope": "TaskStatusUpdateEvent",
+      "entry": "TASK_ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 143,
+      "scope": "TaskStatusUpdateEvent",
+      "entry": "CONTEXT_ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 144,
+      "scope": "TaskStatusUpdateEvent",
+      "entry": "STATUS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 145,
+      "scope": "TaskStatusUpdateEvent",
+      "entry": "METADATA_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 146,
+      "scope": "TaskStatusUpdateEvent",
+      "entry": "task_id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 147,
+      "scope": "TaskStatusUpdateEvent",
+      "entry": "context_id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 148,
+      "scope": "TaskStatusUpdateEvent",
+      "entry": "status: TaskStatus"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 149,
+      "scope": "TaskStatusUpdateEvent",
+      "entry": "metadata: _struct_pb2.Struct"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 154,
+      "scope": "TaskArtifactUpdateEvent",
+      "entry": "TASK_ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 155,
+      "scope": "TaskArtifactUpdateEvent",
+      "entry": "CONTEXT_ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 156,
+      "scope": "TaskArtifactUpdateEvent",
+      "entry": "ARTIFACT_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 157,
+      "scope": "TaskArtifactUpdateEvent",
+      "entry": "APPEND_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 158,
+      "scope": "TaskArtifactUpdateEvent",
+      "entry": "LAST_CHUNK_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 159,
+      "scope": "TaskArtifactUpdateEvent",
+      "entry": "METADATA_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 160,
+      "scope": "TaskArtifactUpdateEvent",
+      "entry": "task_id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 161,
+      "scope": "TaskArtifactUpdateEvent",
+      "entry": "context_id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 162,
+      "scope": "TaskArtifactUpdateEvent",
+      "entry": "artifact: Artifact"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 163,
+      "scope": "TaskArtifactUpdateEvent",
+      "entry": "append: bool"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 164,
+      "scope": "TaskArtifactUpdateEvent",
+      "entry": "last_chunk: bool"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 165,
+      "scope": "TaskArtifactUpdateEvent",
+      "entry": "metadata: _struct_pb2.Struct"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 170,
+      "scope": "AuthenticationInfo",
+      "entry": "SCHEME_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 171,
+      "scope": "AuthenticationInfo",
+      "entry": "CREDENTIALS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 172,
+      "scope": "AuthenticationInfo",
+      "entry": "scheme: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 173,
+      "scope": "AuthenticationInfo",
+      "entry": "credentials: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 178,
+      "scope": "AgentInterface",
+      "entry": "URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 179,
+      "scope": "AgentInterface",
+      "entry": "PROTOCOL_BINDING_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 180,
+      "scope": "AgentInterface",
+      "entry": "TENANT_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 181,
+      "scope": "AgentInterface",
+      "entry": "PROTOCOL_VERSION_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 182,
+      "scope": "AgentInterface",
+      "entry": "url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 183,
+      "scope": "AgentInterface",
+      "entry": "protocol_binding: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 184,
+      "scope": "AgentInterface",
+      "entry": "tenant: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 185,
+      "scope": "AgentInterface",
+      "entry": "protocol_version: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 192,
+      "scope": "AgentCard.SecuritySchemesEntry",
+      "entry": "KEY_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 193,
+      "scope": "AgentCard.SecuritySchemesEntry",
+      "entry": "VALUE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 194,
+      "scope": "AgentCard.SecuritySchemesEntry",
+      "entry": "key: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 195,
+      "scope": "AgentCard.SecuritySchemesEntry",
+      "entry": "value: SecurityScheme"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 197,
+      "scope": "AgentCard",
+      "entry": "NAME_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 198,
+      "scope": "AgentCard",
+      "entry": "DESCRIPTION_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 199,
+      "scope": "AgentCard",
+      "entry": "SUPPORTED_INTERFACES_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 200,
+      "scope": "AgentCard",
+      "entry": "PROVIDER_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 201,
+      "scope": "AgentCard",
+      "entry": "VERSION_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 202,
+      "scope": "AgentCard",
+      "entry": "DOCUMENTATION_URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 203,
+      "scope": "AgentCard",
+      "entry": "CAPABILITIES_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 204,
+      "scope": "AgentCard",
+      "entry": "SECURITY_SCHEMES_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 205,
+      "scope": "AgentCard",
+      "entry": "SECURITY_REQUIREMENTS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 206,
+      "scope": "AgentCard",
+      "entry": "DEFAULT_INPUT_MODES_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 207,
+      "scope": "AgentCard",
+      "entry": "DEFAULT_OUTPUT_MODES_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 208,
+      "scope": "AgentCard",
+      "entry": "SKILLS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 209,
+      "scope": "AgentCard",
+      "entry": "SIGNATURES_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 210,
+      "scope": "AgentCard",
+      "entry": "ICON_URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 211,
+      "scope": "AgentCard",
+      "entry": "name: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 212,
+      "scope": "AgentCard",
+      "entry": "description: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 213,
+      "scope": "AgentCard",
+      "entry": "supported_interfaces: _containers.RepeatedCompositeFieldContainer[AgentInterface]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 214,
+      "scope": "AgentCard",
+      "entry": "provider: AgentProvider"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 215,
+      "scope": "AgentCard",
+      "entry": "version: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 216,
+      "scope": "AgentCard",
+      "entry": "documentation_url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 217,
+      "scope": "AgentCard",
+      "entry": "capabilities: AgentCapabilities"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 218,
+      "scope": "AgentCard",
+      "entry": "security_schemes: _containers.MessageMap[str, SecurityScheme]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 219,
+      "scope": "AgentCard",
+      "entry": "security_requirements: _containers.RepeatedCompositeFieldContainer[SecurityRequirement]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 220,
+      "scope": "AgentCard",
+      "entry": "default_input_modes: _containers.RepeatedScalarFieldContainer[str]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 221,
+      "scope": "AgentCard",
+      "entry": "default_output_modes: _containers.RepeatedScalarFieldContainer[str]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 222,
+      "scope": "AgentCard",
+      "entry": "skills: _containers.RepeatedCompositeFieldContainer[AgentSkill]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 223,
+      "scope": "AgentCard",
+      "entry": "signatures: _containers.RepeatedCompositeFieldContainer[AgentCardSignature]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 224,
+      "scope": "AgentCard",
+      "entry": "icon_url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 229,
+      "scope": "AgentProvider",
+      "entry": "URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 230,
+      "scope": "AgentProvider",
+      "entry": "ORGANIZATION_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 231,
+      "scope": "AgentProvider",
+      "entry": "url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 232,
+      "scope": "AgentProvider",
+      "entry": "organization: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 237,
+      "scope": "AgentCapabilities",
+      "entry": "STREAMING_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 238,
+      "scope": "AgentCapabilities",
+      "entry": "PUSH_NOTIFICATIONS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 239,
+      "scope": "AgentCapabilities",
+      "entry": "EXTENSIONS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 240,
+      "scope": "AgentCapabilities",
+      "entry": "EXTENDED_AGENT_CARD_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 241,
+      "scope": "AgentCapabilities",
+      "entry": "streaming: bool"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 242,
+      "scope": "AgentCapabilities",
+      "entry": "push_notifications: bool"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 243,
+      "scope": "AgentCapabilities",
+      "entry": "extensions: _containers.RepeatedCompositeFieldContainer[AgentExtension]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 244,
+      "scope": "AgentCapabilities",
+      "entry": "extended_agent_card: bool"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 249,
+      "scope": "AgentExtension",
+      "entry": "URI_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 250,
+      "scope": "AgentExtension",
+      "entry": "DESCRIPTION_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 251,
+      "scope": "AgentExtension",
+      "entry": "REQUIRED_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 252,
+      "scope": "AgentExtension",
+      "entry": "PARAMS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 253,
+      "scope": "AgentExtension",
+      "entry": "uri: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 254,
+      "scope": "AgentExtension",
+      "entry": "description: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 255,
+      "scope": "AgentExtension",
+      "entry": "required: bool"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 256,
+      "scope": "AgentExtension",
+      "entry": "params: _struct_pb2.Struct"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 261,
+      "scope": "AgentSkill",
+      "entry": "ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 262,
+      "scope": "AgentSkill",
+      "entry": "NAME_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 263,
+      "scope": "AgentSkill",
+      "entry": "DESCRIPTION_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 264,
+      "scope": "AgentSkill",
+      "entry": "TAGS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 265,
+      "scope": "AgentSkill",
+      "entry": "EXAMPLES_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 266,
+      "scope": "AgentSkill",
+      "entry": "INPUT_MODES_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 267,
+      "scope": "AgentSkill",
+      "entry": "OUTPUT_MODES_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 268,
+      "scope": "AgentSkill",
+      "entry": "SECURITY_REQUIREMENTS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 269,
+      "scope": "AgentSkill",
+      "entry": "id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 270,
+      "scope": "AgentSkill",
+      "entry": "name: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 271,
+      "scope": "AgentSkill",
+      "entry": "description: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 272,
+      "scope": "AgentSkill",
+      "entry": "tags: _containers.RepeatedScalarFieldContainer[str]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 273,
+      "scope": "AgentSkill",
+      "entry": "examples: _containers.RepeatedScalarFieldContainer[str]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 274,
+      "scope": "AgentSkill",
+      "entry": "input_modes: _containers.RepeatedScalarFieldContainer[str]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 275,
+      "scope": "AgentSkill",
+      "entry": "output_modes: _containers.RepeatedScalarFieldContainer[str]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 276,
+      "scope": "AgentSkill",
+      "entry": "security_requirements: _containers.RepeatedCompositeFieldContainer[SecurityRequirement]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 281,
+      "scope": "AgentCardSignature",
+      "entry": "PROTECTED_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 282,
+      "scope": "AgentCardSignature",
+      "entry": "SIGNATURE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 283,
+      "scope": "AgentCardSignature",
+      "entry": "HEADER_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 284,
+      "scope": "AgentCardSignature",
+      "entry": "protected: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 285,
+      "scope": "AgentCardSignature",
+      "entry": "signature: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 286,
+      "scope": "AgentCardSignature",
+      "entry": "header: _struct_pb2.Struct"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 291,
+      "scope": "TaskPushNotificationConfig",
+      "entry": "TENANT_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 292,
+      "scope": "TaskPushNotificationConfig",
+      "entry": "ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 293,
+      "scope": "TaskPushNotificationConfig",
+      "entry": "TASK_ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 294,
+      "scope": "TaskPushNotificationConfig",
+      "entry": "URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 295,
+      "scope": "TaskPushNotificationConfig",
+      "entry": "TOKEN_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 296,
+      "scope": "TaskPushNotificationConfig",
+      "entry": "AUTHENTICATION_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 297,
+      "scope": "TaskPushNotificationConfig",
+      "entry": "tenant: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 298,
+      "scope": "TaskPushNotificationConfig",
+      "entry": "id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 299,
+      "scope": "TaskPushNotificationConfig",
+      "entry": "task_id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 300,
+      "scope": "TaskPushNotificationConfig",
+      "entry": "url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 301,
+      "scope": "TaskPushNotificationConfig",
+      "entry": "token: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 302,
+      "scope": "TaskPushNotificationConfig",
+      "entry": "authentication: AuthenticationInfo"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 307,
+      "scope": "StringList",
+      "entry": "LIST_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 308,
+      "scope": "StringList",
+      "entry": "list: _containers.RepeatedScalarFieldContainer[str]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 315,
+      "scope": "SecurityRequirement.SchemesEntry",
+      "entry": "KEY_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 316,
+      "scope": "SecurityRequirement.SchemesEntry",
+      "entry": "VALUE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 317,
+      "scope": "SecurityRequirement.SchemesEntry",
+      "entry": "key: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 318,
+      "scope": "SecurityRequirement.SchemesEntry",
+      "entry": "value: StringList"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 320,
+      "scope": "SecurityRequirement",
+      "entry": "SCHEMES_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 321,
+      "scope": "SecurityRequirement",
+      "entry": "schemes: _containers.MessageMap[str, StringList]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 326,
+      "scope": "SecurityScheme",
+      "entry": "API_KEY_SECURITY_SCHEME_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 327,
+      "scope": "SecurityScheme",
+      "entry": "HTTP_AUTH_SECURITY_SCHEME_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 328,
+      "scope": "SecurityScheme",
+      "entry": "OAUTH2_SECURITY_SCHEME_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 329,
+      "scope": "SecurityScheme",
+      "entry": "OPEN_ID_CONNECT_SECURITY_SCHEME_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 330,
+      "scope": "SecurityScheme",
+      "entry": "MTLS_SECURITY_SCHEME_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 331,
+      "scope": "SecurityScheme",
+      "entry": "api_key_security_scheme: APIKeySecurityScheme"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 332,
+      "scope": "SecurityScheme",
+      "entry": "http_auth_security_scheme: HTTPAuthSecurityScheme"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 333,
+      "scope": "SecurityScheme",
+      "entry": "oauth2_security_scheme: OAuth2SecurityScheme"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 334,
+      "scope": "SecurityScheme",
+      "entry": "open_id_connect_security_scheme: OpenIdConnectSecurityScheme"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 335,
+      "scope": "SecurityScheme",
+      "entry": "mtls_security_scheme: MutualTlsSecurityScheme"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 340,
+      "scope": "APIKeySecurityScheme",
+      "entry": "DESCRIPTION_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 341,
+      "scope": "APIKeySecurityScheme",
+      "entry": "LOCATION_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 342,
+      "scope": "APIKeySecurityScheme",
+      "entry": "NAME_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 343,
+      "scope": "APIKeySecurityScheme",
+      "entry": "description: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 344,
+      "scope": "APIKeySecurityScheme",
+      "entry": "location: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 345,
+      "scope": "APIKeySecurityScheme",
+      "entry": "name: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 350,
+      "scope": "HTTPAuthSecurityScheme",
+      "entry": "DESCRIPTION_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 351,
+      "scope": "HTTPAuthSecurityScheme",
+      "entry": "SCHEME_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 352,
+      "scope": "HTTPAuthSecurityScheme",
+      "entry": "BEARER_FORMAT_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 353,
+      "scope": "HTTPAuthSecurityScheme",
+      "entry": "description: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 354,
+      "scope": "HTTPAuthSecurityScheme",
+      "entry": "scheme: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 355,
+      "scope": "HTTPAuthSecurityScheme",
+      "entry": "bearer_format: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 360,
+      "scope": "OAuth2SecurityScheme",
+      "entry": "DESCRIPTION_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 361,
+      "scope": "OAuth2SecurityScheme",
+      "entry": "FLOWS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 362,
+      "scope": "OAuth2SecurityScheme",
+      "entry": "OAUTH2_METADATA_URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 363,
+      "scope": "OAuth2SecurityScheme",
+      "entry": "description: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 364,
+      "scope": "OAuth2SecurityScheme",
+      "entry": "flows: OAuthFlows"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 365,
+      "scope": "OAuth2SecurityScheme",
+      "entry": "oauth2_metadata_url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 370,
+      "scope": "OpenIdConnectSecurityScheme",
+      "entry": "DESCRIPTION_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 371,
+      "scope": "OpenIdConnectSecurityScheme",
+      "entry": "OPEN_ID_CONNECT_URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 372,
+      "scope": "OpenIdConnectSecurityScheme",
+      "entry": "description: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 373,
+      "scope": "OpenIdConnectSecurityScheme",
+      "entry": "open_id_connect_url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 378,
+      "scope": "MutualTlsSecurityScheme",
+      "entry": "DESCRIPTION_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 379,
+      "scope": "MutualTlsSecurityScheme",
+      "entry": "description: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 384,
+      "scope": "OAuthFlows",
+      "entry": "AUTHORIZATION_CODE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 385,
+      "scope": "OAuthFlows",
+      "entry": "CLIENT_CREDENTIALS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 386,
+      "scope": "OAuthFlows",
+      "entry": "IMPLICIT_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 387,
+      "scope": "OAuthFlows",
+      "entry": "PASSWORD_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 388,
+      "scope": "OAuthFlows",
+      "entry": "DEVICE_CODE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 389,
+      "scope": "OAuthFlows",
+      "entry": "authorization_code: AuthorizationCodeOAuthFlow"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 390,
+      "scope": "OAuthFlows",
+      "entry": "client_credentials: ClientCredentialsOAuthFlow"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 391,
+      "scope": "OAuthFlows",
+      "entry": "implicit: ImplicitOAuthFlow"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 392,
+      "scope": "OAuthFlows",
+      "entry": "password: PasswordOAuthFlow"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 393,
+      "scope": "OAuthFlows",
+      "entry": "device_code: DeviceCodeOAuthFlow"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 400,
+      "scope": "AuthorizationCodeOAuthFlow.ScopesEntry",
+      "entry": "KEY_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 401,
+      "scope": "AuthorizationCodeOAuthFlow.ScopesEntry",
+      "entry": "VALUE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 402,
+      "scope": "AuthorizationCodeOAuthFlow.ScopesEntry",
+      "entry": "key: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 403,
+      "scope": "AuthorizationCodeOAuthFlow.ScopesEntry",
+      "entry": "value: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 405,
+      "scope": "AuthorizationCodeOAuthFlow",
+      "entry": "AUTHORIZATION_URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 406,
+      "scope": "AuthorizationCodeOAuthFlow",
+      "entry": "TOKEN_URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 407,
+      "scope": "AuthorizationCodeOAuthFlow",
+      "entry": "REFRESH_URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 408,
+      "scope": "AuthorizationCodeOAuthFlow",
+      "entry": "SCOPES_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 409,
+      "scope": "AuthorizationCodeOAuthFlow",
+      "entry": "PKCE_REQUIRED_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 410,
+      "scope": "AuthorizationCodeOAuthFlow",
+      "entry": "authorization_url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 411,
+      "scope": "AuthorizationCodeOAuthFlow",
+      "entry": "token_url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 412,
+      "scope": "AuthorizationCodeOAuthFlow",
+      "entry": "refresh_url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 413,
+      "scope": "AuthorizationCodeOAuthFlow",
+      "entry": "scopes: _containers.ScalarMap[str, str]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 414,
+      "scope": "AuthorizationCodeOAuthFlow",
+      "entry": "pkce_required: bool"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 421,
+      "scope": "ClientCredentialsOAuthFlow.ScopesEntry",
+      "entry": "KEY_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 422,
+      "scope": "ClientCredentialsOAuthFlow.ScopesEntry",
+      "entry": "VALUE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 423,
+      "scope": "ClientCredentialsOAuthFlow.ScopesEntry",
+      "entry": "key: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 424,
+      "scope": "ClientCredentialsOAuthFlow.ScopesEntry",
+      "entry": "value: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 426,
+      "scope": "ClientCredentialsOAuthFlow",
+      "entry": "TOKEN_URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 427,
+      "scope": "ClientCredentialsOAuthFlow",
+      "entry": "REFRESH_URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 428,
+      "scope": "ClientCredentialsOAuthFlow",
+      "entry": "SCOPES_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 429,
+      "scope": "ClientCredentialsOAuthFlow",
+      "entry": "token_url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 430,
+      "scope": "ClientCredentialsOAuthFlow",
+      "entry": "refresh_url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 431,
+      "scope": "ClientCredentialsOAuthFlow",
+      "entry": "scopes: _containers.ScalarMap[str, str]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 438,
+      "scope": "ImplicitOAuthFlow.ScopesEntry",
+      "entry": "KEY_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 439,
+      "scope": "ImplicitOAuthFlow.ScopesEntry",
+      "entry": "VALUE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 440,
+      "scope": "ImplicitOAuthFlow.ScopesEntry",
+      "entry": "key: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 441,
+      "scope": "ImplicitOAuthFlow.ScopesEntry",
+      "entry": "value: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 443,
+      "scope": "ImplicitOAuthFlow",
+      "entry": "AUTHORIZATION_URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 444,
+      "scope": "ImplicitOAuthFlow",
+      "entry": "REFRESH_URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 445,
+      "scope": "ImplicitOAuthFlow",
+      "entry": "SCOPES_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 446,
+      "scope": "ImplicitOAuthFlow",
+      "entry": "authorization_url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 447,
+      "scope": "ImplicitOAuthFlow",
+      "entry": "refresh_url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 448,
+      "scope": "ImplicitOAuthFlow",
+      "entry": "scopes: _containers.ScalarMap[str, str]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 455,
+      "scope": "PasswordOAuthFlow.ScopesEntry",
+      "entry": "KEY_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 456,
+      "scope": "PasswordOAuthFlow.ScopesEntry",
+      "entry": "VALUE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 457,
+      "scope": "PasswordOAuthFlow.ScopesEntry",
+      "entry": "key: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 458,
+      "scope": "PasswordOAuthFlow.ScopesEntry",
+      "entry": "value: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 460,
+      "scope": "PasswordOAuthFlow",
+      "entry": "TOKEN_URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 461,
+      "scope": "PasswordOAuthFlow",
+      "entry": "REFRESH_URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 462,
+      "scope": "PasswordOAuthFlow",
+      "entry": "SCOPES_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 463,
+      "scope": "PasswordOAuthFlow",
+      "entry": "token_url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 464,
+      "scope": "PasswordOAuthFlow",
+      "entry": "refresh_url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 465,
+      "scope": "PasswordOAuthFlow",
+      "entry": "scopes: _containers.ScalarMap[str, str]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 472,
+      "scope": "DeviceCodeOAuthFlow.ScopesEntry",
+      "entry": "KEY_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 473,
+      "scope": "DeviceCodeOAuthFlow.ScopesEntry",
+      "entry": "VALUE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 474,
+      "scope": "DeviceCodeOAuthFlow.ScopesEntry",
+      "entry": "key: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 475,
+      "scope": "DeviceCodeOAuthFlow.ScopesEntry",
+      "entry": "value: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 477,
+      "scope": "DeviceCodeOAuthFlow",
+      "entry": "DEVICE_AUTHORIZATION_URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 478,
+      "scope": "DeviceCodeOAuthFlow",
+      "entry": "TOKEN_URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 479,
+      "scope": "DeviceCodeOAuthFlow",
+      "entry": "REFRESH_URL_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 480,
+      "scope": "DeviceCodeOAuthFlow",
+      "entry": "SCOPES_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 481,
+      "scope": "DeviceCodeOAuthFlow",
+      "entry": "device_authorization_url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 482,
+      "scope": "DeviceCodeOAuthFlow",
+      "entry": "token_url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 483,
+      "scope": "DeviceCodeOAuthFlow",
+      "entry": "refresh_url: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 484,
+      "scope": "DeviceCodeOAuthFlow",
+      "entry": "scopes: _containers.ScalarMap[str, str]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 489,
+      "scope": "SendMessageRequest",
+      "entry": "TENANT_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 490,
+      "scope": "SendMessageRequest",
+      "entry": "MESSAGE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 491,
+      "scope": "SendMessageRequest",
+      "entry": "CONFIGURATION_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 492,
+      "scope": "SendMessageRequest",
+      "entry": "METADATA_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 493,
+      "scope": "SendMessageRequest",
+      "entry": "tenant: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 494,
+      "scope": "SendMessageRequest",
+      "entry": "message: Message"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 495,
+      "scope": "SendMessageRequest",
+      "entry": "configuration: SendMessageConfiguration"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 496,
+      "scope": "SendMessageRequest",
+      "entry": "metadata: _struct_pb2.Struct"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 501,
+      "scope": "GetTaskRequest",
+      "entry": "TENANT_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 502,
+      "scope": "GetTaskRequest",
+      "entry": "ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 503,
+      "scope": "GetTaskRequest",
+      "entry": "HISTORY_LENGTH_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 504,
+      "scope": "GetTaskRequest",
+      "entry": "tenant: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 505,
+      "scope": "GetTaskRequest",
+      "entry": "id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 506,
+      "scope": "GetTaskRequest",
+      "entry": "history_length: int"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 511,
+      "scope": "ListTasksRequest",
+      "entry": "TENANT_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 512,
+      "scope": "ListTasksRequest",
+      "entry": "CONTEXT_ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 513,
+      "scope": "ListTasksRequest",
+      "entry": "STATUS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 514,
+      "scope": "ListTasksRequest",
+      "entry": "PAGE_SIZE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 515,
+      "scope": "ListTasksRequest",
+      "entry": "PAGE_TOKEN_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 516,
+      "scope": "ListTasksRequest",
+      "entry": "HISTORY_LENGTH_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 517,
+      "scope": "ListTasksRequest",
+      "entry": "STATUS_TIMESTAMP_AFTER_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 518,
+      "scope": "ListTasksRequest",
+      "entry": "INCLUDE_ARTIFACTS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 519,
+      "scope": "ListTasksRequest",
+      "entry": "tenant: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 520,
+      "scope": "ListTasksRequest",
+      "entry": "context_id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 521,
+      "scope": "ListTasksRequest",
+      "entry": "status: TaskState"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 522,
+      "scope": "ListTasksRequest",
+      "entry": "page_size: int"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 523,
+      "scope": "ListTasksRequest",
+      "entry": "page_token: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 524,
+      "scope": "ListTasksRequest",
+      "entry": "history_length: int"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 525,
+      "scope": "ListTasksRequest",
+      "entry": "status_timestamp_after: _timestamp_pb2.Timestamp"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 526,
+      "scope": "ListTasksRequest",
+      "entry": "include_artifacts: bool"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 531,
+      "scope": "ListTasksResponse",
+      "entry": "TASKS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 532,
+      "scope": "ListTasksResponse",
+      "entry": "NEXT_PAGE_TOKEN_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 533,
+      "scope": "ListTasksResponse",
+      "entry": "PAGE_SIZE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 534,
+      "scope": "ListTasksResponse",
+      "entry": "TOTAL_SIZE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 535,
+      "scope": "ListTasksResponse",
+      "entry": "tasks: _containers.RepeatedCompositeFieldContainer[Task]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 536,
+      "scope": "ListTasksResponse",
+      "entry": "next_page_token: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 537,
+      "scope": "ListTasksResponse",
+      "entry": "page_size: int"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 538,
+      "scope": "ListTasksResponse",
+      "entry": "total_size: int"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 543,
+      "scope": "CancelTaskRequest",
+      "entry": "TENANT_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 544,
+      "scope": "CancelTaskRequest",
+      "entry": "ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 545,
+      "scope": "CancelTaskRequest",
+      "entry": "METADATA_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 546,
+      "scope": "CancelTaskRequest",
+      "entry": "tenant: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 547,
+      "scope": "CancelTaskRequest",
+      "entry": "id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 548,
+      "scope": "CancelTaskRequest",
+      "entry": "metadata: _struct_pb2.Struct"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 553,
+      "scope": "GetTaskPushNotificationConfigRequest",
+      "entry": "TENANT_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 554,
+      "scope": "GetTaskPushNotificationConfigRequest",
+      "entry": "TASK_ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 555,
+      "scope": "GetTaskPushNotificationConfigRequest",
+      "entry": "ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 556,
+      "scope": "GetTaskPushNotificationConfigRequest",
+      "entry": "tenant: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 557,
+      "scope": "GetTaskPushNotificationConfigRequest",
+      "entry": "task_id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 558,
+      "scope": "GetTaskPushNotificationConfigRequest",
+      "entry": "id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 563,
+      "scope": "DeleteTaskPushNotificationConfigRequest",
+      "entry": "TENANT_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 564,
+      "scope": "DeleteTaskPushNotificationConfigRequest",
+      "entry": "TASK_ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 565,
+      "scope": "DeleteTaskPushNotificationConfigRequest",
+      "entry": "ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 566,
+      "scope": "DeleteTaskPushNotificationConfigRequest",
+      "entry": "tenant: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 567,
+      "scope": "DeleteTaskPushNotificationConfigRequest",
+      "entry": "task_id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 568,
+      "scope": "DeleteTaskPushNotificationConfigRequest",
+      "entry": "id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 573,
+      "scope": "SubscribeToTaskRequest",
+      "entry": "TENANT_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 574,
+      "scope": "SubscribeToTaskRequest",
+      "entry": "ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 575,
+      "scope": "SubscribeToTaskRequest",
+      "entry": "tenant: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 576,
+      "scope": "SubscribeToTaskRequest",
+      "entry": "id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 581,
+      "scope": "ListTaskPushNotificationConfigsRequest",
+      "entry": "TENANT_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 582,
+      "scope": "ListTaskPushNotificationConfigsRequest",
+      "entry": "TASK_ID_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 583,
+      "scope": "ListTaskPushNotificationConfigsRequest",
+      "entry": "PAGE_SIZE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 584,
+      "scope": "ListTaskPushNotificationConfigsRequest",
+      "entry": "PAGE_TOKEN_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 585,
+      "scope": "ListTaskPushNotificationConfigsRequest",
+      "entry": "tenant: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 586,
+      "scope": "ListTaskPushNotificationConfigsRequest",
+      "entry": "task_id: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 587,
+      "scope": "ListTaskPushNotificationConfigsRequest",
+      "entry": "page_size: int"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 588,
+      "scope": "ListTaskPushNotificationConfigsRequest",
+      "entry": "page_token: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 593,
+      "scope": "GetExtendedAgentCardRequest",
+      "entry": "TENANT_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 594,
+      "scope": "GetExtendedAgentCardRequest",
+      "entry": "tenant: str"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 599,
+      "scope": "SendMessageResponse",
+      "entry": "TASK_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 600,
+      "scope": "SendMessageResponse",
+      "entry": "MESSAGE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 601,
+      "scope": "SendMessageResponse",
+      "entry": "task: Task"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 602,
+      "scope": "SendMessageResponse",
+      "entry": "message: Message"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 607,
+      "scope": "StreamResponse",
+      "entry": "TASK_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 608,
+      "scope": "StreamResponse",
+      "entry": "MESSAGE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 609,
+      "scope": "StreamResponse",
+      "entry": "STATUS_UPDATE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 610,
+      "scope": "StreamResponse",
+      "entry": "ARTIFACT_UPDATE_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 611,
+      "scope": "StreamResponse",
+      "entry": "task: Task"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 612,
+      "scope": "StreamResponse",
+      "entry": "message: Message"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 613,
+      "scope": "StreamResponse",
+      "entry": "status_update: TaskStatusUpdateEvent"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 614,
+      "scope": "StreamResponse",
+      "entry": "artifact_update: TaskArtifactUpdateEvent"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 619,
+      "scope": "ListTaskPushNotificationConfigsResponse",
+      "entry": "CONFIGS_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 620,
+      "scope": "ListTaskPushNotificationConfigsResponse",
+      "entry": "NEXT_PAGE_TOKEN_FIELD_NUMBER: _ClassVar[int]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 621,
+      "scope": "ListTaskPushNotificationConfigsResponse",
+      "entry": "configs: _containers.RepeatedCompositeFieldContainer[TaskPushNotificationConfig]"
+    },
+    {
+      "file": "a2a_pb2.pyi",
+      "line": 622,
+      "scope": "ListTaskPushNotificationConfigsResponse",
+      "entry": "next_page_token: str"
+    }
+  ],
+  "anonymous_callables": []
+}

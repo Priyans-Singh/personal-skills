@@ -1,0 +1,1070 @@
+{
+  "distribution": "a2a-sdk",
+  "version": "1.1.4",
+  "date": "2026-10-07",
+  "source": ".venv/lib/python3.11/site-packages/a2a/client",
+  "files": {
+    "__init__.py": {
+      "sha256": "8965d3f70d97cb6e99992826f8bc087df52459637248c0c75dcf768032551846",
+      "guide": "core_knowledge.md",
+      "declarations": []
+    },
+    "auth/__init__.py": {
+      "sha256": "214216cd2d33eb00dc2be46d4fef30cd926055b2cc0a7766ae27e7dd40c64630",
+      "guide": "auth/auth_knowledge.md",
+      "declarations": []
+    },
+    "auth/credentials.py": {
+      "sha256": "c9d73333ac441eca48e4c672b01616674714accbc98ad2462b80a89c9ecd49a5",
+      "guide": "auth/auth_knowledge.md",
+      "declarations": [
+        {
+          "name": "CredentialService",
+          "kind": "class",
+          "line": 6
+        },
+        {
+          "name": "CredentialService.get_credentials",
+          "kind": "async function",
+          "line": 10
+        },
+        {
+          "name": "InMemoryContextCredentialStore",
+          "kind": "class",
+          "line": 20
+        },
+        {
+          "name": "InMemoryContextCredentialStore.__init__",
+          "kind": "function",
+          "line": 27
+        },
+        {
+          "name": "InMemoryContextCredentialStore.get_credentials",
+          "kind": "async function",
+          "line": 30
+        },
+        {
+          "name": "InMemoryContextCredentialStore.set_credentials",
+          "kind": "async function",
+          "line": 49
+        }
+      ]
+    },
+    "auth/interceptor.py": {
+      "sha256": "9fd2aba23f6f4666142d0084cec334b6d856ca12d5e7ed0bca6f11d579fca850",
+      "guide": "auth/auth_knowledge.md",
+      "declarations": [
+        {
+          "name": "AuthInterceptor",
+          "kind": "class",
+          "line": 14
+        },
+        {
+          "name": "AuthInterceptor.__init__",
+          "kind": "function",
+          "line": 20
+        },
+        {
+          "name": "AuthInterceptor.before",
+          "kind": "async function",
+          "line": 23
+        },
+        {
+          "name": "AuthInterceptor.after",
+          "kind": "async function",
+          "line": 95
+        }
+      ]
+    },
+    "base_client.py": {
+      "sha256": "f1fdaa65f584322e0585e146209227e27b1385b21e2170e037098da192763d85",
+      "guide": "core_knowledge.md",
+      "declarations": [
+        {
+          "name": "BaseClient",
+          "kind": "class",
+          "line": 34
+        },
+        {
+          "name": "BaseClient.__init__",
+          "kind": "function",
+          "line": 37
+        },
+        {
+          "name": "BaseClient.send_message",
+          "kind": "async generator",
+          "line": 50
+        },
+        {
+          "name": "BaseClient._apply_client_config",
+          "kind": "function",
+          "line": 103
+        },
+        {
+          "name": "BaseClient._process_stream",
+          "kind": "async generator",
+          "line": 120
+        },
+        {
+          "name": "BaseClient.get_task",
+          "kind": "async function",
+          "line": 137
+        },
+        {
+          "name": "BaseClient.list_tasks",
+          "kind": "async function",
+          "line": 161
+        },
+        {
+          "name": "BaseClient.cancel_task",
+          "kind": "async function",
+          "line": 177
+        },
+        {
+          "name": "BaseClient.create_task_push_notification_config",
+          "kind": "async function",
+          "line": 201
+        },
+        {
+          "name": "BaseClient.get_task_push_notification_config",
+          "kind": "async function",
+          "line": 227
+        },
+        {
+          "name": "BaseClient.list_task_push_notification_configs",
+          "kind": "async function",
+          "line": 253
+        },
+        {
+          "name": "BaseClient.delete_task_push_notification_config",
+          "kind": "async function",
+          "line": 279
+        },
+        {
+          "name": "BaseClient.subscribe",
+          "kind": "async generator",
+          "line": 302
+        },
+        {
+          "name": "BaseClient.get_extended_agent_card",
+          "kind": "async function",
+          "line": 337
+        },
+        {
+          "name": "BaseClient.close",
+          "kind": "async function",
+          "line": 371
+        },
+        {
+          "name": "BaseClient._execute_with_interceptors",
+          "kind": "async function",
+          "line": 375
+        },
+        {
+          "name": "BaseClient._execute_stream_with_interceptors",
+          "kind": "async generator",
+          "line": 417
+        },
+        {
+          "name": "BaseClient._intercept_before",
+          "kind": "async function",
+          "line": 452
+        },
+        {
+          "name": "BaseClient._intercept_after",
+          "kind": "async function",
+          "line": 469
+        }
+      ]
+    },
+    "card_resolver.py": {
+      "sha256": "97332c8b54aeeb34c318d9ce76b250b6b8cd13de1d34af59ab95875a4f919b3c",
+      "guide": "discovery_knowledge.md",
+      "declarations": [
+        {
+          "name": "parse_agent_card",
+          "kind": "function",
+          "line": 21
+        },
+        {
+          "name": "_handle_extended_card_compatibility",
+          "kind": "function",
+          "line": 30
+        },
+        {
+          "name": "_handle_connection_fields_compatibility",
+          "kind": "function",
+          "line": 40
+        },
+        {
+          "name": "_map_legacy_security",
+          "kind": "function",
+          "line": 71
+        },
+        {
+          "name": "_handle_security_compatibility",
+          "kind": "function",
+          "line": 86
+        },
+        {
+          "name": "A2ACardResolver",
+          "kind": "class",
+          "line": 126
+        },
+        {
+          "name": "A2ACardResolver.__init__",
+          "kind": "function",
+          "line": 129
+        },
+        {
+          "name": "A2ACardResolver.get_agent_card",
+          "kind": "async function",
+          "line": 146
+        }
+      ]
+    },
+    "client.py": {
+      "sha256": "350bfa61a1379f789e2cd04fc0d5f81d6aa63c2ddc3f8402b762c1d94afe1c0d",
+      "guide": "core_knowledge.md",
+      "declarations": [
+        {
+          "name": "ClientConfig",
+          "kind": "class",
+          "line": 40
+        },
+        {
+          "name": "ClientCallContext",
+          "kind": "class",
+          "line": 78
+        },
+        {
+          "name": "Client",
+          "kind": "class",
+          "line": 90
+        },
+        {
+          "name": "Client.__init__",
+          "kind": "function",
+          "line": 98
+        },
+        {
+          "name": "Client.__aenter__",
+          "kind": "async function",
+          "line": 109
+        },
+        {
+          "name": "Client.__aexit__",
+          "kind": "async function",
+          "line": 113
+        },
+        {
+          "name": "Client.send_message",
+          "kind": "async generator",
+          "line": 123
+        },
+        {
+          "name": "Client.get_task",
+          "kind": "async function",
+          "line": 139
+        },
+        {
+          "name": "Client.list_tasks",
+          "kind": "async function",
+          "line": 148
+        },
+        {
+          "name": "Client.cancel_task",
+          "kind": "async function",
+          "line": 157
+        },
+        {
+          "name": "Client.create_task_push_notification_config",
+          "kind": "async function",
+          "line": 166
+        },
+        {
+          "name": "Client.get_task_push_notification_config",
+          "kind": "async function",
+          "line": 175
+        },
+        {
+          "name": "Client.list_task_push_notification_configs",
+          "kind": "async function",
+          "line": 184
+        },
+        {
+          "name": "Client.delete_task_push_notification_config",
+          "kind": "async function",
+          "line": 193
+        },
+        {
+          "name": "Client.subscribe",
+          "kind": "async generator",
+          "line": 202
+        },
+        {
+          "name": "Client.get_extended_agent_card",
+          "kind": "async function",
+          "line": 213
+        },
+        {
+          "name": "Client.add_interceptor",
+          "kind": "async function",
+          "line": 222
+        },
+        {
+          "name": "Client.close",
+          "kind": "async function",
+          "line": 227
+        }
+      ]
+    },
+    "client_factory.py": {
+      "sha256": "c695c4d11e074181c453c35f2cc194e22fce510bc0dc16429c5ff39f7bdadcfa",
+      "guide": "factory_knowledge.md",
+      "declarations": [
+        {
+          "name": "ClientFactory",
+          "kind": "class",
+          "line": 58
+        },
+        {
+          "name": "ClientFactory.__init__",
+          "kind": "function",
+          "line": 76
+        },
+        {
+          "name": "ClientFactory._register_defaults",
+          "kind": "function",
+          "line": 91
+        },
+        {
+          "name": "ClientFactory._register_defaults.jsonrpc_transport_producer",
+          "kind": "function",
+          "line": 96
+        },
+        {
+          "name": "ClientFactory._register_defaults.rest_transport_producer",
+          "kind": "function",
+          "line": 135
+        },
+        {
+          "name": "ClientFactory._register_defaults.grpc_transport_producer",
+          "kind": "function",
+          "line": 181
+        },
+        {
+          "name": "ClientFactory._find_best_interface",
+          "kind": "function",
+          "line": 213
+        },
+        {
+          "name": "ClientFactory.create_from_url",
+          "kind": "async function",
+          "line": 258
+        },
+        {
+          "name": "ClientFactory.register",
+          "kind": "function",
+          "line": 298
+        },
+        {
+          "name": "ClientFactory.create",
+          "kind": "function",
+          "line": 302
+        },
+        {
+          "name": "create_client",
+          "kind": "async function",
+          "line": 367
+        },
+        {
+          "name": "minimal_agent_card",
+          "kind": "function",
+          "line": 409
+        }
+      ]
+    },
+    "errors.py": {
+      "sha256": "726395c0f9a908b308ec15f3c089bcf9fbc359ae2bebf18a21cdef2922bef8cf",
+      "guide": "hooks_knowledge.md",
+      "declarations": [
+        {
+          "name": "A2AClientError",
+          "kind": "class",
+          "line": 6
+        },
+        {
+          "name": "AgentCardResolutionError",
+          "kind": "class",
+          "line": 10
+        },
+        {
+          "name": "AgentCardResolutionError.__init__",
+          "kind": "function",
+          "line": 13
+        },
+        {
+          "name": "A2AClientTimeoutError",
+          "kind": "class",
+          "line": 18
+        }
+      ]
+    },
+    "interceptors.py": {
+      "sha256": "daf6ca79b4833d6ebe8c36922cb8fe398ffacd1eff664253003605d5584e55e5",
+      "guide": "hooks_knowledge.md",
+      "declarations": [
+        {
+          "name": "BeforeArgs",
+          "kind": "class",
+          "line": 17
+        },
+        {
+          "name": "AfterArgs",
+          "kind": "class",
+          "line": 28
+        },
+        {
+          "name": "ClientCallInterceptor",
+          "kind": "class",
+          "line": 38
+        },
+        {
+          "name": "ClientCallInterceptor.before",
+          "kind": "async function",
+          "line": 46
+        },
+        {
+          "name": "ClientCallInterceptor.after",
+          "kind": "async function",
+          "line": 50
+        }
+      ]
+    },
+    "optionals.py": {
+      "sha256": "151640ddb2cb02a8b788459b95d5c0bca6db3de27af5205929bc78d945aa19c7",
+      "guide": "hooks_knowledge.md",
+      "declarations": [
+        {
+          "name": "Channel",
+          "kind": "class",
+          "line": 12
+        },
+        {
+          "name": "Channel.close",
+          "kind": "async function",
+          "line": 15
+        }
+      ]
+    },
+    "service_parameters.py": {
+      "sha256": "98286f11448c41eecb97e8a5eed2a45bde292981d931e876c22a562dea18bd03",
+      "guide": "hooks_knowledge.md",
+      "declarations": [
+        {
+          "name": "ServiceParametersFactory",
+          "kind": "class",
+          "line": 14
+        },
+        {
+          "name": "ServiceParametersFactory.create",
+          "kind": "function",
+          "line": 18
+        },
+        {
+          "name": "ServiceParametersFactory.create_from",
+          "kind": "function",
+          "line": 30
+        },
+        {
+          "name": "with_a2a_extensions",
+          "kind": "function",
+          "line": 49
+        },
+        {
+          "name": "with_a2a_extensions.update",
+          "kind": "function",
+          "line": 57
+        }
+      ]
+    },
+    "transports/__init__.py": {
+      "sha256": "dbbaf77faf5eb91804985877ae308bf0744a0a251182e02e2fa04a89833de17c",
+      "guide": "transports/transport_knowledge.md",
+      "declarations": []
+    },
+    "transports/base.py": {
+      "sha256": "4e0b3f6c8b09fccb147a50e2ef86b516d75f079759c1768defb851f7dda32aee",
+      "guide": "transports/transport_knowledge.md",
+      "declarations": [
+        {
+          "name": "ClientTransport",
+          "kind": "class",
+          "line": 28
+        },
+        {
+          "name": "ClientTransport.__aenter__",
+          "kind": "async function",
+          "line": 31
+        },
+        {
+          "name": "ClientTransport.__aexit__",
+          "kind": "async function",
+          "line": 35
+        },
+        {
+          "name": "ClientTransport.send_message",
+          "kind": "async function",
+          "line": 45
+        },
+        {
+          "name": "ClientTransport.send_message_streaming",
+          "kind": "async generator",
+          "line": 54
+        },
+        {
+          "name": "ClientTransport.get_task",
+          "kind": "async function",
+          "line": 65
+        },
+        {
+          "name": "ClientTransport.list_tasks",
+          "kind": "async function",
+          "line": 74
+        },
+        {
+          "name": "ClientTransport.cancel_task",
+          "kind": "async function",
+          "line": 83
+        },
+        {
+          "name": "ClientTransport.create_task_push_notification_config",
+          "kind": "async function",
+          "line": 92
+        },
+        {
+          "name": "ClientTransport.get_task_push_notification_config",
+          "kind": "async function",
+          "line": 101
+        },
+        {
+          "name": "ClientTransport.list_task_push_notification_configs",
+          "kind": "async function",
+          "line": 110
+        },
+        {
+          "name": "ClientTransport.delete_task_push_notification_config",
+          "kind": "async function",
+          "line": 119
+        },
+        {
+          "name": "ClientTransport.subscribe",
+          "kind": "async generator",
+          "line": 128
+        },
+        {
+          "name": "ClientTransport.get_extended_agent_card",
+          "kind": "async function",
+          "line": 139
+        },
+        {
+          "name": "ClientTransport.close",
+          "kind": "async function",
+          "line": 148
+        }
+      ]
+    },
+    "transports/grpc.py": {
+      "sha256": "f51585d13fbd95eadd159dda9b8f6a8434481bdc960ec7450dfdb0d9eb67ef7b",
+      "guide": "transports/grpc_knowledge.md",
+      "declarations": [
+        {
+          "name": "_map_grpc_error",
+          "kind": "function",
+          "line": 57
+        },
+        {
+          "name": "_handle_grpc_exception",
+          "kind": "function",
+          "line": 83
+        },
+        {
+          "name": "_handle_grpc_exception.wrapper",
+          "kind": "async function",
+          "line": 85
+        },
+        {
+          "name": "_handle_grpc_stream_exception",
+          "kind": "function",
+          "line": 94
+        },
+        {
+          "name": "_handle_grpc_stream_exception.wrapper",
+          "kind": "async generator",
+          "line": 98
+        },
+        {
+          "name": "GrpcTransport",
+          "kind": "class",
+          "line": 109
+        },
+        {
+          "name": "GrpcTransport.__init__",
+          "kind": "function",
+          "line": 112
+        },
+        {
+          "name": "GrpcTransport.create",
+          "kind": "function",
+          "line": 123
+        },
+        {
+          "name": "GrpcTransport.send_message",
+          "kind": "async function",
+          "line": 135
+        },
+        {
+          "name": "GrpcTransport.send_message_streaming",
+          "kind": "async generator",
+          "line": 149
+        },
+        {
+          "name": "GrpcTransport.subscribe",
+          "kind": "async generator",
+          "line": 164
+        },
+        {
+          "name": "GrpcTransport.get_task",
+          "kind": "async function",
+          "line": 179
+        },
+        {
+          "name": "GrpcTransport.list_tasks",
+          "kind": "async function",
+          "line": 193
+        },
+        {
+          "name": "GrpcTransport.cancel_task",
+          "kind": "async function",
+          "line": 207
+        },
+        {
+          "name": "GrpcTransport.create_task_push_notification_config",
+          "kind": "async function",
+          "line": 221
+        },
+        {
+          "name": "GrpcTransport.get_task_push_notification_config",
+          "kind": "async function",
+          "line": 235
+        },
+        {
+          "name": "GrpcTransport.list_task_push_notification_configs",
+          "kind": "async function",
+          "line": 249
+        },
+        {
+          "name": "GrpcTransport.delete_task_push_notification_config",
+          "kind": "async function",
+          "line": 263
+        },
+        {
+          "name": "GrpcTransport.get_extended_agent_card",
+          "kind": "async function",
+          "line": 277
+        },
+        {
+          "name": "GrpcTransport.close",
+          "kind": "async function",
+          "line": 294
+        },
+        {
+          "name": "GrpcTransport._get_grpc_metadata",
+          "kind": "function",
+          "line": 298
+        },
+        {
+          "name": "GrpcTransport._get_grpc_timeout",
+          "kind": "function",
+          "line": 309
+        },
+        {
+          "name": "GrpcTransport._call_grpc",
+          "kind": "async function",
+          "line": 314
+        },
+        {
+          "name": "GrpcTransport._call_grpc_stream",
+          "kind": "async generator",
+          "line": 328
+        }
+      ]
+    },
+    "transports/http_helpers.py": {
+      "sha256": "5e2ed76aad26dc59d2eaeaaecb770f4b7c84024d08d4b3d334b5ef26e2577872",
+      "guide": "transports/http_helpers_knowledge.md",
+      "declarations": [
+        {
+          "name": "_default_sse_error_handler",
+          "kind": "function",
+          "line": 13
+        },
+        {
+          "name": "handle_http_exceptions",
+          "kind": "function",
+          "line": 18
+        },
+        {
+          "name": "get_http_args",
+          "kind": "function",
+          "line": 43
+        },
+        {
+          "name": "send_http_request",
+          "kind": "async function",
+          "line": 53
+        },
+        {
+          "name": "parse_sse_stream",
+          "kind": "async generator",
+          "line": 66
+        },
+        {
+          "name": "send_http_stream_request",
+          "kind": "async generator",
+          "line": 106
+        },
+        {
+          "name": "_SSEEventSource",
+          "kind": "class",
+          "line": 156
+        },
+        {
+          "name": "_SSEEventSource.__init__",
+          "kind": "function",
+          "line": 171
+        },
+        {
+          "name": "_SSEEventSource.__aenter__",
+          "kind": "async function",
+          "line": 187
+        },
+        {
+          "name": "_SSEEventSource.__aexit__",
+          "kind": "async function",
+          "line": 191
+        }
+      ]
+    },
+    "transports/jsonrpc.py": {
+      "sha256": "5a9b3442ee623f1995e550095eddd7c85e2c23a07ab11af39aa0d5fcfdf1d3df",
+      "guide": "transports/jsonrpc_knowledge.md",
+      "declarations": [
+        {
+          "name": "JsonRpcTransport",
+          "kind": "class",
+          "line": 51
+        },
+        {
+          "name": "JsonRpcTransport.__init__",
+          "kind": "function",
+          "line": 54
+        },
+        {
+          "name": "JsonRpcTransport.send_message",
+          "kind": "async function",
+          "line": 65
+        },
+        {
+          "name": "JsonRpcTransport.send_message_streaming",
+          "kind": "async generator",
+          "line": 88
+        },
+        {
+          "name": "JsonRpcTransport.get_task",
+          "kind": "async function",
+          "line": 106
+        },
+        {
+          "name": "JsonRpcTransport.list_tasks",
+          "kind": "async function",
+          "line": 127
+        },
+        {
+          "name": "JsonRpcTransport.cancel_task",
+          "kind": "async function",
+          "line": 150
+        },
+        {
+          "name": "JsonRpcTransport.create_task_push_notification_config",
+          "kind": "async function",
+          "line": 171
+        },
+        {
+          "name": "JsonRpcTransport.get_task_push_notification_config",
+          "kind": "async function",
+          "line": 194
+        },
+        {
+          "name": "JsonRpcTransport.list_task_push_notification_configs",
+          "kind": "async function",
+          "line": 217
+        },
+        {
+          "name": "JsonRpcTransport.delete_task_push_notification_config",
+          "kind": "async function",
+          "line": 243
+        },
+        {
+          "name": "JsonRpcTransport.subscribe",
+          "kind": "async generator",
+          "line": 262
+        },
+        {
+          "name": "JsonRpcTransport.get_extended_agent_card",
+          "kind": "async function",
+          "line": 280
+        },
+        {
+          "name": "JsonRpcTransport.close",
+          "kind": "async function",
+          "line": 314
+        },
+        {
+          "name": "JsonRpcTransport._create_jsonrpc_error",
+          "kind": "function",
+          "line": 318
+        },
+        {
+          "name": "JsonRpcTransport._send_request",
+          "kind": "async function",
+          "line": 339
+        },
+        {
+          "name": "JsonRpcTransport._send_stream_request",
+          "kind": "async generator",
+          "line": 351
+        },
+        {
+          "name": "JsonRpcTransport._handle_sse_error",
+          "kind": "function",
+          "line": 375
+        }
+      ]
+    },
+    "transports/rest.py": {
+      "sha256": "a3aef104d45e0f5ac9d487b27c5b2cafc5d41f97493cb1a12dc6673e9c21339d",
+      "guide": "transports/rest_knowledge.md",
+      "declarations": [
+        {
+          "name": "_parse_rest_error",
+          "kind": "function",
+          "line": 44
+        },
+        {
+          "name": "RestTransport",
+          "kind": "class",
+          "line": 86
+        },
+        {
+          "name": "RestTransport.__init__",
+          "kind": "function",
+          "line": 89
+        },
+        {
+          "name": "RestTransport.send_message",
+          "kind": "async function",
+          "line": 100
+        },
+        {
+          "name": "RestTransport.send_message_streaming",
+          "kind": "async generator",
+          "line": 119
+        },
+        {
+          "name": "RestTransport.get_task",
+          "kind": "async function",
+          "line": 137
+        },
+        {
+          "name": "RestTransport.list_tasks",
+          "kind": "async function",
+          "line": 160
+        },
+        {
+          "name": "RestTransport.cancel_task",
+          "kind": "async function",
+          "line": 183
+        },
+        {
+          "name": "RestTransport.create_task_push_notification_config",
+          "kind": "async function",
+          "line": 200
+        },
+        {
+          "name": "RestTransport.get_task_push_notification_config",
+          "kind": "async function",
+          "line": 219
+        },
+        {
+          "name": "RestTransport.list_task_push_notification_configs",
+          "kind": "async function",
+          "line": 246
+        },
+        {
+          "name": "RestTransport.delete_task_push_notification_config",
+          "kind": "async function",
+          "line": 271
+        },
+        {
+          "name": "RestTransport.subscribe",
+          "kind": "async generator",
+          "line": 294
+        },
+        {
+          "name": "RestTransport.get_extended_agent_card",
+          "kind": "async function",
+          "line": 309
+        },
+        {
+          "name": "RestTransport.close",
+          "kind": "async function",
+          "line": 326
+        },
+        {
+          "name": "RestTransport._get_path",
+          "kind": "function",
+          "line": 330
+        },
+        {
+          "name": "RestTransport._handle_http_error",
+          "kind": "function",
+          "line": 334
+        },
+        {
+          "name": "RestTransport._handle_sse_error",
+          "kind": "function",
+          "line": 352
+        },
+        {
+          "name": "RestTransport._send_stream_request",
+          "kind": "async generator",
+          "line": 360
+        },
+        {
+          "name": "RestTransport._send_request",
+          "kind": "async function",
+          "line": 384
+        },
+        {
+          "name": "RestTransport._execute_request",
+          "kind": "async function",
+          "line": 389
+        }
+      ]
+    },
+    "transports/tenant_decorator.py": {
+      "sha256": "df7b8421d29eec52c0eb6b874718b7b4489b023354709b154a53e467221ea70b",
+      "guide": "transports/transport_knowledge.md",
+      "declarations": [
+        {
+          "name": "TenantTransportDecorator",
+          "kind": "class",
+          "line": 25
+        },
+        {
+          "name": "TenantTransportDecorator.__init__",
+          "kind": "function",
+          "line": 28
+        },
+        {
+          "name": "TenantTransportDecorator._resolve_tenant",
+          "kind": "function",
+          "line": 32
+        },
+        {
+          "name": "TenantTransportDecorator.send_message",
+          "kind": "async function",
+          "line": 40
+        },
+        {
+          "name": "TenantTransportDecorator.send_message_streaming",
+          "kind": "async generator",
+          "line": 50
+        },
+        {
+          "name": "TenantTransportDecorator.get_task",
+          "kind": "async function",
+          "line": 63
+        },
+        {
+          "name": "TenantTransportDecorator.list_tasks",
+          "kind": "async function",
+          "line": 73
+        },
+        {
+          "name": "TenantTransportDecorator.cancel_task",
+          "kind": "async function",
+          "line": 83
+        },
+        {
+          "name": "TenantTransportDecorator.create_task_push_notification_config",
+          "kind": "async function",
+          "line": 93
+        },
+        {
+          "name": "TenantTransportDecorator.get_task_push_notification_config",
+          "kind": "async function",
+          "line": 105
+        },
+        {
+          "name": "TenantTransportDecorator.list_task_push_notification_configs",
+          "kind": "async function",
+          "line": 117
+        },
+        {
+          "name": "TenantTransportDecorator.delete_task_push_notification_config",
+          "kind": "async function",
+          "line": 129
+        },
+        {
+          "name": "TenantTransportDecorator.subscribe",
+          "kind": "async generator",
+          "line": 141
+        },
+        {
+          "name": "TenantTransportDecorator.get_extended_agent_card",
+          "kind": "async function",
+          "line": 152
+        },
+        {
+          "name": "TenantTransportDecorator.close",
+          "kind": "async function",
+          "line": 165
+        }
+      ]
+    }
+  },
+  "supporting_files": {
+    "types/a2a_pb2.py": "d0aac0be3a3b639b17be3f3c42ac2aab185a10e3d085f38c05410472769483ba",
+    "types/a2a_pb2_grpc.py": "401e653ec5e4261bf29fb91839a54341b97162f4e701a45085accea06067b49e",
+    "utils/constants.py": "b84e9f71430ba2f801b99e739e0d1f44c61299d81943e3618c6fe63ed75c6bd1",
+    "utils/errors.py": "dc637617d06887f5c6a12b8d034b19dfdb85a0cecb895639ac2ff1c8fff5ed38",
+    "utils/grpc_status.py": "c8f6f49bcb1e4bb5827694eb913471a61bcbb1643bb736d15286239a27866ea4",
+    "utils/proto_utils.py": "ed01dfae0729f03de1e50b8da9d860ca2351060e12d0fad12044be4dcb829b84",
+    "utils/telemetry.py": "4219d9f1a4fcafb0e95f9bfbb7824d9e259d922ef5b90cae57811ab78293968d",
+    "extensions/common.py": "924cc0651e941fc8689033ef7a3b11f4d1bc26ffcb5196b7ba063fa5238ac77e",
+    "compat/v0_3/versions.py": "f29d96fcde67db58bc0ebd1ffc53baea2fd093a9e9f080c1ee9f0255d4e9669f",
+    "compat/v0_3/extension_headers.py": "c9504d278b31e5057ad7ccfab2f93f1b721d213d1fa550031b2540e82934137a",
+    "compat/v0_3/jsonrpc_transport.py": "4a94707a77a206055030fbe3a15b0e1b82e1b4025e3179f7fffcbc1f10ab8bb6",
+    "compat/v0_3/rest_transport.py": "7d5ccce6199665c6b3372ac871cbfa7995028df6a0be8c71733eecda08ab37c0",
+    "compat/v0_3/grpc_transport.py": "5cad8190163be751ea6c818b843f3d2c62567a8c29d47661c1e29d943c2a397f",
+    "compat/v0_3/conversions.py": "ba4148b95cf79a3a4476e613f5d40cedc6633405513dfb56e3f67df70b61bfa9",
+    "compat/v0_3/proto_utils.py": "f64d8e6fc84ef4212a5853958e612c1339c59a6d86964c4c1407129e3fb50a52",
+    "compat/v0_3/types.py": "9445f481fb4cebb7dccbe2dc6ea2df055773550210cc9773b093a0f95f631a3d",
+    "compat/v0_3/a2a_v0_3_pb2.py": "130db434cbc63aacd10cfccefac0f64a150b106e4d0a6fed09d65a8bc5383d33",
+    "compat/v0_3/a2a_v0_3_pb2_grpc.py": "bd39211ab6ea6c1ec4b1fbe85e77ae63c0f1a23df1a9aea48a12eb67fc44f921",
+    "_base.py": "58e4d22bc2f8ecc4302bd82dc479c6281d9549a3e2c965e55554e74150186fd3"
+  }
+}

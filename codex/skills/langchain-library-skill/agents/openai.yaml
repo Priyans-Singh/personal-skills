@@ -1,0 +1,3 @@
+interface:
+  display_name: "LangChain Library"
+  short_description: "Trace LangChain package execution"

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Library Deep Dive"
+  short_description: "Trace a library deeply into Markdown"
+  default_prompt: "Use $library-deep-dive to create a source-grounded deep-dive guide for this library."
+
+policy:
+  allow_implicit_invocation: false

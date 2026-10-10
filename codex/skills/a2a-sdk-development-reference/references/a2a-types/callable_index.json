@@ -1,0 +1,1181 @@
+[
+  {
+    "id": "a2a_pb2.pyi:18:TaskState",
+    "file": "a2a_pb2.pyi",
+    "line": 18,
+    "name": "TaskState",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:30:Role",
+    "file": "a2a_pb2.pyi",
+    "line": 30,
+    "name": "Role",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:48:SendMessageConfiguration",
+    "file": "a2a_pb2.pyi",
+    "line": 48,
+    "name": "SendMessageConfiguration",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:58:SendMessageConfiguration.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 58,
+    "name": "SendMessageConfiguration.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:60:Task",
+    "file": "a2a_pb2.pyi",
+    "line": 60,
+    "name": "Task",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:74:Task.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 74,
+    "name": "Task.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:76:TaskStatus",
+    "file": "a2a_pb2.pyi",
+    "line": 76,
+    "name": "TaskStatus",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:84:TaskStatus.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 84,
+    "name": "TaskStatus.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:86:Part",
+    "file": "a2a_pb2.pyi",
+    "line": 86,
+    "name": "Part",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:102:Part.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 102,
+    "name": "Part.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:104:Message",
+    "file": "a2a_pb2.pyi",
+    "line": 104,
+    "name": "Message",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:122:Message.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 122,
+    "name": "Message.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:124:Artifact",
+    "file": "a2a_pb2.pyi",
+    "line": 124,
+    "name": "Artifact",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:138:Artifact.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 138,
+    "name": "Artifact.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:140:TaskStatusUpdateEvent",
+    "file": "a2a_pb2.pyi",
+    "line": 140,
+    "name": "TaskStatusUpdateEvent",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:150:TaskStatusUpdateEvent.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 150,
+    "name": "TaskStatusUpdateEvent.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:152:TaskArtifactUpdateEvent",
+    "file": "a2a_pb2.pyi",
+    "line": 152,
+    "name": "TaskArtifactUpdateEvent",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:166:TaskArtifactUpdateEvent.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 166,
+    "name": "TaskArtifactUpdateEvent.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:168:AuthenticationInfo",
+    "file": "a2a_pb2.pyi",
+    "line": 168,
+    "name": "AuthenticationInfo",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:174:AuthenticationInfo.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 174,
+    "name": "AuthenticationInfo.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:176:AgentInterface",
+    "file": "a2a_pb2.pyi",
+    "line": 176,
+    "name": "AgentInterface",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:186:AgentInterface.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 186,
+    "name": "AgentInterface.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:188:AgentCard",
+    "file": "a2a_pb2.pyi",
+    "line": 188,
+    "name": "AgentCard",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:190:AgentCard.SecuritySchemesEntry",
+    "file": "a2a_pb2.pyi",
+    "line": 190,
+    "name": "AgentCard.SecuritySchemesEntry",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:196:AgentCard.SecuritySchemesEntry.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 196,
+    "name": "AgentCard.SecuritySchemesEntry.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:225:AgentCard.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 225,
+    "name": "AgentCard.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:227:AgentProvider",
+    "file": "a2a_pb2.pyi",
+    "line": 227,
+    "name": "AgentProvider",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:233:AgentProvider.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 233,
+    "name": "AgentProvider.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:235:AgentCapabilities",
+    "file": "a2a_pb2.pyi",
+    "line": 235,
+    "name": "AgentCapabilities",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:245:AgentCapabilities.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 245,
+    "name": "AgentCapabilities.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:247:AgentExtension",
+    "file": "a2a_pb2.pyi",
+    "line": 247,
+    "name": "AgentExtension",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:257:AgentExtension.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 257,
+    "name": "AgentExtension.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:259:AgentSkill",
+    "file": "a2a_pb2.pyi",
+    "line": 259,
+    "name": "AgentSkill",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:277:AgentSkill.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 277,
+    "name": "AgentSkill.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:279:AgentCardSignature",
+    "file": "a2a_pb2.pyi",
+    "line": 279,
+    "name": "AgentCardSignature",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:287:AgentCardSignature.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 287,
+    "name": "AgentCardSignature.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:289:TaskPushNotificationConfig",
+    "file": "a2a_pb2.pyi",
+    "line": 289,
+    "name": "TaskPushNotificationConfig",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:303:TaskPushNotificationConfig.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 303,
+    "name": "TaskPushNotificationConfig.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:305:StringList",
+    "file": "a2a_pb2.pyi",
+    "line": 305,
+    "name": "StringList",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:309:StringList.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 309,
+    "name": "StringList.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:311:SecurityRequirement",
+    "file": "a2a_pb2.pyi",
+    "line": 311,
+    "name": "SecurityRequirement",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:313:SecurityRequirement.SchemesEntry",
+    "file": "a2a_pb2.pyi",
+    "line": 313,
+    "name": "SecurityRequirement.SchemesEntry",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:319:SecurityRequirement.SchemesEntry.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 319,
+    "name": "SecurityRequirement.SchemesEntry.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:322:SecurityRequirement.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 322,
+    "name": "SecurityRequirement.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:324:SecurityScheme",
+    "file": "a2a_pb2.pyi",
+    "line": 324,
+    "name": "SecurityScheme",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:336:SecurityScheme.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 336,
+    "name": "SecurityScheme.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:338:APIKeySecurityScheme",
+    "file": "a2a_pb2.pyi",
+    "line": 338,
+    "name": "APIKeySecurityScheme",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:346:APIKeySecurityScheme.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 346,
+    "name": "APIKeySecurityScheme.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:348:HTTPAuthSecurityScheme",
+    "file": "a2a_pb2.pyi",
+    "line": 348,
+    "name": "HTTPAuthSecurityScheme",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:356:HTTPAuthSecurityScheme.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 356,
+    "name": "HTTPAuthSecurityScheme.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:358:OAuth2SecurityScheme",
+    "file": "a2a_pb2.pyi",
+    "line": 358,
+    "name": "OAuth2SecurityScheme",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:366:OAuth2SecurityScheme.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 366,
+    "name": "OAuth2SecurityScheme.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:368:OpenIdConnectSecurityScheme",
+    "file": "a2a_pb2.pyi",
+    "line": 368,
+    "name": "OpenIdConnectSecurityScheme",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:374:OpenIdConnectSecurityScheme.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 374,
+    "name": "OpenIdConnectSecurityScheme.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:376:MutualTlsSecurityScheme",
+    "file": "a2a_pb2.pyi",
+    "line": 376,
+    "name": "MutualTlsSecurityScheme",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:380:MutualTlsSecurityScheme.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 380,
+    "name": "MutualTlsSecurityScheme.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:382:OAuthFlows",
+    "file": "a2a_pb2.pyi",
+    "line": 382,
+    "name": "OAuthFlows",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:394:OAuthFlows.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 394,
+    "name": "OAuthFlows.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:396:AuthorizationCodeOAuthFlow",
+    "file": "a2a_pb2.pyi",
+    "line": 396,
+    "name": "AuthorizationCodeOAuthFlow",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:398:AuthorizationCodeOAuthFlow.ScopesEntry",
+    "file": "a2a_pb2.pyi",
+    "line": 398,
+    "name": "AuthorizationCodeOAuthFlow.ScopesEntry",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:404:AuthorizationCodeOAuthFlow.ScopesEntry.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 404,
+    "name": "AuthorizationCodeOAuthFlow.ScopesEntry.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:415:AuthorizationCodeOAuthFlow.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 415,
+    "name": "AuthorizationCodeOAuthFlow.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:417:ClientCredentialsOAuthFlow",
+    "file": "a2a_pb2.pyi",
+    "line": 417,
+    "name": "ClientCredentialsOAuthFlow",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:419:ClientCredentialsOAuthFlow.ScopesEntry",
+    "file": "a2a_pb2.pyi",
+    "line": 419,
+    "name": "ClientCredentialsOAuthFlow.ScopesEntry",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:425:ClientCredentialsOAuthFlow.ScopesEntry.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 425,
+    "name": "ClientCredentialsOAuthFlow.ScopesEntry.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:432:ClientCredentialsOAuthFlow.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 432,
+    "name": "ClientCredentialsOAuthFlow.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:434:ImplicitOAuthFlow",
+    "file": "a2a_pb2.pyi",
+    "line": 434,
+    "name": "ImplicitOAuthFlow",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:436:ImplicitOAuthFlow.ScopesEntry",
+    "file": "a2a_pb2.pyi",
+    "line": 436,
+    "name": "ImplicitOAuthFlow.ScopesEntry",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:442:ImplicitOAuthFlow.ScopesEntry.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 442,
+    "name": "ImplicitOAuthFlow.ScopesEntry.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:449:ImplicitOAuthFlow.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 449,
+    "name": "ImplicitOAuthFlow.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:451:PasswordOAuthFlow",
+    "file": "a2a_pb2.pyi",
+    "line": 451,
+    "name": "PasswordOAuthFlow",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:453:PasswordOAuthFlow.ScopesEntry",
+    "file": "a2a_pb2.pyi",
+    "line": 453,
+    "name": "PasswordOAuthFlow.ScopesEntry",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:459:PasswordOAuthFlow.ScopesEntry.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 459,
+    "name": "PasswordOAuthFlow.ScopesEntry.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:466:PasswordOAuthFlow.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 466,
+    "name": "PasswordOAuthFlow.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:468:DeviceCodeOAuthFlow",
+    "file": "a2a_pb2.pyi",
+    "line": 468,
+    "name": "DeviceCodeOAuthFlow",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:470:DeviceCodeOAuthFlow.ScopesEntry",
+    "file": "a2a_pb2.pyi",
+    "line": 470,
+    "name": "DeviceCodeOAuthFlow.ScopesEntry",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:476:DeviceCodeOAuthFlow.ScopesEntry.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 476,
+    "name": "DeviceCodeOAuthFlow.ScopesEntry.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:485:DeviceCodeOAuthFlow.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 485,
+    "name": "DeviceCodeOAuthFlow.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:487:SendMessageRequest",
+    "file": "a2a_pb2.pyi",
+    "line": 487,
+    "name": "SendMessageRequest",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:497:SendMessageRequest.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 497,
+    "name": "SendMessageRequest.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:499:GetTaskRequest",
+    "file": "a2a_pb2.pyi",
+    "line": 499,
+    "name": "GetTaskRequest",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:507:GetTaskRequest.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 507,
+    "name": "GetTaskRequest.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:509:ListTasksRequest",
+    "file": "a2a_pb2.pyi",
+    "line": 509,
+    "name": "ListTasksRequest",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:527:ListTasksRequest.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 527,
+    "name": "ListTasksRequest.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:529:ListTasksResponse",
+    "file": "a2a_pb2.pyi",
+    "line": 529,
+    "name": "ListTasksResponse",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:539:ListTasksResponse.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 539,
+    "name": "ListTasksResponse.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:541:CancelTaskRequest",
+    "file": "a2a_pb2.pyi",
+    "line": 541,
+    "name": "CancelTaskRequest",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:549:CancelTaskRequest.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 549,
+    "name": "CancelTaskRequest.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:551:GetTaskPushNotificationConfigRequest",
+    "file": "a2a_pb2.pyi",
+    "line": 551,
+    "name": "GetTaskPushNotificationConfigRequest",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:559:GetTaskPushNotificationConfigRequest.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 559,
+    "name": "GetTaskPushNotificationConfigRequest.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:561:DeleteTaskPushNotificationConfigRequest",
+    "file": "a2a_pb2.pyi",
+    "line": 561,
+    "name": "DeleteTaskPushNotificationConfigRequest",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:569:DeleteTaskPushNotificationConfigRequest.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 569,
+    "name": "DeleteTaskPushNotificationConfigRequest.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:571:SubscribeToTaskRequest",
+    "file": "a2a_pb2.pyi",
+    "line": 571,
+    "name": "SubscribeToTaskRequest",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:577:SubscribeToTaskRequest.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 577,
+    "name": "SubscribeToTaskRequest.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:579:ListTaskPushNotificationConfigsRequest",
+    "file": "a2a_pb2.pyi",
+    "line": 579,
+    "name": "ListTaskPushNotificationConfigsRequest",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:589:ListTaskPushNotificationConfigsRequest.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 589,
+    "name": "ListTaskPushNotificationConfigsRequest.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:591:GetExtendedAgentCardRequest",
+    "file": "a2a_pb2.pyi",
+    "line": 591,
+    "name": "GetExtendedAgentCardRequest",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:595:GetExtendedAgentCardRequest.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 595,
+    "name": "GetExtendedAgentCardRequest.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:597:SendMessageResponse",
+    "file": "a2a_pb2.pyi",
+    "line": 597,
+    "name": "SendMessageResponse",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:603:SendMessageResponse.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 603,
+    "name": "SendMessageResponse.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:605:StreamResponse",
+    "file": "a2a_pb2.pyi",
+    "line": 605,
+    "name": "StreamResponse",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:615:StreamResponse.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 615,
+    "name": "StreamResponse.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:617:ListTaskPushNotificationConfigsResponse",
+    "file": "a2a_pb2.pyi",
+    "line": 617,
+    "name": "ListTaskPushNotificationConfigsResponse",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2.pyi:623:ListTaskPushNotificationConfigsResponse.__init__",
+    "file": "a2a_pb2.pyi",
+    "line": 623,
+    "name": "ListTaskPushNotificationConfigsResponse.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_pyi_knowledge.md",
+    "stub": true
+  },
+  {
+    "id": "a2a_pb2_grpc.py:9:A2AServiceStub",
+    "file": "a2a_pb2_grpc.py",
+    "line": 9,
+    "name": "A2AServiceStub",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:13:A2AServiceStub.__init__",
+    "file": "a2a_pb2_grpc.py",
+    "line": 13,
+    "name": "A2AServiceStub.__init__",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:76:A2AServiceServicer",
+    "file": "a2a_pb2_grpc.py",
+    "line": 76,
+    "name": "A2AServiceServicer",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:80:A2AServiceServicer.SendMessage",
+    "file": "a2a_pb2_grpc.py",
+    "line": 80,
+    "name": "A2AServiceServicer.SendMessage",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:87:A2AServiceServicer.SendStreamingMessage",
+    "file": "a2a_pb2_grpc.py",
+    "line": 87,
+    "name": "A2AServiceServicer.SendStreamingMessage",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:95:A2AServiceServicer.GetTask",
+    "file": "a2a_pb2_grpc.py",
+    "line": 95,
+    "name": "A2AServiceServicer.GetTask",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:102:A2AServiceServicer.ListTasks",
+    "file": "a2a_pb2_grpc.py",
+    "line": 102,
+    "name": "A2AServiceServicer.ListTasks",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:109:A2AServiceServicer.CancelTask",
+    "file": "a2a_pb2_grpc.py",
+    "line": 109,
+    "name": "A2AServiceServicer.CancelTask",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:116:A2AServiceServicer.SubscribeToTask",
+    "file": "a2a_pb2_grpc.py",
+    "line": 116,
+    "name": "A2AServiceServicer.SubscribeToTask",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:124:A2AServiceServicer.CreateTaskPushNotificationConfig",
+    "file": "a2a_pb2_grpc.py",
+    "line": 124,
+    "name": "A2AServiceServicer.CreateTaskPushNotificationConfig",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:135:A2AServiceServicer.GetTaskPushNotificationConfig",
+    "file": "a2a_pb2_grpc.py",
+    "line": 135,
+    "name": "A2AServiceServicer.GetTaskPushNotificationConfig",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:142:A2AServiceServicer.ListTaskPushNotificationConfigs",
+    "file": "a2a_pb2_grpc.py",
+    "line": 142,
+    "name": "A2AServiceServicer.ListTaskPushNotificationConfigs",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:149:A2AServiceServicer.GetExtendedAgentCard",
+    "file": "a2a_pb2_grpc.py",
+    "line": 149,
+    "name": "A2AServiceServicer.GetExtendedAgentCard",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:156:A2AServiceServicer.DeleteTaskPushNotificationConfig",
+    "file": "a2a_pb2_grpc.py",
+    "line": 156,
+    "name": "A2AServiceServicer.DeleteTaskPushNotificationConfig",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:164:add_A2AServiceServicer_to_server",
+    "file": "a2a_pb2_grpc.py",
+    "line": 164,
+    "name": "add_A2AServiceServicer_to_server",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:229:A2AService",
+    "file": "a2a_pb2_grpc.py",
+    "line": 229,
+    "name": "A2AService",
+    "kind": "ClassDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:234:A2AService.SendMessage",
+    "file": "a2a_pb2_grpc.py",
+    "line": 234,
+    "name": "A2AService.SendMessage",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:261:A2AService.SendStreamingMessage",
+    "file": "a2a_pb2_grpc.py",
+    "line": 261,
+    "name": "A2AService.SendStreamingMessage",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:288:A2AService.GetTask",
+    "file": "a2a_pb2_grpc.py",
+    "line": 288,
+    "name": "A2AService.GetTask",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:315:A2AService.ListTasks",
+    "file": "a2a_pb2_grpc.py",
+    "line": 315,
+    "name": "A2AService.ListTasks",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:342:A2AService.CancelTask",
+    "file": "a2a_pb2_grpc.py",
+    "line": 342,
+    "name": "A2AService.CancelTask",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:369:A2AService.SubscribeToTask",
+    "file": "a2a_pb2_grpc.py",
+    "line": 369,
+    "name": "A2AService.SubscribeToTask",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:396:A2AService.CreateTaskPushNotificationConfig",
+    "file": "a2a_pb2_grpc.py",
+    "line": 396,
+    "name": "A2AService.CreateTaskPushNotificationConfig",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:423:A2AService.GetTaskPushNotificationConfig",
+    "file": "a2a_pb2_grpc.py",
+    "line": 423,
+    "name": "A2AService.GetTaskPushNotificationConfig",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:450:A2AService.ListTaskPushNotificationConfigs",
+    "file": "a2a_pb2_grpc.py",
+    "line": 450,
+    "name": "A2AService.ListTaskPushNotificationConfigs",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:477:A2AService.GetExtendedAgentCard",
+    "file": "a2a_pb2_grpc.py",
+    "line": 477,
+    "name": "A2AService.GetExtendedAgentCard",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  },
+  {
+    "id": "a2a_pb2_grpc.py:504:A2AService.DeleteTaskPushNotificationConfig",
+    "file": "a2a_pb2_grpc.py",
+    "line": 504,
+    "name": "A2AService.DeleteTaskPushNotificationConfig",
+    "kind": "FunctionDef",
+    "guide": "a2a_pb2_grpc_py_knowledge.md",
+    "stub": false
+  }
+]

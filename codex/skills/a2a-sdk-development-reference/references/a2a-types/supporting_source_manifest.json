@@ -1,0 +1,52 @@
+{
+  "dependency_versions": {
+    "protobuf": "6.33.6",
+    "PyJWT": "2.14.0",
+    "starlette": "1.6.0",
+    "culsans": "0.11.0",
+    "packaging": "26.3",
+    "opentelemetry-api": "1.44.0"
+  },
+  "files": [
+    {
+      "source": "/Users/priyanssingh/Desktop/Wedn-Demo/.venv/lib/python3.11/site-packages/a2a/server/context.py",
+      "sha256": "7b22e91d11786ec8a1a9c9497fdfb77217a2b351ec62722edca025de652cee60",
+      "role": "direct supporting implementation, not duplicate A2A sibling reference"
+    },
+    {
+      "source": "/Users/priyanssingh/Desktop/Wedn-Demo/.venv/lib/python3.11/site-packages/a2a/auth/user.py",
+      "sha256": "7579bc19d2ecb482ff53165b0af82658cd5fea264b1a646a9a1c61e129d8b825",
+      "role": "direct supporting implementation, not duplicate A2A sibling reference"
+    },
+    {
+      "source": "/Users/priyanssingh/Desktop/Wedn-Demo/.venv/lib/python3.11/site-packages/google/protobuf/internal/builder.py",
+      "sha256": "54f9eb1eaaade89eba47065ed7d84b9b4d59975bcffe314aa4bf9b0bc9c49dc6",
+      "role": "direct supporting implementation, not duplicate A2A sibling reference"
+    },
+    {
+      "source": "/Users/priyanssingh/Desktop/Wedn-Demo/.venv/lib/python3.11/site-packages/google/protobuf/internal/enum_type_wrapper.py",
+      "sha256": "3cd84af3b6bf34fd4921f147b981626e913884774761ac17c2a671304b6fb2fa",
+      "role": "direct supporting implementation, not duplicate A2A sibling reference"
+    },
+    {
+      "source": "/Users/priyanssingh/Desktop/Wedn-Demo/.venv/lib/python3.11/site-packages/google/protobuf/message.py",
+      "sha256": "21ec9013af2b8ff61c521cb6d174b90ebded536eff25867918b2c79be4db6c3e",
+      "role": "direct supporting implementation, not duplicate A2A sibling reference"
+    },
+    {
+      "source": "/Users/priyanssingh/Desktop/Wedn-Demo/.venv/lib/python3.11/site-packages/google/protobuf/internal/python_message.py",
+      "sha256": "4b84ac5cb357f731b347f5c37e230e36fd0ce20c73c70aacc1bb4f9c057aa848",
+      "role": "direct supporting implementation, not duplicate A2A sibling reference"
+    },
+    {
+      "source": "/Users/priyanssingh/Desktop/Wedn-Demo/.venv/lib/python3.11/site-packages/google/protobuf/json_format.py",
+      "sha256": "7b386cc56f648154f744b2d1b38f44e94dba27c8c33980002e158c235443c7a7",
+      "role": "direct supporting implementation, not duplicate A2A sibling reference"
+    },
+    {
+      "source": "/Users/priyanssingh/Desktop/Wedn-Demo/.venv/lib/python3.11/site-packages/google/protobuf/descriptor.py",
+      "sha256": "87af655893f4aacc6ba40eb9f6a75ae48c70bc87450b57aa9e46717bbbbe6d32",
+      "role": "direct supporting implementation, not duplicate A2A sibling reference"
+    }
+  ]
+}

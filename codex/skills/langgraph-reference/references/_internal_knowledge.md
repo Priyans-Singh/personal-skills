@@ -1,0 +1,3 @@
+# `_internal/`
+
+Private shared machinery. Do not import it in application code. It normalizes runnable/checkpoint config (`_config.py`), discovers state schema fields/reducers (`_fields.py`), bridges futures and event loops (`_future.py`), supports Pydantic versions (`_pydantic.py`), provides queues/scratchpads/replay (`_queue.py`, `_scratchpad.py`, `_replay.py`), wraps user callables with injected config/store/writer/runtime (`_runnable.py`), and handles cache, retry, serialization allowlists, timeout, constants, and structural typing. See [callable-index.md](callable-index.md) for every helper.

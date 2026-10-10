@@ -1,0 +1,55 @@
+{
+  "distribution": "a2a-sdk",
+  "version": "1.1.4",
+  "date": "2026-10-07",
+  "source": ".venv/lib/python3.11/site-packages/a2a",
+  "files": {
+    "_base.py": {
+      "sha256": "58e4d22bc2f8ecc4302bd82dc479c6281d9549a3e2c965e55554e74150186fd3",
+      "guide": "base_knowledge.md",
+      "declarations": [
+        [
+          "to_camel_custom",
+          5,
+          "FunctionDef"
+        ],
+        [
+          "A2ABaseModel",
+          21,
+          "ClassDef"
+        ]
+      ]
+    },
+    "a2a_db_cli.py": {
+      "sha256": "ac482eb89f5739eb8a14c961feacd7732515d180ff2e8eef29532e187c631297",
+      "guide": "a2a_db_cli_knowledge.md",
+      "declarations": [
+        [
+          "_add_shared_args",
+          18,
+          "FunctionDef"
+        ],
+        [
+          "create_parser",
+          53,
+          "FunctionDef"
+        ],
+        [
+          "run_migrations",
+          105,
+          "FunctionDef"
+        ]
+      ]
+    },
+    "alembic.ini": {
+      "sha256": "43fd5c2afef38b2b1a46735e80d2487ab8ab1364a973e2acfb46ebd3081622ae",
+      "guide": "support_files_knowledge.md",
+      "declarations": []
+    },
+    "py.typed": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "guide": "support_files_knowledge.md",
+      "declarations": []
+    }
+  }
+}

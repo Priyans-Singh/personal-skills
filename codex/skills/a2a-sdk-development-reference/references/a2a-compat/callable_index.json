@@ -1,0 +1,3970 @@
+[
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "TaskState",
+    "kind": "ClassDef",
+    "line": 18,
+    "end_line": 28,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "Role",
+    "kind": "ClassDef",
+    "line": 30,
+    "end_line": 34,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "SendMessageConfiguration",
+    "kind": "ClassDef",
+    "line": 48,
+    "end_line": 58,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "SendMessageConfiguration.__init__",
+    "kind": "FunctionDef",
+    "line": 58,
+    "end_line": 58,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "Task",
+    "kind": "ClassDef",
+    "line": 60,
+    "end_line": 74,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "Task.__init__",
+    "kind": "FunctionDef",
+    "line": 74,
+    "end_line": 74,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "TaskStatus",
+    "kind": "ClassDef",
+    "line": 76,
+    "end_line": 84,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "TaskStatus.__init__",
+    "kind": "FunctionDef",
+    "line": 84,
+    "end_line": 84,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "Part",
+    "kind": "ClassDef",
+    "line": 86,
+    "end_line": 96,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "Part.__init__",
+    "kind": "FunctionDef",
+    "line": 96,
+    "end_line": 96,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "FilePart",
+    "kind": "ClassDef",
+    "line": 98,
+    "end_line": 108,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "FilePart.__init__",
+    "kind": "FunctionDef",
+    "line": 108,
+    "end_line": 108,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "DataPart",
+    "kind": "ClassDef",
+    "line": 110,
+    "end_line": 114,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "DataPart.__init__",
+    "kind": "FunctionDef",
+    "line": 114,
+    "end_line": 114,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "Message",
+    "kind": "ClassDef",
+    "line": 116,
+    "end_line": 132,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "Message.__init__",
+    "kind": "FunctionDef",
+    "line": 132,
+    "end_line": 132,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "Artifact",
+    "kind": "ClassDef",
+    "line": 134,
+    "end_line": 148,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "Artifact.__init__",
+    "kind": "FunctionDef",
+    "line": 148,
+    "end_line": 148,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "TaskStatusUpdateEvent",
+    "kind": "ClassDef",
+    "line": 150,
+    "end_line": 162,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "TaskStatusUpdateEvent.__init__",
+    "kind": "FunctionDef",
+    "line": 162,
+    "end_line": 162,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "TaskArtifactUpdateEvent",
+    "kind": "ClassDef",
+    "line": 164,
+    "end_line": 178,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "TaskArtifactUpdateEvent.__init__",
+    "kind": "FunctionDef",
+    "line": 178,
+    "end_line": 178,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "PushNotificationConfig",
+    "kind": "ClassDef",
+    "line": 180,
+    "end_line": 190,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "PushNotificationConfig.__init__",
+    "kind": "FunctionDef",
+    "line": 190,
+    "end_line": 190,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AuthenticationInfo",
+    "kind": "ClassDef",
+    "line": 192,
+    "end_line": 198,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AuthenticationInfo.__init__",
+    "kind": "FunctionDef",
+    "line": 198,
+    "end_line": 198,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AgentInterface",
+    "kind": "ClassDef",
+    "line": 200,
+    "end_line": 206,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AgentInterface.__init__",
+    "kind": "FunctionDef",
+    "line": 206,
+    "end_line": 206,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AgentCard",
+    "kind": "ClassDef",
+    "line": 208,
+    "end_line": 253,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AgentCard.SecuritySchemesEntry",
+    "kind": "ClassDef",
+    "line": 210,
+    "end_line": 216,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AgentCard.SecuritySchemesEntry.__init__",
+    "kind": "FunctionDef",
+    "line": 216,
+    "end_line": 216,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AgentCard.__init__",
+    "kind": "FunctionDef",
+    "line": 253,
+    "end_line": 253,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AgentProvider",
+    "kind": "ClassDef",
+    "line": 255,
+    "end_line": 261,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AgentProvider.__init__",
+    "kind": "FunctionDef",
+    "line": 261,
+    "end_line": 261,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AgentCapabilities",
+    "kind": "ClassDef",
+    "line": 263,
+    "end_line": 271,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AgentCapabilities.__init__",
+    "kind": "FunctionDef",
+    "line": 271,
+    "end_line": 271,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AgentExtension",
+    "kind": "ClassDef",
+    "line": 273,
+    "end_line": 283,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AgentExtension.__init__",
+    "kind": "FunctionDef",
+    "line": 283,
+    "end_line": 283,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AgentSkill",
+    "kind": "ClassDef",
+    "line": 285,
+    "end_line": 303,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AgentSkill.__init__",
+    "kind": "FunctionDef",
+    "line": 303,
+    "end_line": 303,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AgentCardSignature",
+    "kind": "ClassDef",
+    "line": 305,
+    "end_line": 313,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AgentCardSignature.__init__",
+    "kind": "FunctionDef",
+    "line": 313,
+    "end_line": 313,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "TaskPushNotificationConfig",
+    "kind": "ClassDef",
+    "line": 315,
+    "end_line": 321,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "TaskPushNotificationConfig.__init__",
+    "kind": "FunctionDef",
+    "line": 321,
+    "end_line": 321,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "StringList",
+    "kind": "ClassDef",
+    "line": 323,
+    "end_line": 327,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "StringList.__init__",
+    "kind": "FunctionDef",
+    "line": 327,
+    "end_line": 327,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "Security",
+    "kind": "ClassDef",
+    "line": 329,
+    "end_line": 340,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "Security.SchemesEntry",
+    "kind": "ClassDef",
+    "line": 331,
+    "end_line": 337,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "Security.SchemesEntry.__init__",
+    "kind": "FunctionDef",
+    "line": 337,
+    "end_line": 337,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "Security.__init__",
+    "kind": "FunctionDef",
+    "line": 340,
+    "end_line": 340,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "SecurityScheme",
+    "kind": "ClassDef",
+    "line": 342,
+    "end_line": 354,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "SecurityScheme.__init__",
+    "kind": "FunctionDef",
+    "line": 354,
+    "end_line": 354,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "APIKeySecurityScheme",
+    "kind": "ClassDef",
+    "line": 356,
+    "end_line": 364,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "APIKeySecurityScheme.__init__",
+    "kind": "FunctionDef",
+    "line": 364,
+    "end_line": 364,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "HTTPAuthSecurityScheme",
+    "kind": "ClassDef",
+    "line": 366,
+    "end_line": 374,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "HTTPAuthSecurityScheme.__init__",
+    "kind": "FunctionDef",
+    "line": 374,
+    "end_line": 374,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "OAuth2SecurityScheme",
+    "kind": "ClassDef",
+    "line": 376,
+    "end_line": 384,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "OAuth2SecurityScheme.__init__",
+    "kind": "FunctionDef",
+    "line": 384,
+    "end_line": 384,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "OpenIdConnectSecurityScheme",
+    "kind": "ClassDef",
+    "line": 386,
+    "end_line": 392,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "OpenIdConnectSecurityScheme.__init__",
+    "kind": "FunctionDef",
+    "line": 392,
+    "end_line": 392,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "MutualTlsSecurityScheme",
+    "kind": "ClassDef",
+    "line": 394,
+    "end_line": 398,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "MutualTlsSecurityScheme.__init__",
+    "kind": "FunctionDef",
+    "line": 398,
+    "end_line": 398,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "OAuthFlows",
+    "kind": "ClassDef",
+    "line": 400,
+    "end_line": 410,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "OAuthFlows.__init__",
+    "kind": "FunctionDef",
+    "line": 410,
+    "end_line": 410,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AuthorizationCodeOAuthFlow",
+    "kind": "ClassDef",
+    "line": 412,
+    "end_line": 429,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AuthorizationCodeOAuthFlow.ScopesEntry",
+    "kind": "ClassDef",
+    "line": 414,
+    "end_line": 420,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AuthorizationCodeOAuthFlow.ScopesEntry.__init__",
+    "kind": "FunctionDef",
+    "line": 420,
+    "end_line": 420,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "AuthorizationCodeOAuthFlow.__init__",
+    "kind": "FunctionDef",
+    "line": 429,
+    "end_line": 429,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "ClientCredentialsOAuthFlow",
+    "kind": "ClassDef",
+    "line": 431,
+    "end_line": 446,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "ClientCredentialsOAuthFlow.ScopesEntry",
+    "kind": "ClassDef",
+    "line": 433,
+    "end_line": 439,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "ClientCredentialsOAuthFlow.ScopesEntry.__init__",
+    "kind": "FunctionDef",
+    "line": 439,
+    "end_line": 439,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "ClientCredentialsOAuthFlow.__init__",
+    "kind": "FunctionDef",
+    "line": 446,
+    "end_line": 446,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "ImplicitOAuthFlow",
+    "kind": "ClassDef",
+    "line": 448,
+    "end_line": 463,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "ImplicitOAuthFlow.ScopesEntry",
+    "kind": "ClassDef",
+    "line": 450,
+    "end_line": 456,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "ImplicitOAuthFlow.ScopesEntry.__init__",
+    "kind": "FunctionDef",
+    "line": 456,
+    "end_line": 456,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "ImplicitOAuthFlow.__init__",
+    "kind": "FunctionDef",
+    "line": 463,
+    "end_line": 463,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "PasswordOAuthFlow",
+    "kind": "ClassDef",
+    "line": 465,
+    "end_line": 480,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "PasswordOAuthFlow.ScopesEntry",
+    "kind": "ClassDef",
+    "line": 467,
+    "end_line": 473,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "PasswordOAuthFlow.ScopesEntry.__init__",
+    "kind": "FunctionDef",
+    "line": 473,
+    "end_line": 473,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "PasswordOAuthFlow.__init__",
+    "kind": "FunctionDef",
+    "line": 480,
+    "end_line": 480,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "SendMessageRequest",
+    "kind": "ClassDef",
+    "line": 482,
+    "end_line": 490,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "SendMessageRequest.__init__",
+    "kind": "FunctionDef",
+    "line": 490,
+    "end_line": 490,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "GetTaskRequest",
+    "kind": "ClassDef",
+    "line": 492,
+    "end_line": 498,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "GetTaskRequest.__init__",
+    "kind": "FunctionDef",
+    "line": 498,
+    "end_line": 498,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "CancelTaskRequest",
+    "kind": "ClassDef",
+    "line": 500,
+    "end_line": 504,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "CancelTaskRequest.__init__",
+    "kind": "FunctionDef",
+    "line": 504,
+    "end_line": 504,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "GetTaskPushNotificationConfigRequest",
+    "kind": "ClassDef",
+    "line": 506,
+    "end_line": 510,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "GetTaskPushNotificationConfigRequest.__init__",
+    "kind": "FunctionDef",
+    "line": 510,
+    "end_line": 510,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "DeleteTaskPushNotificationConfigRequest",
+    "kind": "ClassDef",
+    "line": 512,
+    "end_line": 516,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "DeleteTaskPushNotificationConfigRequest.__init__",
+    "kind": "FunctionDef",
+    "line": 516,
+    "end_line": 516,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "CreateTaskPushNotificationConfigRequest",
+    "kind": "ClassDef",
+    "line": 518,
+    "end_line": 526,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "CreateTaskPushNotificationConfigRequest.__init__",
+    "kind": "FunctionDef",
+    "line": 526,
+    "end_line": 526,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "TaskSubscriptionRequest",
+    "kind": "ClassDef",
+    "line": 528,
+    "end_line": 532,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "TaskSubscriptionRequest.__init__",
+    "kind": "FunctionDef",
+    "line": 532,
+    "end_line": 532,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "ListTaskPushNotificationConfigRequest",
+    "kind": "ClassDef",
+    "line": 534,
+    "end_line": 542,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "ListTaskPushNotificationConfigRequest.__init__",
+    "kind": "FunctionDef",
+    "line": 542,
+    "end_line": 542,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "GetAgentCardRequest",
+    "kind": "ClassDef",
+    "line": 544,
+    "end_line": 546,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "GetAgentCardRequest.__init__",
+    "kind": "FunctionDef",
+    "line": 546,
+    "end_line": 546,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "SendMessageResponse",
+    "kind": "ClassDef",
+    "line": 548,
+    "end_line": 554,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "SendMessageResponse.__init__",
+    "kind": "FunctionDef",
+    "line": 554,
+    "end_line": 554,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "StreamResponse",
+    "kind": "ClassDef",
+    "line": 556,
+    "end_line": 566,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "StreamResponse.__init__",
+    "kind": "FunctionDef",
+    "line": 566,
+    "end_line": 566,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "ListTaskPushNotificationConfigResponse",
+    "kind": "ClassDef",
+    "line": 568,
+    "end_line": 574,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2.pyi",
+    "name": "ListTaskPushNotificationConfigResponse.__init__",
+    "kind": "FunctionDef",
+    "line": 574,
+    "end_line": 574,
+    "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AServiceStub",
+    "kind": "ClassDef",
+    "line": 9,
+    "end_line": 77,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AServiceStub.__init__",
+    "kind": "FunctionDef",
+    "line": 22,
+    "end_line": 77,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AServiceServicer",
+    "kind": "ClassDef",
+    "line": 80,
+    "end_line": 167,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AServiceServicer.SendMessage",
+    "kind": "FunctionDef",
+    "line": 93,
+    "end_line": 99,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AServiceServicer.SendStreamingMessage",
+    "kind": "FunctionDef",
+    "line": 101,
+    "end_line": 107,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AServiceServicer.GetTask",
+    "kind": "FunctionDef",
+    "line": 109,
+    "end_line": 114,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AServiceServicer.CancelTask",
+    "kind": "FunctionDef",
+    "line": 116,
+    "end_line": 122,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AServiceServicer.TaskSubscription",
+    "kind": "FunctionDef",
+    "line": 124,
+    "end_line": 132,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AServiceServicer.CreateTaskPushNotificationConfig",
+    "kind": "FunctionDef",
+    "line": 134,
+    "end_line": 139,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AServiceServicer.GetTaskPushNotificationConfig",
+    "kind": "FunctionDef",
+    "line": 141,
+    "end_line": 146,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AServiceServicer.ListTaskPushNotificationConfig",
+    "kind": "FunctionDef",
+    "line": 148,
+    "end_line": 153,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AServiceServicer.GetAgentCard",
+    "kind": "FunctionDef",
+    "line": 155,
+    "end_line": 160,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AServiceServicer.DeleteTaskPushNotificationConfig",
+    "kind": "FunctionDef",
+    "line": 162,
+    "end_line": 167,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "add_A2AServiceServicer_to_server",
+    "kind": "FunctionDef",
+    "line": 170,
+    "end_line": 226,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AService",
+    "kind": "ClassDef",
+    "line": 230,
+    "end_line": 511,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AService.SendMessage",
+    "kind": "FunctionDef",
+    "line": 244,
+    "end_line": 268,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AService.SendStreamingMessage",
+    "kind": "FunctionDef",
+    "line": 271,
+    "end_line": 295,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AService.GetTask",
+    "kind": "FunctionDef",
+    "line": 298,
+    "end_line": 322,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AService.CancelTask",
+    "kind": "FunctionDef",
+    "line": 325,
+    "end_line": 349,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AService.TaskSubscription",
+    "kind": "FunctionDef",
+    "line": 352,
+    "end_line": 376,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AService.CreateTaskPushNotificationConfig",
+    "kind": "FunctionDef",
+    "line": 379,
+    "end_line": 403,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AService.GetTaskPushNotificationConfig",
+    "kind": "FunctionDef",
+    "line": 406,
+    "end_line": 430,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AService.ListTaskPushNotificationConfig",
+    "kind": "FunctionDef",
+    "line": 433,
+    "end_line": 457,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AService.GetAgentCard",
+    "kind": "FunctionDef",
+    "line": 460,
+    "end_line": 484,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/a2a_v0_3_pb2_grpc.py",
+    "name": "A2AService.DeleteTaskPushNotificationConfig",
+    "kind": "FunctionDef",
+    "line": 487,
+    "end_line": 511,
+    "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+  },
+  {
+    "source": "v0_3/context_builders.py",
+    "name": "_get_legacy_grpc_extensions",
+    "kind": "FunctionDef",
+    "line": 26,
+    "end_line": 37,
+    "guide": "v0_3_context_builders_knowledge.md"
+  },
+  {
+    "source": "v0_3/context_builders.py",
+    "name": "V03ServerCallContextBuilder",
+    "kind": "ClassDef",
+    "line": 40,
+    "end_line": 56,
+    "guide": "v0_3_context_builders_knowledge.md"
+  },
+  {
+    "source": "v0_3/context_builders.py",
+    "name": "V03ServerCallContextBuilder.__init__",
+    "kind": "FunctionDef",
+    "line": 47,
+    "end_line": 48,
+    "guide": "v0_3_context_builders_knowledge.md"
+  },
+  {
+    "source": "v0_3/context_builders.py",
+    "name": "V03ServerCallContextBuilder.build",
+    "kind": "FunctionDef",
+    "line": 50,
+    "end_line": 56,
+    "guide": "v0_3_context_builders_knowledge.md"
+  },
+  {
+    "source": "v0_3/context_builders.py",
+    "name": "V03GrpcServerCallContextBuilder",
+    "kind": "ClassDef",
+    "line": 59,
+    "end_line": 75,
+    "guide": "v0_3_context_builders_knowledge.md"
+  },
+  {
+    "source": "v0_3/context_builders.py",
+    "name": "V03GrpcServerCallContextBuilder.__init__",
+    "kind": "FunctionDef",
+    "line": 66,
+    "end_line": 67,
+    "guide": "v0_3_context_builders_knowledge.md"
+  },
+  {
+    "source": "v0_3/context_builders.py",
+    "name": "V03GrpcServerCallContextBuilder.build",
+    "kind": "FunctionDef",
+    "line": 69,
+    "end_line": 75,
+    "guide": "v0_3_context_builders_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_part",
+    "kind": "FunctionDef",
+    "line": 30,
+    "end_line": 72,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_part",
+    "kind": "FunctionDef",
+    "line": 75,
+    "end_line": 120,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_message",
+    "kind": "FunctionDef",
+    "line": 123,
+    "end_line": 146,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_message",
+    "kind": "FunctionDef",
+    "line": 149,
+    "end_line": 169,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_task_status",
+    "kind": "FunctionDef",
+    "line": 172,
+    "end_line": 188,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_task_status",
+    "kind": "FunctionDef",
+    "line": 191,
+    "end_line": 210,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_task",
+    "kind": "FunctionDef",
+    "line": 213,
+    "end_line": 229,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_task",
+    "kind": "FunctionDef",
+    "line": 232,
+    "end_line": 249,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_authentication_info",
+    "kind": "FunctionDef",
+    "line": 252,
+    "end_line": 261,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_authentication_info",
+    "kind": "FunctionDef",
+    "line": 264,
+    "end_line": 271,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_push_notification_config",
+    "kind": "FunctionDef",
+    "line": 274,
+    "end_line": 287,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_push_notification_config",
+    "kind": "FunctionDef",
+    "line": 290,
+    "end_line": 301,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_send_message_configuration",
+    "kind": "FunctionDef",
+    "line": 304,
+    "end_line": 324,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_send_message_configuration",
+    "kind": "FunctionDef",
+    "line": 327,
+    "end_line": 344,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_artifact",
+    "kind": "FunctionDef",
+    "line": 347,
+    "end_line": 360,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_artifact",
+    "kind": "FunctionDef",
+    "line": 363,
+    "end_line": 378,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_task_status_update_event",
+    "kind": "FunctionDef",
+    "line": 381,
+    "end_line": 392,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_task_status_update_event",
+    "kind": "FunctionDef",
+    "line": 395,
+    "end_line": 418,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_task_artifact_update_event",
+    "kind": "FunctionDef",
+    "line": 421,
+    "end_line": 436,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_security_requirement",
+    "kind": "FunctionDef",
+    "line": 439,
+    "end_line": 448,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_security_requirement",
+    "kind": "FunctionDef",
+    "line": 451,
+    "end_line": 458,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_oauth_flows",
+    "kind": "FunctionDef",
+    "line": 461,
+    "end_line": 503,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_oauth_flows",
+    "kind": "FunctionDef",
+    "line": 506,
+    "end_line": 553,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_security_scheme",
+    "kind": "FunctionDef",
+    "line": 556,
+    "end_line": 604,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_security_scheme",
+    "kind": "FunctionDef",
+    "line": 607,
+    "end_line": 666,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_agent_interface",
+    "kind": "FunctionDef",
+    "line": 669,
+    "end_line": 677,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_agent_interface",
+    "kind": "FunctionDef",
+    "line": 680,
+    "end_line": 686,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_agent_provider",
+    "kind": "FunctionDef",
+    "line": 689,
+    "end_line": 695,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_agent_provider",
+    "kind": "FunctionDef",
+    "line": 698,
+    "end_line": 704,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_agent_extension",
+    "kind": "FunctionDef",
+    "line": 707,
+    "end_line": 720,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_agent_extension",
+    "kind": "FunctionDef",
+    "line": 723,
+    "end_line": 734,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_agent_capabilities",
+    "kind": "FunctionDef",
+    "line": 737,
+    "end_line": 750,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_agent_capabilities",
+    "kind": "FunctionDef",
+    "line": 753,
+    "end_line": 768,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_agent_skill",
+    "kind": "FunctionDef",
+    "line": 771,
+    "end_line": 792,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_agent_skill",
+    "kind": "FunctionDef",
+    "line": 795,
+    "end_line": 817,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_agent_card_signature",
+    "kind": "FunctionDef",
+    "line": 820,
+    "end_line": 829,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_agent_card_signature",
+    "kind": "FunctionDef",
+    "line": 832,
+    "end_line": 842,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_agent_card",
+    "kind": "FunctionDef",
+    "line": 845,
+    "end_line": 913,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_agent_card",
+    "kind": "FunctionDef",
+    "line": 916,
+    "end_line": 988,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_task_artifact_update_event",
+    "kind": "FunctionDef",
+    "line": 991,
+    "end_line": 1004,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_task_push_notification_config",
+    "kind": "FunctionDef",
+    "line": 1007,
+    "end_line": 1020,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_task_push_notification_config",
+    "kind": "FunctionDef",
+    "line": 1023,
+    "end_line": 1032,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_send_message_request",
+    "kind": "FunctionDef",
+    "line": 1035,
+    "end_line": 1048,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_send_message_request",
+    "kind": "FunctionDef",
+    "line": 1051,
+    "end_line": 1068,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_get_task_request",
+    "kind": "FunctionDef",
+    "line": 1071,
+    "end_line": 1079,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_get_task_request",
+    "kind": "FunctionDef",
+    "line": 1082,
+    "end_line": 1094,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_cancel_task_request",
+    "kind": "FunctionDef",
+    "line": 1097,
+    "end_line": 1104,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_cancel_task_request",
+    "kind": "FunctionDef",
+    "line": 1107,
+    "end_line": 1119,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_get_task_push_notification_config_request",
+    "kind": "FunctionDef",
+    "line": 1122,
+    "end_line": 1135,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_get_task_push_notification_config_request",
+    "kind": "FunctionDef",
+    "line": 1138,
+    "end_line": 1154,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_delete_task_push_notification_config_request",
+    "kind": "FunctionDef",
+    "line": 1157,
+    "end_line": 1164,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_delete_task_push_notification_config_request",
+    "kind": "FunctionDef",
+    "line": 1167,
+    "end_line": 1177,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_create_task_push_notification_config_request",
+    "kind": "FunctionDef",
+    "line": 1180,
+    "end_line": 1193,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_create_task_push_notification_config_request",
+    "kind": "FunctionDef",
+    "line": 1196,
+    "end_line": 1209,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_subscribe_to_task_request",
+    "kind": "FunctionDef",
+    "line": 1212,
+    "end_line": 1216,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_subscribe_to_task_request",
+    "kind": "FunctionDef",
+    "line": 1219,
+    "end_line": 1225,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_list_task_push_notification_config_request",
+    "kind": "FunctionDef",
+    "line": 1228,
+    "end_line": 1235,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_list_task_push_notification_config_request",
+    "kind": "FunctionDef",
+    "line": 1238,
+    "end_line": 1248,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_list_task_push_notification_config_response",
+    "kind": "FunctionDef",
+    "line": 1251,
+    "end_line": 1262,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_list_task_push_notification_config_response",
+    "kind": "FunctionDef",
+    "line": 1265,
+    "end_line": 1278,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_send_message_response",
+    "kind": "FunctionDef",
+    "line": 1281,
+    "end_line": 1292,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_send_message_response",
+    "kind": "FunctionDef",
+    "line": 1295,
+    "end_line": 1311,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_stream_response",
+    "kind": "FunctionDef",
+    "line": 1314,
+    "end_line": 1332,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_stream_response",
+    "kind": "FunctionDef",
+    "line": 1335,
+    "end_line": 1361,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_core_get_extended_agent_card_request",
+    "kind": "FunctionDef",
+    "line": 1364,
+    "end_line": 1368,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/conversions.py",
+    "name": "to_compat_get_extended_agent_card_request",
+    "kind": "FunctionDef",
+    "line": 1371,
+    "end_line": 1375,
+    "guide": "v0_3_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/extension_headers.py",
+    "name": "add_legacy_extension_header",
+    "kind": "FunctionDef",
+    "line": 15,
+    "end_line": 27,
+    "guide": "v0_3_extension_headers_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler",
+    "kind": "ClassDef",
+    "line": 37,
+    "end_line": 362,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.__init__",
+    "kind": "FunctionDef",
+    "line": 40,
+    "end_line": 56,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler._handle_unary",
+    "kind": "AsyncFunctionDef",
+    "line": 58,
+    "end_line": 72,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler._handle_stream",
+    "kind": "AsyncFunctionDef",
+    "line": 74,
+    "end_line": 85,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler._extract_task_id",
+    "kind": "FunctionDef",
+    "line": 87,
+    "end_line": 92,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler._extract_task_and_config_id",
+    "kind": "FunctionDef",
+    "line": 94,
+    "end_line": 103,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.abort_context",
+    "kind": "AsyncFunctionDef",
+    "line": 105,
+    "end_line": 119,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.SendMessage",
+    "kind": "AsyncFunctionDef",
+    "line": 121,
+    "end_line": 147,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.SendMessage._handler",
+    "kind": "AsyncFunctionDef",
+    "line": 128,
+    "end_line": 143,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.SendStreamingMessage",
+    "kind": "AsyncFunctionDef",
+    "line": 149,
+    "end_line": 170,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.SendStreamingMessage._handler",
+    "kind": "AsyncFunctionDef",
+    "line": 156,
+    "end_line": 167,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.GetTask",
+    "kind": "AsyncFunctionDef",
+    "line": 172,
+    "end_line": 188,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.GetTask._handler",
+    "kind": "AsyncFunctionDef",
+    "line": 179,
+    "end_line": 186,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.CancelTask",
+    "kind": "AsyncFunctionDef",
+    "line": 190,
+    "end_line": 206,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.CancelTask._handler",
+    "kind": "AsyncFunctionDef",
+    "line": 197,
+    "end_line": 204,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.TaskSubscription",
+    "kind": "AsyncFunctionDef",
+    "line": 208,
+    "end_line": 229,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.TaskSubscription._handler",
+    "kind": "AsyncFunctionDef",
+    "line": 215,
+    "end_line": 226,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.CreateTaskPushNotificationConfig",
+    "kind": "AsyncFunctionDef",
+    "line": 231,
+    "end_line": 256,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.CreateTaskPushNotificationConfig._handler",
+    "kind": "AsyncFunctionDef",
+    "line": 238,
+    "end_line": 252,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.GetTaskPushNotificationConfig",
+    "kind": "AsyncFunctionDef",
+    "line": 258,
+    "end_line": 282,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.GetTaskPushNotificationConfig._handler",
+    "kind": "AsyncFunctionDef",
+    "line": 265,
+    "end_line": 278,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.ListTaskPushNotificationConfig",
+    "kind": "AsyncFunctionDef",
+    "line": 284,
+    "end_line": 318,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.ListTaskPushNotificationConfig._handler",
+    "kind": "AsyncFunctionDef",
+    "line": 291,
+    "end_line": 312,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.GetAgentCard",
+    "kind": "AsyncFunctionDef",
+    "line": 320,
+    "end_line": 338,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.GetAgentCard._handler",
+    "kind": "AsyncFunctionDef",
+    "line": 327,
+    "end_line": 334,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.DeleteTaskPushNotificationConfig",
+    "kind": "AsyncFunctionDef",
+    "line": 340,
+    "end_line": 362,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_handler.py",
+    "name": "CompatGrpcHandler.DeleteTaskPushNotificationConfig._handler",
+    "kind": "AsyncFunctionDef",
+    "line": 347,
+    "end_line": 360,
+    "guide": "v0_3_grpc_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "_map_grpc_error",
+    "kind": "FunctionDef",
+    "line": 46,
+    "end_line": 56,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "_handle_grpc_exception",
+    "kind": "FunctionDef",
+    "line": 59,
+    "end_line": 67,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "_handle_grpc_exception.wrapper",
+    "kind": "AsyncFunctionDef",
+    "line": 61,
+    "end_line": 65,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "_handle_grpc_stream_exception",
+    "kind": "FunctionDef",
+    "line": 70,
+    "end_line": 81,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "_handle_grpc_stream_exception.wrapper",
+    "kind": "AsyncFunctionDef",
+    "line": 74,
+    "end_line": 79,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "CompatGrpcTransport",
+    "kind": "ClassDef",
+    "line": 85,
+    "end_line": 372,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "CompatGrpcTransport.__init__",
+    "kind": "FunctionDef",
+    "line": 88,
+    "end_line": 92,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "CompatGrpcTransport.create",
+    "kind": "FunctionDef",
+    "line": 95,
+    "end_line": 104,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "CompatGrpcTransport.send_message",
+    "kind": "AsyncFunctionDef",
+    "line": 107,
+    "end_line": 143,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "CompatGrpcTransport.send_message_streaming",
+    "kind": "AsyncFunctionDef",
+    "line": 146,
+    "end_line": 176,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "CompatGrpcTransport.subscribe",
+    "kind": "AsyncFunctionDef",
+    "line": 179,
+    "end_line": 202,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "CompatGrpcTransport.get_task",
+    "kind": "AsyncFunctionDef",
+    "line": 205,
+    "end_line": 220,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "CompatGrpcTransport.list_tasks",
+    "kind": "AsyncFunctionDef",
+    "line": 223,
+    "end_line": 233,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "CompatGrpcTransport.cancel_task",
+    "kind": "AsyncFunctionDef",
+    "line": 236,
+    "end_line": 248,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "CompatGrpcTransport.create_task_push_notification_config",
+    "kind": "AsyncFunctionDef",
+    "line": 251,
+    "end_line": 276,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "CompatGrpcTransport.get_task_push_notification_config",
+    "kind": "AsyncFunctionDef",
+    "line": 279,
+    "end_line": 295,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "CompatGrpcTransport.list_task_push_notification_configs",
+    "kind": "AsyncFunctionDef",
+    "line": 298,
+    "end_line": 316,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "CompatGrpcTransport.delete_task_push_notification_config",
+    "kind": "AsyncFunctionDef",
+    "line": 319,
+    "end_line": 332,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "CompatGrpcTransport.get_extended_agent_card",
+    "kind": "AsyncFunctionDef",
+    "line": 335,
+    "end_line": 352,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "CompatGrpcTransport.close",
+    "kind": "AsyncFunctionDef",
+    "line": 354,
+    "end_line": 356,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/grpc_transport.py",
+    "name": "CompatGrpcTransport._get_grpc_metadata",
+    "kind": "FunctionDef",
+    "line": 358,
+    "end_line": 372,
+    "guide": "v0_3_grpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_adapter.py",
+    "name": "JSONRPC03Adapter",
+    "kind": "ClassDef",
+    "line": 50,
+    "end_line": 280,
+    "guide": "v0_3_jsonrpc_adapter_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_adapter.py",
+    "name": "JSONRPC03Adapter.__init__",
+    "kind": "FunctionDef",
+    "line": 66,
+    "end_line": 76,
+    "guide": "v0_3_jsonrpc_adapter_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_adapter.py",
+    "name": "JSONRPC03Adapter.supports_method",
+    "kind": "FunctionDef",
+    "line": 78,
+    "end_line": 80,
+    "guide": "v0_3_jsonrpc_adapter_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_adapter.py",
+    "name": "JSONRPC03Adapter._generate_error_response",
+    "kind": "FunctionDef",
+    "line": 82,
+    "end_line": 100,
+    "guide": "v0_3_jsonrpc_adapter_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_adapter.py",
+    "name": "JSONRPC03Adapter.handle_request",
+    "kind": "AsyncFunctionDef",
+    "line": 102,
+    "end_line": 145,
+    "guide": "v0_3_jsonrpc_adapter_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_adapter.py",
+    "name": "JSONRPC03Adapter._process_non_streaming_request",
+    "kind": "AsyncFunctionDef",
+    "line": 148,
+    "end_line": 235,
+    "guide": "v0_3_jsonrpc_adapter_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_adapter.py",
+    "name": "JSONRPC03Adapter._process_streaming_request",
+    "kind": "AsyncFunctionDef",
+    "line": 238,
+    "end_line": 280,
+    "guide": "v0_3_jsonrpc_adapter_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_adapter.py",
+    "name": "JSONRPC03Adapter._process_streaming_request.event_generator",
+    "kind": "AsyncFunctionDef",
+    "line": 254,
+    "end_line": 278,
+    "guide": "v0_3_jsonrpc_adapter_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_transport.py",
+    "name": "CompatJsonRpcTransport",
+    "kind": "ClassDef",
+    "line": 54,
+    "end_line": 498,
+    "guide": "v0_3_jsonrpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_transport.py",
+    "name": "CompatJsonRpcTransport.__init__",
+    "kind": "FunctionDef",
+    "line": 57,
+    "end_line": 66,
+    "guide": "v0_3_jsonrpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_transport.py",
+    "name": "CompatJsonRpcTransport.send_message",
+    "kind": "AsyncFunctionDef",
+    "line": 68,
+    "end_line": 119,
+    "guide": "v0_3_jsonrpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_transport.py",
+    "name": "CompatJsonRpcTransport.send_message_streaming",
+    "kind": "AsyncFunctionDef",
+    "line": 121,
+    "end_line": 143,
+    "guide": "v0_3_jsonrpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_transport.py",
+    "name": "CompatJsonRpcTransport.get_task",
+    "kind": "AsyncFunctionDef",
+    "line": 145,
+    "end_line": 169,
+    "guide": "v0_3_jsonrpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_transport.py",
+    "name": "CompatJsonRpcTransport.list_tasks",
+    "kind": "AsyncFunctionDef",
+    "line": 171,
+    "end_line": 180,
+    "guide": "v0_3_jsonrpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_transport.py",
+    "name": "CompatJsonRpcTransport.cancel_task",
+    "kind": "AsyncFunctionDef",
+    "line": 182,
+    "end_line": 209,
+    "guide": "v0_3_jsonrpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_transport.py",
+    "name": "CompatJsonRpcTransport.create_task_push_notification_config",
+    "kind": "AsyncFunctionDef",
+    "line": 211,
+    "end_line": 241,
+    "guide": "v0_3_jsonrpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_transport.py",
+    "name": "CompatJsonRpcTransport.get_task_push_notification_config",
+    "kind": "AsyncFunctionDef",
+    "line": 243,
+    "end_line": 273,
+    "guide": "v0_3_jsonrpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_transport.py",
+    "name": "CompatJsonRpcTransport.list_task_push_notification_configs",
+    "kind": "AsyncFunctionDef",
+    "line": 275,
+    "end_line": 314,
+    "guide": "v0_3_jsonrpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_transport.py",
+    "name": "CompatJsonRpcTransport.delete_task_push_notification_config",
+    "kind": "AsyncFunctionDef",
+    "line": 316,
+    "end_line": 343,
+    "guide": "v0_3_jsonrpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_transport.py",
+    "name": "CompatJsonRpcTransport.subscribe",
+    "kind": "AsyncFunctionDef",
+    "line": 345,
+    "end_line": 366,
+    "guide": "v0_3_jsonrpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_transport.py",
+    "name": "CompatJsonRpcTransport.get_extended_agent_card",
+    "kind": "AsyncFunctionDef",
+    "line": 368,
+    "end_line": 395,
+    "guide": "v0_3_jsonrpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_transport.py",
+    "name": "CompatJsonRpcTransport.close",
+    "kind": "AsyncFunctionDef",
+    "line": 397,
+    "end_line": 399,
+    "guide": "v0_3_jsonrpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_transport.py",
+    "name": "CompatJsonRpcTransport._create_jsonrpc_error",
+    "kind": "FunctionDef",
+    "line": 401,
+    "end_line": 411,
+    "guide": "v0_3_jsonrpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_transport.py",
+    "name": "CompatJsonRpcTransport._handle_http_error",
+    "kind": "FunctionDef",
+    "line": 413,
+    "end_line": 415,
+    "guide": "v0_3_jsonrpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_transport.py",
+    "name": "CompatJsonRpcTransport._send_stream_request",
+    "kind": "AsyncFunctionDef",
+    "line": 417,
+    "end_line": 477,
+    "guide": "v0_3_jsonrpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/jsonrpc_transport.py",
+    "name": "CompatJsonRpcTransport._send_request",
+    "kind": "AsyncFunctionDef",
+    "line": 479,
+    "end_line": 498,
+    "guide": "v0_3_jsonrpc_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/model_conversions.py",
+    "name": "core_to_compat_task_model",
+    "kind": "FunctionDef",
+    "line": 21,
+    "end_line": 35,
+    "guide": "v0_3_model_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/model_conversions.py",
+    "name": "compat_task_model_to_core",
+    "kind": "FunctionDef",
+    "line": 38,
+    "end_line": 56,
+    "guide": "v0_3_model_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/model_conversions.py",
+    "name": "core_to_compat_push_notification_config_model",
+    "kind": "FunctionDef",
+    "line": 59,
+    "end_line": 77,
+    "guide": "v0_3_model_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/model_conversions.py",
+    "name": "compat_push_notification_config_model_to_core",
+    "kind": "FunctionDef",
+    "line": 80,
+    "end_line": 92,
+    "guide": "v0_3_model_conversions_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "dict_to_struct",
+    "kind": "FunctionDef",
+    "line": 30,
+    "end_line": 49,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "make_dict_serializable",
+    "kind": "FunctionDef",
+    "line": 52,
+    "end_line": 69,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "normalize_large_integers_to_strings",
+    "kind": "FunctionDef",
+    "line": 72,
+    "end_line": 98,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "normalize_large_integers_to_strings._normalize",
+    "kind": "FunctionDef",
+    "line": 89,
+    "end_line": 96,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "parse_string_integers_in_dict",
+    "kind": "FunctionDef",
+    "line": 101,
+    "end_line": 129,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto",
+    "kind": "ClassDef",
+    "line": 132,
+    "end_line": 590,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.message",
+    "kind": "FunctionDef",
+    "line": 136,
+    "end_line": 147,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.metadata",
+    "kind": "FunctionDef",
+    "line": 150,
+    "end_line": 155,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.part",
+    "kind": "FunctionDef",
+    "line": 158,
+    "end_line": 173,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.data",
+    "kind": "FunctionDef",
+    "line": 176,
+    "end_line": 177,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.file",
+    "kind": "FunctionDef",
+    "line": 180,
+    "end_line": 191,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.task",
+    "kind": "FunctionDef",
+    "line": 194,
+    "end_line": 210,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.task_status",
+    "kind": "FunctionDef",
+    "line": 213,
+    "end_line": 217,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.task_state",
+    "kind": "FunctionDef",
+    "line": 220,
+    "end_line": 239,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.artifact",
+    "kind": "FunctionDef",
+    "line": 242,
+    "end_line": 250,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.authentication_info",
+    "kind": "FunctionDef",
+    "line": 253,
+    "end_line": 259,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.push_notification_config",
+    "kind": "FunctionDef",
+    "line": 262,
+    "end_line": 275,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.task_artifact_update_event",
+    "kind": "FunctionDef",
+    "line": 278,
+    "end_line": 288,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.task_status_update_event",
+    "kind": "FunctionDef",
+    "line": 291,
+    "end_line": 300,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.message_send_configuration",
+    "kind": "FunctionDef",
+    "line": 303,
+    "end_line": 317,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.update_event",
+    "kind": "FunctionDef",
+    "line": 320,
+    "end_line": 328,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.task_or_message",
+    "kind": "FunctionDef",
+    "line": 331,
+    "end_line": 340,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.stream_response",
+    "kind": "FunctionDef",
+    "line": 343,
+    "end_line": 364,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.task_push_notification_config",
+    "kind": "FunctionDef",
+    "line": 367,
+    "end_line": 375,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.agent_card",
+    "kind": "FunctionDef",
+    "line": 378,
+    "end_line": 408,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.agent_card_signature",
+    "kind": "FunctionDef",
+    "line": 411,
+    "end_line": 420,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.agent_interface",
+    "kind": "FunctionDef",
+    "line": 423,
+    "end_line": 430,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.capabilities",
+    "kind": "FunctionDef",
+    "line": 433,
+    "end_line": 442,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.extension",
+    "kind": "FunctionDef",
+    "line": 445,
+    "end_line": 456,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.provider",
+    "kind": "FunctionDef",
+    "line": 459,
+    "end_line": 467,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.security",
+    "kind": "FunctionDef",
+    "line": 470,
+    "end_line": 481,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.security_schemes",
+    "kind": "FunctionDef",
+    "line": 484,
+    "end_line": 490,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.security_scheme",
+    "kind": "FunctionDef",
+    "line": 493,
+    "end_line": 531,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.oauth2_flows",
+    "kind": "FunctionDef",
+    "line": 534,
+    "end_line": 568,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.skill",
+    "kind": "FunctionDef",
+    "line": 571,
+    "end_line": 580,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "ToProto.role",
+    "kind": "FunctionDef",
+    "line": 583,
+    "end_line": 590,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto",
+    "kind": "ClassDef",
+    "line": 593,
+    "end_line": 1099,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.message",
+    "kind": "FunctionDef",
+    "line": 597,
+    "end_line": 606,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.metadata",
+    "kind": "FunctionDef",
+    "line": 609,
+    "end_line": 612,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.part",
+    "kind": "FunctionDef",
+    "line": 615,
+    "end_line": 643,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.data",
+    "kind": "FunctionDef",
+    "line": 646,
+    "end_line": 648,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.file",
+    "kind": "FunctionDef",
+    "line": 651,
+    "end_line": 666,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.task_or_message",
+    "kind": "FunctionDef",
+    "line": 669,
+    "end_line": 674,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.task",
+    "kind": "FunctionDef",
+    "line": 677,
+    "end_line": 685,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.task_status",
+    "kind": "FunctionDef",
+    "line": 688,
+    "end_line": 692,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.task_state",
+    "kind": "FunctionDef",
+    "line": 695,
+    "end_line": 714,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.artifact",
+    "kind": "FunctionDef",
+    "line": 717,
+    "end_line": 725,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.task_artifact_update_event",
+    "kind": "FunctionDef",
+    "line": 728,
+    "end_line": 738,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.task_status_update_event",
+    "kind": "FunctionDef",
+    "line": 741,
+    "end_line": 750,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.push_notification_config",
+    "kind": "FunctionDef",
+    "line": 753,
+    "end_line": 763,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.authentication_info",
+    "kind": "FunctionDef",
+    "line": 766,
+    "end_line": 772,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.message_send_configuration",
+    "kind": "FunctionDef",
+    "line": 775,
+    "end_line": 787,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.message_send_params",
+    "kind": "FunctionDef",
+    "line": 790,
+    "end_line": 797,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.task_id_params",
+    "kind": "FunctionDef",
+    "line": 800,
+    "end_line": 816,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.task_push_notification_config_request",
+    "kind": "FunctionDef",
+    "line": 819,
+    "end_line": 831,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.task_push_notification_config",
+    "kind": "FunctionDef",
+    "line": 834,
+    "end_line": 848,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.agent_card",
+    "kind": "FunctionDef",
+    "line": 851,
+    "end_line": 879,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.agent_card_signature",
+    "kind": "FunctionDef",
+    "line": 882,
+    "end_line": 889,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.agent_interface",
+    "kind": "FunctionDef",
+    "line": 892,
+    "end_line": 899,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.task_query_params",
+    "kind": "FunctionDef",
+    "line": 902,
+    "end_line": 915,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.capabilities",
+    "kind": "FunctionDef",
+    "line": 918,
+    "end_line": 927,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.agent_extension",
+    "kind": "FunctionDef",
+    "line": 930,
+    "end_line": 939,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.security",
+    "kind": "FunctionDef",
+    "line": 942,
+    "end_line": 950,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.provider",
+    "kind": "FunctionDef",
+    "line": 953,
+    "end_line": 961,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.security_schemes",
+    "kind": "FunctionDef",
+    "line": 964,
+    "end_line": 967,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.security_scheme",
+    "kind": "FunctionDef",
+    "line": 970,
+    "end_line": 1008,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.oauth2_flows",
+    "kind": "FunctionDef",
+    "line": 1011,
+    "end_line": 1043,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.stream_response",
+    "kind": "FunctionDef",
+    "line": 1046,
+    "end_line": 1063,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.list_task_push_notification_config_response",
+    "kind": "FunctionDef",
+    "line": 1066,
+    "end_line": 1077,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.skill",
+    "kind": "FunctionDef",
+    "line": 1080,
+    "end_line": 1089,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/proto_utils.py",
+    "name": "FromProto.role",
+    "kind": "FunctionDef",
+    "line": 1092,
+    "end_line": 1099,
+    "guide": "v0_3_proto_utils_knowledge.md"
+  },
+  {
+    "source": "v0_3/request_handler.py",
+    "name": "RequestHandler03",
+    "kind": "ClassDef",
+    "line": 17,
+    "end_line": 178,
+    "guide": "v0_3_request_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/request_handler.py",
+    "name": "RequestHandler03.__init__",
+    "kind": "FunctionDef",
+    "line": 20,
+    "end_line": 21,
+    "guide": "v0_3_request_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/request_handler.py",
+    "name": "RequestHandler03.on_message_send",
+    "kind": "AsyncFunctionDef",
+    "line": 23,
+    "end_line": 35,
+    "guide": "v0_3_request_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/request_handler.py",
+    "name": "RequestHandler03.on_message_send_stream",
+    "kind": "AsyncFunctionDef",
+    "line": 37,
+    "end_line": 50,
+    "guide": "v0_3_request_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/request_handler.py",
+    "name": "RequestHandler03.on_cancel_task",
+    "kind": "AsyncFunctionDef",
+    "line": 52,
+    "end_line": 62,
+    "guide": "v0_3_request_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/request_handler.py",
+    "name": "RequestHandler03.on_subscribe_to_task",
+    "kind": "AsyncFunctionDef",
+    "line": 64,
+    "end_line": 77,
+    "guide": "v0_3_request_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/request_handler.py",
+    "name": "RequestHandler03.on_get_task_push_notification_config",
+    "kind": "AsyncFunctionDef",
+    "line": 79,
+    "end_line": 93,
+    "guide": "v0_3_request_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/request_handler.py",
+    "name": "RequestHandler03.on_create_task_push_notification_config",
+    "kind": "AsyncFunctionDef",
+    "line": 95,
+    "end_line": 111,
+    "guide": "v0_3_request_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/request_handler.py",
+    "name": "RequestHandler03.on_get_task",
+    "kind": "AsyncFunctionDef",
+    "line": 113,
+    "end_line": 123,
+    "guide": "v0_3_request_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/request_handler.py",
+    "name": "RequestHandler03.on_list_task_push_notification_configs",
+    "kind": "AsyncFunctionDef",
+    "line": 125,
+    "end_line": 151,
+    "guide": "v0_3_request_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/request_handler.py",
+    "name": "RequestHandler03.on_delete_task_push_notification_config",
+    "kind": "AsyncFunctionDef",
+    "line": 153,
+    "end_line": 166,
+    "guide": "v0_3_request_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/request_handler.py",
+    "name": "RequestHandler03.on_get_extended_agent_card",
+    "kind": "AsyncFunctionDef",
+    "line": 168,
+    "end_line": 178,
+    "guide": "v0_3_request_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_adapter.py",
+    "name": "REST03Adapter",
+    "kind": "ClassDef",
+    "line": 52,
+    "end_line": 154,
+    "guide": "v0_3_rest_adapter_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_adapter.py",
+    "name": "REST03Adapter.__init__",
+    "kind": "FunctionDef",
+    "line": 58,
+    "end_line": 66,
+    "guide": "v0_3_rest_adapter_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_adapter.py",
+    "name": "REST03Adapter._handle_request",
+    "kind": "AsyncFunctionDef",
+    "line": 69,
+    "end_line": 76,
+    "guide": "v0_3_rest_adapter_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_adapter.py",
+    "name": "REST03Adapter._handle_streaming_request",
+    "kind": "AsyncFunctionDef",
+    "line": 79,
+    "end_line": 101,
+    "guide": "v0_3_rest_adapter_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_adapter.py",
+    "name": "REST03Adapter._handle_streaming_request.event_generator",
+    "kind": "AsyncFunctionDef",
+    "line": 93,
+    "end_line": 97,
+    "guide": "v0_3_rest_adapter_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_adapter.py",
+    "name": "REST03Adapter.routes",
+    "kind": "FunctionDef",
+    "line": 103,
+    "end_line": 154,
+    "guide": "v0_3_rest_adapter_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_handler.py",
+    "name": "REST03Handler",
+    "kind": "ClassDef",
+    "line": 39,
+    "end_line": 304,
+    "guide": "v0_3_rest_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_handler.py",
+    "name": "REST03Handler.__init__",
+    "kind": "FunctionDef",
+    "line": 42,
+    "end_line": 51,
+    "guide": "v0_3_rest_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_handler.py",
+    "name": "REST03Handler.on_message_send",
+    "kind": "AsyncFunctionDef",
+    "line": 54,
+    "end_line": 77,
+    "guide": "v0_3_rest_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_handler.py",
+    "name": "REST03Handler.on_message_send_stream",
+    "kind": "AsyncFunctionDef",
+    "line": 80,
+    "end_line": 106,
+    "guide": "v0_3_rest_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_handler.py",
+    "name": "REST03Handler.on_cancel_task",
+    "kind": "AsyncFunctionDef",
+    "line": 109,
+    "end_line": 131,
+    "guide": "v0_3_rest_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_handler.py",
+    "name": "REST03Handler.on_subscribe_to_task",
+    "kind": "AsyncFunctionDef",
+    "line": 134,
+    "end_line": 160,
+    "guide": "v0_3_rest_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_handler.py",
+    "name": "REST03Handler.get_push_notification",
+    "kind": "AsyncFunctionDef",
+    "line": 163,
+    "end_line": 193,
+    "guide": "v0_3_rest_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_handler.py",
+    "name": "REST03Handler.set_push_notification",
+    "kind": "AsyncFunctionDef",
+    "line": 196,
+    "end_line": 234,
+    "guide": "v0_3_rest_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_handler.py",
+    "name": "REST03Handler.on_get_task",
+    "kind": "AsyncFunctionDef",
+    "line": 237,
+    "end_line": 264,
+    "guide": "v0_3_rest_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_handler.py",
+    "name": "REST03Handler.list_push_notifications",
+    "kind": "AsyncFunctionDef",
+    "line": 267,
+    "end_line": 291,
+    "guide": "v0_3_rest_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_handler.py",
+    "name": "REST03Handler.on_get_extended_agent_card",
+    "kind": "AsyncFunctionDef",
+    "line": 294,
+    "end_line": 304,
+    "guide": "v0_3_rest_handler_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_transport.py",
+    "name": "CompatRestTransport",
+    "kind": "ClassDef",
+    "line": 60,
+    "end_line": 428,
+    "guide": "v0_3_rest_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_transport.py",
+    "name": "CompatRestTransport.__init__",
+    "kind": "FunctionDef",
+    "line": 63,
+    "end_line": 75,
+    "guide": "v0_3_rest_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_transport.py",
+    "name": "CompatRestTransport.send_message",
+    "kind": "AsyncFunctionDef",
+    "line": 77,
+    "end_line": 120,
+    "guide": "v0_3_rest_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_transport.py",
+    "name": "CompatRestTransport.send_message_streaming",
+    "kind": "AsyncFunctionDef",
+    "line": 122,
+    "end_line": 146,
+    "guide": "v0_3_rest_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_transport.py",
+    "name": "CompatRestTransport.get_task",
+    "kind": "AsyncFunctionDef",
+    "line": 148,
+    "end_line": 168,
+    "guide": "v0_3_rest_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_transport.py",
+    "name": "CompatRestTransport.list_tasks",
+    "kind": "AsyncFunctionDef",
+    "line": 170,
+    "end_line": 179,
+    "guide": "v0_3_rest_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_transport.py",
+    "name": "CompatRestTransport.cancel_task",
+    "kind": "AsyncFunctionDef",
+    "line": 181,
+    "end_line": 196,
+    "guide": "v0_3_rest_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_transport.py",
+    "name": "CompatRestTransport.create_task_push_notification_config",
+    "kind": "AsyncFunctionDef",
+    "line": 198,
+    "end_line": 230,
+    "guide": "v0_3_rest_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_transport.py",
+    "name": "CompatRestTransport.get_task_push_notification_config",
+    "kind": "AsyncFunctionDef",
+    "line": 232,
+    "end_line": 251,
+    "guide": "v0_3_rest_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_transport.py",
+    "name": "CompatRestTransport.list_task_push_notification_configs",
+    "kind": "AsyncFunctionDef",
+    "line": 253,
+    "end_line": 262,
+    "guide": "v0_3_rest_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_transport.py",
+    "name": "CompatRestTransport.delete_task_push_notification_config",
+    "kind": "AsyncFunctionDef",
+    "line": 264,
+    "end_line": 273,
+    "guide": "v0_3_rest_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_transport.py",
+    "name": "CompatRestTransport.subscribe",
+    "kind": "AsyncFunctionDef",
+    "line": 275,
+    "end_line": 315,
+    "guide": "v0_3_rest_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_transport.py",
+    "name": "CompatRestTransport.get_extended_agent_card",
+    "kind": "AsyncFunctionDef",
+    "line": 317,
+    "end_line": 338,
+    "guide": "v0_3_rest_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_transport.py",
+    "name": "CompatRestTransport.close",
+    "kind": "AsyncFunctionDef",
+    "line": 340,
+    "end_line": 342,
+    "guide": "v0_3_rest_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_transport.py",
+    "name": "CompatRestTransport._handle_http_error",
+    "kind": "FunctionDef",
+    "line": 344,
+    "end_line": 371,
+    "guide": "v0_3_rest_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_transport.py",
+    "name": "CompatRestTransport._send_stream_request",
+    "kind": "AsyncFunctionDef",
+    "line": 373,
+    "end_line": 400,
+    "guide": "v0_3_rest_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_transport.py",
+    "name": "CompatRestTransport._send_request",
+    "kind": "AsyncFunctionDef",
+    "line": 402,
+    "end_line": 405,
+    "guide": "v0_3_rest_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/rest_transport.py",
+    "name": "CompatRestTransport._execute_request",
+    "kind": "AsyncFunctionDef",
+    "line": 407,
+    "end_line": 428,
+    "guide": "v0_3_rest_transport_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "A2A",
+    "kind": "ClassDef",
+    "line": 14,
+    "end_line": 15,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "In",
+    "kind": "ClassDef",
+    "line": 18,
+    "end_line": 25,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "APIKeySecurityScheme",
+    "kind": "ClassDef",
+    "line": 28,
+    "end_line": 48,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "AgentCardSignature",
+    "kind": "ClassDef",
+    "line": 51,
+    "end_line": 69,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "AgentExtension",
+    "kind": "ClassDef",
+    "line": 72,
+    "end_line": 93,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "AgentInterface",
+    "kind": "ClassDef",
+    "line": 96,
+    "end_line": 116,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "AgentProvider",
+    "kind": "ClassDef",
+    "line": 119,
+    "end_line": 131,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "AgentSkill",
+    "kind": "ClassDef",
+    "line": 134,
+    "end_line": 181,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "AuthenticatedExtendedCardNotConfiguredError",
+    "kind": "ClassDef",
+    "line": 184,
+    "end_line": 201,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "AuthorizationCodeOAuthFlow",
+    "kind": "ClassDef",
+    "line": 204,
+    "end_line": 228,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "ClientCredentialsOAuthFlow",
+    "kind": "ClassDef",
+    "line": 231,
+    "end_line": 248,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "ContentTypeNotSupportedError",
+    "kind": "ClassDef",
+    "line": 251,
+    "end_line": 269,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "DataPart",
+    "kind": "ClassDef",
+    "line": 272,
+    "end_line": 288,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "DeleteTaskPushNotificationConfigParams",
+    "kind": "ClassDef",
+    "line": 291,
+    "end_line": 307,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "DeleteTaskPushNotificationConfigRequest",
+    "kind": "ClassDef",
+    "line": 310,
+    "end_line": 332,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "DeleteTaskPushNotificationConfigSuccessResponse",
+    "kind": "ClassDef",
+    "line": 335,
+    "end_line": 351,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "FileBase",
+    "kind": "ClassDef",
+    "line": 354,
+    "end_line": 366,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "FileWithBytes",
+    "kind": "ClassDef",
+    "line": 369,
+    "end_line": 385,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "FileWithUri",
+    "kind": "ClassDef",
+    "line": 388,
+    "end_line": 404,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "GetAuthenticatedExtendedCardRequest",
+    "kind": "ClassDef",
+    "line": 407,
+    "end_line": 425,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "GetTaskPushNotificationConfigParams",
+    "kind": "ClassDef",
+    "line": 428,
+    "end_line": 444,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "HTTPAuthSecurityScheme",
+    "kind": "ClassDef",
+    "line": 447,
+    "end_line": 470,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "ImplicitOAuthFlow",
+    "kind": "ClassDef",
+    "line": 473,
+    "end_line": 490,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "InternalError",
+    "kind": "ClassDef",
+    "line": 493,
+    "end_line": 510,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "InvalidAgentResponseError",
+    "kind": "ClassDef",
+    "line": 513,
+    "end_line": 531,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "InvalidParamsError",
+    "kind": "ClassDef",
+    "line": 534,
+    "end_line": 551,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "InvalidRequestError",
+    "kind": "ClassDef",
+    "line": 554,
+    "end_line": 571,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "JSONParseError",
+    "kind": "ClassDef",
+    "line": 574,
+    "end_line": 591,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "JSONRPCError",
+    "kind": "ClassDef",
+    "line": 594,
+    "end_line": 611,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "JSONRPCMessage",
+    "kind": "ClassDef",
+    "line": 614,
+    "end_line": 627,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "JSONRPCRequest",
+    "kind": "ClassDef",
+    "line": 630,
+    "end_line": 651,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "JSONRPCSuccessResponse",
+    "kind": "ClassDef",
+    "line": 654,
+    "end_line": 670,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "ListTaskPushNotificationConfigParams",
+    "kind": "ClassDef",
+    "line": 673,
+    "end_line": 685,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "ListTaskPushNotificationConfigRequest",
+    "kind": "ClassDef",
+    "line": 688,
+    "end_line": 710,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "Role",
+    "kind": "ClassDef",
+    "line": 713,
+    "end_line": 719,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "MethodNotFoundError",
+    "kind": "ClassDef",
+    "line": 722,
+    "end_line": 739,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "MutualTLSSecurityScheme",
+    "kind": "ClassDef",
+    "line": 742,
+    "end_line": 754,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "OpenIdConnectSecurityScheme",
+    "kind": "ClassDef",
+    "line": 757,
+    "end_line": 773,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "PartBase",
+    "kind": "ClassDef",
+    "line": 776,
+    "end_line": 784,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "PasswordOAuthFlow",
+    "kind": "ClassDef",
+    "line": 787,
+    "end_line": 804,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "PushNotificationAuthenticationInfo",
+    "kind": "ClassDef",
+    "line": 807,
+    "end_line": 819,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "PushNotificationConfig",
+    "kind": "ClassDef",
+    "line": 822,
+    "end_line": 843,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "PushNotificationNotSupportedError",
+    "kind": "ClassDef",
+    "line": 846,
+    "end_line": 863,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "SecuritySchemeBase",
+    "kind": "ClassDef",
+    "line": 866,
+    "end_line": 874,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "TaskIdParams",
+    "kind": "ClassDef",
+    "line": 877,
+    "end_line": 889,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "TaskNotCancelableError",
+    "kind": "ClassDef",
+    "line": 892,
+    "end_line": 909,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "TaskNotFoundError",
+    "kind": "ClassDef",
+    "line": 912,
+    "end_line": 929,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "TaskPushNotificationConfig",
+    "kind": "ClassDef",
+    "line": 932,
+    "end_line": 944,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "TaskQueryParams",
+    "kind": "ClassDef",
+    "line": 947,
+    "end_line": 963,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "TaskResubscriptionRequest",
+    "kind": "ClassDef",
+    "line": 966,
+    "end_line": 986,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "TaskState",
+    "kind": "ClassDef",
+    "line": 989,
+    "end_line": 1002,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "TextPart",
+    "kind": "ClassDef",
+    "line": 1005,
+    "end_line": 1021,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "TransportProtocol",
+    "kind": "ClassDef",
+    "line": 1024,
+    "end_line": 1031,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "UnsupportedOperationError",
+    "kind": "ClassDef",
+    "line": 1034,
+    "end_line": 1051,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "A2AError",
+    "kind": "ClassDef",
+    "line": 1054,
+    "end_line": 1086,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "AgentCapabilities",
+    "kind": "ClassDef",
+    "line": 1089,
+    "end_line": 1109,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "CancelTaskRequest",
+    "kind": "ClassDef",
+    "line": 1112,
+    "end_line": 1132,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "FilePart",
+    "kind": "ClassDef",
+    "line": 1135,
+    "end_line": 1152,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "GetTaskPushNotificationConfigRequest",
+    "kind": "ClassDef",
+    "line": 1155,
+    "end_line": 1177,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "GetTaskPushNotificationConfigSuccessResponse",
+    "kind": "ClassDef",
+    "line": 1180,
+    "end_line": 1196,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "GetTaskRequest",
+    "kind": "ClassDef",
+    "line": 1199,
+    "end_line": 1219,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "JSONRPCErrorResponse",
+    "kind": "ClassDef",
+    "line": 1222,
+    "end_line": 1252,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "ListTaskPushNotificationConfigSuccessResponse",
+    "kind": "ClassDef",
+    "line": 1255,
+    "end_line": 1271,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "MessageSendConfiguration",
+    "kind": "ClassDef",
+    "line": 1274,
+    "end_line": 1294,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "OAuthFlows",
+    "kind": "ClassDef",
+    "line": 1297,
+    "end_line": 1317,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "Part",
+    "kind": "ClassDef",
+    "line": 1320,
+    "end_line": 1325,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "SetTaskPushNotificationConfigRequest",
+    "kind": "ClassDef",
+    "line": 1328,
+    "end_line": 1350,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "SetTaskPushNotificationConfigSuccessResponse",
+    "kind": "ClassDef",
+    "line": 1353,
+    "end_line": 1369,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "Artifact",
+    "kind": "ClassDef",
+    "line": 1372,
+    "end_line": 1400,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "DeleteTaskPushNotificationConfigResponse",
+    "kind": "ClassDef",
+    "line": 1403,
+    "end_line": 1411,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "GetTaskPushNotificationConfigResponse",
+    "kind": "ClassDef",
+    "line": 1414,
+    "end_line": 1422,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "ListTaskPushNotificationConfigResponse",
+    "kind": "ClassDef",
+    "line": 1425,
+    "end_line": 1433,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "Message",
+    "kind": "ClassDef",
+    "line": 1436,
+    "end_line": 1477,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "MessageSendParams",
+    "kind": "ClassDef",
+    "line": 1480,
+    "end_line": 1497,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "OAuth2SecurityScheme",
+    "kind": "ClassDef",
+    "line": 1500,
+    "end_line": 1521,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "SecurityScheme",
+    "kind": "ClassDef",
+    "line": 1524,
+    "end_line": 1543,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "SendMessageRequest",
+    "kind": "ClassDef",
+    "line": 1546,
+    "end_line": 1566,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "SendStreamingMessageRequest",
+    "kind": "ClassDef",
+    "line": 1569,
+    "end_line": 1589,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "SetTaskPushNotificationConfigResponse",
+    "kind": "ClassDef",
+    "line": 1592,
+    "end_line": 1600,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "TaskArtifactUpdateEvent",
+    "kind": "ClassDef",
+    "line": 1603,
+    "end_line": 1636,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "TaskStatus",
+    "kind": "ClassDef",
+    "line": 1639,
+    "end_line": 1657,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "TaskStatusUpdateEvent",
+    "kind": "ClassDef",
+    "line": 1660,
+    "end_line": 1689,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "A2ARequest",
+    "kind": "ClassDef",
+    "line": 1692,
+    "end_line": 1720,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "AgentCard",
+    "kind": "ClassDef",
+    "line": 1723,
+    "end_line": 1833,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "GetAuthenticatedExtendedCardSuccessResponse",
+    "kind": "ClassDef",
+    "line": 1836,
+    "end_line": 1852,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "Task",
+    "kind": "ClassDef",
+    "line": 1855,
+    "end_line": 1887,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "CancelTaskSuccessResponse",
+    "kind": "ClassDef",
+    "line": 1890,
+    "end_line": 1906,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "GetAuthenticatedExtendedCardResponse",
+    "kind": "ClassDef",
+    "line": 1909,
+    "end_line": 1917,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "GetTaskSuccessResponse",
+    "kind": "ClassDef",
+    "line": 1920,
+    "end_line": 1936,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "SendMessageSuccessResponse",
+    "kind": "ClassDef",
+    "line": 1939,
+    "end_line": 1955,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "SendStreamingMessageSuccessResponse",
+    "kind": "ClassDef",
+    "line": 1958,
+    "end_line": 1975,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "CancelTaskResponse",
+    "kind": "ClassDef",
+    "line": 1978,
+    "end_line": 1984,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "GetTaskResponse",
+    "kind": "ClassDef",
+    "line": 1987,
+    "end_line": 1991,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "JSONRPCResponse",
+    "kind": "ClassDef",
+    "line": 1994,
+    "end_line": 2023,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "SendMessageResponse",
+    "kind": "ClassDef",
+    "line": 2026,
+    "end_line": 2032,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/types.py",
+    "name": "SendStreamingMessageResponse",
+    "kind": "ClassDef",
+    "line": 2035,
+    "end_line": 2041,
+    "guide": "v0_3_types_knowledge.md"
+  },
+  {
+    "source": "v0_3/versions.py",
+    "name": "is_legacy_version",
+    "kind": "FunctionDef",
+    "line": 8,
+    "end_line": 18,
+    "guide": "v0_3_versions_knowledge.md"
+  }
+]

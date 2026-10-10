@@ -1,0 +1,273 @@
+{
+  "version": "1.1.4",
+  "date": "2026-10-07",
+  "source_root": "/Users/priyanssingh/Desktop/Wedn-Demo/.venv/lib/python3.11/site-packages/a2a/compat",
+  "files": [
+    {
+      "path": "__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "source/support",
+      "guide": "compat_init_knowledge.md"
+    },
+    {
+      "path": "__pycache__/__init__.cpython-311.pyc",
+      "bytes": 204,
+      "sha256": "3807367a3cbed09e79a39a53e757d08003fb608cc64f85510db7e3ed6d592f78",
+      "kind": "runtime cache",
+      "guide": null
+    },
+    {
+      "path": "v0_3/README.md",
+      "bytes": 2587,
+      "sha256": "b24967ff055e6c4ee816703797ee44d321c876271bb50c785c7280048477474a",
+      "kind": "source/support",
+      "guide": "v0_3_protocol_assets_knowledge.md"
+    },
+    {
+      "path": "v0_3/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "source/support",
+      "guide": "v0_3_init_knowledge.md"
+    },
+    {
+      "path": "v0_3/__pycache__/__init__.cpython-311.pyc",
+      "bytes": 209,
+      "sha256": "017ca6fb3f9a6f9bd9c7b993c5cfd7543713af432dd099cfb0f5cf15cfe6b7be",
+      "kind": "runtime cache",
+      "guide": null
+    },
+    {
+      "path": "v0_3/__pycache__/a2a_v0_3_pb2.cpython-311.pyc",
+      "bytes": 21706,
+      "sha256": "e80f5326cf71b48aa2fa2cc415087a95068049ac5b9791344b3667fc498ce8f5",
+      "kind": "runtime cache",
+      "guide": null
+    },
+    {
+      "path": "v0_3/__pycache__/context_builders.cpython-311.pyc",
+      "bytes": 4445,
+      "sha256": "5e4d3c51a8f3f5dd0d2429d92389de532a524b6499f1d02544a7bfd4ad80cb53",
+      "kind": "runtime cache",
+      "guide": null
+    },
+    {
+      "path": "v0_3/__pycache__/conversions.cpython-311.pyc",
+      "bytes": 63129,
+      "sha256": "ea7a75eb8ce22f592bb605b47015d3c9c312f5c67d84387c26051e03b38f6abe",
+      "kind": "runtime cache",
+      "guide": null
+    },
+    {
+      "path": "v0_3/__pycache__/extension_headers.cpython-311.pyc",
+      "bytes": 1331,
+      "sha256": "cdaa7a7e6619fc73a0ee512e1617c2001871f8c6a9424e24150417f4a49aeda2",
+      "kind": "runtime cache",
+      "guide": null
+    },
+    {
+      "path": "v0_3/__pycache__/grpc_transport.cpython-311.pyc",
+      "bytes": 19905,
+      "sha256": "384411b798779dcb00121b5602d00bbc70d51963485ba197ecc9bc3ad788ccb1",
+      "kind": "runtime cache",
+      "guide": null
+    },
+    {
+      "path": "v0_3/__pycache__/jsonrpc_adapter.cpython-311.pyc",
+      "bytes": 13006,
+      "sha256": "cfee02b2367d39e55d6a0c49667a6e7f291ffd5627383512995175ae067cb0e9",
+      "kind": "runtime cache",
+      "guide": null
+    },
+    {
+      "path": "v0_3/__pycache__/proto_utils.cpython-311.pyc",
+      "bytes": 59459,
+      "sha256": "f22c29448600ee57371ebd69544f5270f7cd12d27f5905ee11d063b3ee5c5d3c",
+      "kind": "runtime cache",
+      "guide": null
+    },
+    {
+      "path": "v0_3/__pycache__/request_handler.cpython-311.pyc",
+      "bytes": 9076,
+      "sha256": "5dff9cdc8395204cb38caf6e505267517c58802c0f7b36affc79c7c93880b112",
+      "kind": "runtime cache",
+      "guide": null
+    },
+    {
+      "path": "v0_3/__pycache__/rest_adapter.cpython-311.pyc",
+      "bytes": 6801,
+      "sha256": "005ccf48fb56addb973ac5f070f8dcefdca2023b7fbe7c6e3190b1100d96e05b",
+      "kind": "runtime cache",
+      "guide": null
+    },
+    {
+      "path": "v0_3/__pycache__/rest_handler.cpython-311.pyc",
+      "bytes": 14070,
+      "sha256": "be065fa0dcfc8b7b2c5c4487d0db0e8fdb27e421d7688e323414308edca0d821",
+      "kind": "runtime cache",
+      "guide": null
+    },
+    {
+      "path": "v0_3/__pycache__/types.cpython-311.pyc",
+      "bytes": 50634,
+      "sha256": "e18d0dd8f99c13c2afaa37725525077882677e84bb732c26fc495654c9e54d33",
+      "kind": "runtime cache",
+      "guide": null
+    },
+    {
+      "path": "v0_3/__pycache__/versions.cpython-311.pyc",
+      "bytes": 1115,
+      "sha256": "f10c0da63c578ef7179f61e35897e4b171c10370c9d82e236e690aa144f49513",
+      "kind": "runtime cache",
+      "guide": null
+    },
+    {
+      "path": "v0_3/a2a_v0_3.proto",
+      "bytes": 27877,
+      "sha256": "814b0dbeca10624344db9668d3a390f43410050995fa42b5f6ee473143680f6e",
+      "kind": "source/support",
+      "guide": "v0_3_protocol_assets_knowledge.md"
+    },
+    {
+      "path": "v0_3/a2a_v0_3_pb2.py",
+      "bytes": 28409,
+      "sha256": "130db434cbc63aacd10cfccefac0f64a150b106e4d0a6fed09d65a8bc5383d33",
+      "kind": "source/support",
+      "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+    },
+    {
+      "path": "v0_3/a2a_v0_3_pb2.pyi",
+      "bytes": 28850,
+      "sha256": "72bd92d94db256e9e39e6141eb3e71a52c2579be4f672b1236ccc7f3e8e3be43",
+      "kind": "source/support",
+      "guide": "v0_3_a2a_v0_3_pb2_knowledge.md"
+    },
+    {
+      "path": "v0_3/a2a_v0_3_pb2_grpc.py",
+      "bytes": 21292,
+      "sha256": "bd39211ab6ea6c1ec4b1fbe85e77ae63c0f1a23df1a9aea48a12eb67fc44f921",
+      "kind": "source/support",
+      "guide": "v0_3_a2a_v0_3_pb2_grpc_knowledge.md"
+    },
+    {
+      "path": "v0_3/buf.lock",
+      "bytes": 282,
+      "sha256": "06c19c80cc80b6a5666f01b57ad6a78bdad6630cfcca1fa862681a6a934e59bc",
+      "kind": "source/support",
+      "guide": "v0_3_protocol_assets_knowledge.md"
+    },
+    {
+      "path": "v0_3/buf.yaml",
+      "bytes": 54,
+      "sha256": "f4879fc564729fb43fd270478cf8df6d63ca166b38cd2722a8808b043f3f7391",
+      "kind": "source/support",
+      "guide": "v0_3_protocol_assets_knowledge.md"
+    },
+    {
+      "path": "v0_3/context_builders.py",
+      "bytes": 2509,
+      "sha256": "470322aa4ff3d76e038f6e460cf97f2b3c872e03056588df20e2f1d789241771",
+      "kind": "source/support",
+      "guide": "v0_3_context_builders_knowledge.md"
+    },
+    {
+      "path": "v0_3/conversions.py",
+      "bytes": 50121,
+      "sha256": "ba4148b95cf79a3a4476e613f5d40cedc6633405513dfb56e3f67df70b61bfa9",
+      "kind": "source/support",
+      "guide": "v0_3_conversions_knowledge.md"
+    },
+    {
+      "path": "v0_3/extension_headers.py",
+      "bytes": 1005,
+      "sha256": "c9504d278b31e5057ad7ccfab2f93f1b721d213d1fa550031b2540e82934137a",
+      "kind": "source/support",
+      "guide": "v0_3_extension_headers_knowledge.md"
+    },
+    {
+      "path": "v0_3/grpc_handler.py",
+      "bytes": 13405,
+      "sha256": "a2b888ecde2c47195f235e7329c06f0d3375e194d061d944557be2c0b0e5ff43",
+      "kind": "source/support",
+      "guide": "v0_3_grpc_handler_knowledge.md"
+    },
+    {
+      "path": "v0_3/grpc_transport.py",
+      "bytes": 13164,
+      "sha256": "5cad8190163be751ea6c818b843f3d2c62567a8c29d47661c1e29d943c2a397f",
+      "kind": "source/support",
+      "guide": "v0_3_grpc_transport_knowledge.md"
+    },
+    {
+      "path": "v0_3/jsonrpc_adapter.py",
+      "bytes": 10504,
+      "sha256": "f575962cca7e4bb17131e155e20af196dbf4f8029eb030e5b2dbd372b86ccd02",
+      "kind": "source/support",
+      "guide": "v0_3_jsonrpc_adapter_knowledge.md"
+    },
+    {
+      "path": "v0_3/jsonrpc_transport.py",
+      "bytes": 17014,
+      "sha256": "4a94707a77a206055030fbe3a15b0e1b82e1b4025e3179f7fffcbc1f10ab8bb6",
+      "kind": "source/support",
+      "guide": "v0_3_jsonrpc_transport_knowledge.md"
+    },
+    {
+      "path": "v0_3/model_conversions.py",
+      "bytes": 3006,
+      "sha256": "d5c9699999f8f7cd345b75cd179d16b438c92d5620a726716116dfe690120780",
+      "kind": "source/support",
+      "guide": "v0_3_model_conversions_knowledge.md"
+    },
+    {
+      "path": "v0_3/proto_utils.py",
+      "bytes": 39049,
+      "sha256": "f64d8e6fc84ef4212a5853958e612c1339c59a6d86964c4c1407129e3fb50a52",
+      "kind": "source/support",
+      "guide": "v0_3_proto_utils_knowledge.md"
+    },
+    {
+      "path": "v0_3/request_handler.py",
+      "bytes": 6747,
+      "sha256": "6064d5462465c2c3a4ab28a046b610e68c383074c9bdb11836f6cbf24bc3794e",
+      "kind": "source/support",
+      "guide": "v0_3_request_handler_knowledge.md"
+    },
+    {
+      "path": "v0_3/rest_adapter.py",
+      "bytes": 5434,
+      "sha256": "4b00f81a05925444fb5c407deeef1e497c630332263069da4293d34119ae3d1e",
+      "kind": "source/support",
+      "guide": "v0_3_rest_adapter_knowledge.md"
+    },
+    {
+      "path": "v0_3/rest_handler.py",
+      "bytes": 10069,
+      "sha256": "4432eaa4d41abdac369dab8455597e4985dabd64f3cc2300cab414b9baf19dd9",
+      "kind": "source/support",
+      "guide": "v0_3_rest_handler_knowledge.md"
+    },
+    {
+      "path": "v0_3/rest_transport.py",
+      "bytes": 15105,
+      "sha256": "7d5ccce6199665c6b3372ac871cbfa7995028df6a0be8c71733eecda08ab37c0",
+      "kind": "source/support",
+      "guide": "v0_3_rest_transport_knowledge.md"
+    },
+    {
+      "path": "v0_3/types.py",
+      "bytes": 54997,
+      "sha256": "9445f481fb4cebb7dccbe2dc6ea2df055773550210cc9773b093a0f95f631a3d",
+      "kind": "source/support",
+      "guide": "v0_3_types_knowledge.md"
+    },
+    {
+      "path": "v0_3/versions.py",
+      "bytes": 579,
+      "sha256": "f29d96fcde67db58bc0ebd1ffc53baea2fd093a9e9f080c1ee9f0255d4e9669f",
+      "kind": "source/support",
+      "guide": "v0_3_versions_knowledge.md"
+    }
+  ]
+}

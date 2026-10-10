@@ -1,0 +1,49 @@
+{
+  "distribution": "a2a-sdk",
+  "version": "1.1.4",
+  "date": "2026-10-07",
+  "source": ".venv/lib/python3.11/site-packages/a2a/auth",
+  "files": {
+    "__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "guide": "init_knowledge.md",
+      "declarations": []
+    },
+    "user.py": {
+      "sha256": "7579bc19d2ecb482ff53165b0af82658cd5fea264b1a646a9a1c61e129d8b825",
+      "guide": "user_knowledge.md",
+      "declarations": [
+        [
+          "User",
+          6,
+          "ClassDef"
+        ],
+        [
+          "User.is_authenticated",
+          11,
+          "FunctionDef"
+        ],
+        [
+          "User.user_name",
+          16,
+          "FunctionDef"
+        ],
+        [
+          "UnauthenticatedUser",
+          20,
+          "ClassDef"
+        ],
+        [
+          "UnauthenticatedUser.is_authenticated",
+          24,
+          "FunctionDef"
+        ],
+        [
+          "UnauthenticatedUser.user_name",
+          29,
+          "FunctionDef"
+        ]
+      ]
+    }
+  }
+}

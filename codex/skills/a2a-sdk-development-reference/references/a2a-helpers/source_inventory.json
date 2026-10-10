@@ -1,0 +1,170 @@
+{
+  "distribution": "a2a-sdk",
+  "version": "1.1.4",
+  "date": "2026-10-07",
+  "source": ".venv/lib/python3.11/site-packages/a2a/helpers",
+  "files": {
+    "__init__.py": {
+      "sha256": "8f6dd736c0ebc9c0d08d9f0f9d3706658ea2fb3dd7733ab5bf8baaef03c724d9",
+      "guide": "init_knowledge.md",
+      "declarations": []
+    },
+    "agent_card.py": {
+      "sha256": "133fe7aeae20a55cc5fdbe267f8edc5d298091ccf8fd20da397ea2cc43810823",
+      "guide": "agent_card_knowledge.md",
+      "declarations": [
+        [
+          "display_agent_card",
+          6,
+          "FunctionDef"
+        ]
+      ]
+    },
+    "proto_helpers.py": {
+      "sha256": "fa6a16b26b8d1d30bbc842700c5d3c42f6da33b28a2b8688e83892d87ec7baea",
+      "guide": "proto_helpers_knowledge.md",
+      "declarations": [
+        [
+          "new_message",
+          28,
+          "FunctionDef"
+        ],
+        [
+          "new_text_message",
+          44,
+          "FunctionDef"
+        ],
+        [
+          "get_message_text",
+          60,
+          "FunctionDef"
+        ],
+        [
+          "new_data_message",
+          65,
+          "FunctionDef"
+        ],
+        [
+          "new_raw_message",
+          92,
+          "FunctionDef"
+        ],
+        [
+          "new_url_message",
+          121,
+          "FunctionDef"
+        ],
+        [
+          "new_artifact",
+          153,
+          "FunctionDef"
+        ],
+        [
+          "new_text_artifact",
+          168,
+          "FunctionDef"
+        ],
+        [
+          "new_data_artifact",
+          184,
+          "FunctionDef"
+        ],
+        [
+          "new_raw_artifact",
+          211,
+          "FunctionDef"
+        ],
+        [
+          "new_url_artifact",
+          240,
+          "FunctionDef"
+        ],
+        [
+          "get_artifact_text",
+          269,
+          "FunctionDef"
+        ],
+        [
+          "new_task_from_user_message",
+          277,
+          "FunctionDef"
+        ],
+        [
+          "new_task",
+          295,
+          "FunctionDef"
+        ],
+        [
+          "new_text_part",
+          320,
+          "FunctionDef"
+        ],
+        [
+          "new_data_part",
+          336,
+          "FunctionDef"
+        ],
+        [
+          "new_raw_part",
+          355,
+          "FunctionDef"
+        ],
+        [
+          "new_url_part",
+          377,
+          "FunctionDef"
+        ],
+        [
+          "get_text_parts",
+          399,
+          "FunctionDef"
+        ],
+        [
+          "get_data_parts",
+          404,
+          "FunctionDef"
+        ],
+        [
+          "get_raw_parts",
+          419,
+          "FunctionDef"
+        ],
+        [
+          "get_url_parts",
+          431,
+          "FunctionDef"
+        ],
+        [
+          "new_text_status_update_event",
+          446,
+          "FunctionDef"
+        ],
+        [
+          "new_text_artifact_update_event",
+          468,
+          "FunctionDef"
+        ],
+        [
+          "new_data_artifact_update_event",
+          489,
+          "FunctionDef"
+        ],
+        [
+          "new_raw_artifact_update_event",
+          528,
+          "FunctionDef"
+        ],
+        [
+          "new_url_artifact_update_event",
+          570,
+          "FunctionDef"
+        ],
+        [
+          "get_stream_response_text",
+          612,
+          "FunctionDef"
+        ]
+      ]
+    }
+  }
+}

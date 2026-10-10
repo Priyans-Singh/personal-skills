@@ -1,0 +1,22 @@
+[
+  {
+    "file": "__init__.py",
+    "bytes": 3713,
+    "sha256": "d8e0b9a3928f7b6a6982c58a2af2c312039ba7aa993326d5cbe50ada008dc542"
+  },
+  {
+    "file": "a2a_pb2.py",
+    "bytes": 42896,
+    "sha256": "d0aac0be3a3b639b17be3f3c42ac2aab185a10e3d085f38c05410472769483ba"
+  },
+  {
+    "file": "a2a_pb2.pyi",
+    "bytes": 31892,
+    "sha256": "9043d39968ee701c636142ad9474e1306f14a2b8f635d45a35565af3ffa1e13c"
+  },
+  {
+    "file": "a2a_pb2_grpc.py",
+    "bytes": 20956,
+    "sha256": "401e653ec5e4261bf29fb91839a54341b97162f4e701a45085accea06067b49e"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "version": "1.1.4",
+  "date": "2026-10-07",
+  "counts": {
+    "source_support_files": 24,
+    "cache_files": 14,
+    "ast_declarations": 496,
+    "ast_by_kind": {
+      "ClassDef": 164,
+      "FunctionDef": 240,
+      "AsyncFunctionDef": 92
+    },
+    "pydantic_declared_fields": 292,
+    "protobuf_messages_including_map_entries": 51,
+    "protobuf_fields": 165,
+    "protobuf_enums": 2,
+    "service_rpcs": 10,
+    "knowledge_files": 21,
+    "markdown_files": 23
+  },
+  "passed": true,
+  "checks_passed": 17897,
+  "behavior_fixtures_passed": 37,
+  "optional_dependencies": {
+    "grpc": false,
+    "sqlalchemy": false,
+    "httpx": true,
+    "starlette": true,
+    "sse_starlette": true,
+    "cryptography": true,
+    "jsonrpc": true,
+    "packaging": true,
+    "pydantic": true,
+    "google.api.annotations_pb2": true
+  },
+  "network": "none; httpx.MockTransport only",
+  "limitations": [
+    "grpcio and SQLAlchemy absent: gRPC/ORM modules statically reviewed only",
+    "No external peer/service/DB execution; runtime transport/server policy remains external",
+    "Mechanical narrative presence and name/field checks do not prove semantic correctness; source-body review and representative fixtures supplement them"
+  ],
+  "command": ".venv/bin/python -B a2a-compat/validate_reference.py"
+}

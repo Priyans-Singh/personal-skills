@@ -1,0 +1,132 @@
+{
+  "distribution": "a2a-sdk",
+  "version": "1.1.4",
+  "date": "2026-10-07",
+  "source": ".venv/lib/python3.11/site-packages/a2a/migrations",
+  "files": {
+    "README.md": {
+      "sha256": "ad8e1f20b24e894ac041eab9e81f22de2627b0b4fb95f0353989b463104e8e30",
+      "guide": "init_knowledge.md",
+      "declarations": []
+    },
+    "__init__.py": {
+      "sha256": "9113fab21bdbc3ae34f1d0bb2d951e81518b58424b65f16860dcacd998a2b7f8",
+      "guide": "init_knowledge.md",
+      "declarations": []
+    },
+    "env.py": {
+      "sha256": "f208492c5752507c250545ec1a1fe769aa8efcf56eb17a939a901c5e076f74d4",
+      "guide": "env_knowledge.md",
+      "declarations": [
+        [
+          "run_migrations_offline",
+          54,
+          "FunctionDef"
+        ],
+        [
+          "do_run_migrations",
+          79,
+          "FunctionDef"
+        ],
+        [
+          "run_async_migrations",
+          99,
+          "AsyncFunctionDef"
+        ],
+        [
+          "run_migrations_online",
+          117,
+          "FunctionDef"
+        ]
+      ]
+    },
+    "migration_utils.py": {
+      "sha256": "292f9e6357867ccce4d441fb113fc6a8a1c4a52dfb7081c659d95bc4fb430ddc",
+      "guide": "migration_utils_knowledge.md",
+      "declarations": [
+        [
+          "_get_inspector",
+          16,
+          "FunctionDef"
+        ],
+        [
+          "table_exists",
+          23,
+          "FunctionDef"
+        ],
+        [
+          "column_exists",
+          31,
+          "FunctionDef"
+        ],
+        [
+          "index_exists",
+          43,
+          "FunctionDef"
+        ],
+        [
+          "add_column",
+          55,
+          "FunctionDef"
+        ],
+        [
+          "drop_column",
+          79,
+          "FunctionDef"
+        ],
+        [
+          "add_index",
+          89,
+          "FunctionDef"
+        ],
+        [
+          "drop_index",
+          103,
+          "FunctionDef"
+        ]
+      ]
+    },
+    "script.py.mako": {
+      "sha256": "103188753711bbda3ce001644028ca7fb6886515be8702789fef444115ebdd60",
+      "guide": "script_template_knowledge.md",
+      "declarations": []
+    },
+    "versions/38ce57e08137_add_column_protocol_version.py": {
+      "sha256": "20b3720b5d9b186e6feecd7511b66203f877db45bb548b4b6579cc1230638cf8",
+      "guide": "versions_knowledge.md",
+      "declarations": [
+        [
+          "upgrade",
+          32,
+          "FunctionDef"
+        ],
+        [
+          "downgrade",
+          59,
+          "FunctionDef"
+        ]
+      ]
+    },
+    "versions/6419d2d130f6_add_columns_owner_last_updated.py": {
+      "sha256": "c680cc87aab4d5deb8ab3fcb516bda076bc43a2a4cb64e3af2e3b55f13f2d4a4",
+      "guide": "versions_knowledge.md",
+      "declarations": [
+        [
+          "upgrade",
+          37,
+          "FunctionDef"
+        ],
+        [
+          "downgrade",
+          81,
+          "FunctionDef"
+        ]
+      ]
+    },
+    "versions/__init__.py": {
+      "sha256": "58d0795baadcd4e6e78c176446535790d827cb81650fef2510d071a90eac26d6",
+      "guide": "versions_knowledge.md",
+      "declarations": []
+    }
+  }
+}

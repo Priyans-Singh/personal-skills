@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bedrock AgentCore"
+  short_description: "Source-grounded AgentCore SDK guidance"
+  default_prompt: "Use $bedrock-agentcore to help with this AgentCore SDK task."

@@ -1,0 +1,2383 @@
+{
+  "name": "a2a.proto",
+  "package": "lf.a2a.v1",
+  "dependency": [
+    "google/api/annotations.proto",
+    "google/api/client.proto",
+    "google/api/field_behavior.proto",
+    "google/protobuf/empty.proto",
+    "google/protobuf/struct.proto",
+    "google/protobuf/timestamp.proto"
+  ],
+  "message_type": [
+    {
+      "name": "SendMessageConfiguration",
+      "field": [
+        {
+          "name": "accepted_output_modes",
+          "number": 1,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_STRING",
+          "json_name": "acceptedOutputModes"
+        },
+        {
+          "name": "task_push_notification_config",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.TaskPushNotificationConfig",
+          "json_name": "taskPushNotificationConfig"
+        },
+        {
+          "name": "history_length",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_INT32",
+          "oneof_index": 0,
+          "json_name": "historyLength",
+          "proto3_optional": true
+        },
+        {
+          "name": "return_immediately",
+          "number": 4,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_BOOL",
+          "json_name": "returnImmediately"
+        }
+      ],
+      "oneof_decl": [
+        {
+          "name": "_history_length"
+        }
+      ]
+    },
+    {
+      "name": "Task",
+      "field": [
+        {
+          "name": "id",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "id"
+        },
+        {
+          "name": "context_id",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "contextId"
+        },
+        {
+          "name": "status",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.TaskStatus",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "status"
+        },
+        {
+          "name": "artifacts",
+          "number": 4,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.Artifact",
+          "json_name": "artifacts"
+        },
+        {
+          "name": "history",
+          "number": 5,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.Message",
+          "json_name": "history"
+        },
+        {
+          "name": "metadata",
+          "number": 6,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".google.protobuf.Struct",
+          "json_name": "metadata"
+        }
+      ]
+    },
+    {
+      "name": "TaskStatus",
+      "field": [
+        {
+          "name": "state",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_ENUM",
+          "type_name": ".lf.a2a.v1.TaskState",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "state"
+        },
+        {
+          "name": "message",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.Message",
+          "json_name": "message"
+        },
+        {
+          "name": "timestamp",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".google.protobuf.Timestamp",
+          "json_name": "timestamp"
+        }
+      ]
+    },
+    {
+      "name": "Part",
+      "field": [
+        {
+          "name": "text",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "oneof_index": 0,
+          "json_name": "text"
+        },
+        {
+          "name": "raw",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_BYTES",
+          "oneof_index": 0,
+          "json_name": "raw"
+        },
+        {
+          "name": "url",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "oneof_index": 0,
+          "json_name": "url"
+        },
+        {
+          "name": "data",
+          "number": 4,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".google.protobuf.Value",
+          "oneof_index": 0,
+          "json_name": "data"
+        },
+        {
+          "name": "metadata",
+          "number": 5,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".google.protobuf.Struct",
+          "json_name": "metadata"
+        },
+        {
+          "name": "filename",
+          "number": 6,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "filename"
+        },
+        {
+          "name": "media_type",
+          "number": 7,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "mediaType"
+        }
+      ],
+      "oneof_decl": [
+        {
+          "name": "content"
+        }
+      ]
+    },
+    {
+      "name": "Message",
+      "field": [
+        {
+          "name": "message_id",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "messageId"
+        },
+        {
+          "name": "context_id",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "contextId"
+        },
+        {
+          "name": "task_id",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "taskId"
+        },
+        {
+          "name": "role",
+          "number": 4,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_ENUM",
+          "type_name": ".lf.a2a.v1.Role",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "role"
+        },
+        {
+          "name": "parts",
+          "number": 5,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.Part",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "parts"
+        },
+        {
+          "name": "metadata",
+          "number": 6,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".google.protobuf.Struct",
+          "json_name": "metadata"
+        },
+        {
+          "name": "extensions",
+          "number": 7,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_STRING",
+          "json_name": "extensions"
+        },
+        {
+          "name": "reference_task_ids",
+          "number": 8,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_STRING",
+          "json_name": "referenceTaskIds"
+        }
+      ]
+    },
+    {
+      "name": "Artifact",
+      "field": [
+        {
+          "name": "artifact_id",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "artifactId"
+        },
+        {
+          "name": "name",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "name"
+        },
+        {
+          "name": "description",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "description"
+        },
+        {
+          "name": "parts",
+          "number": 4,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.Part",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "parts"
+        },
+        {
+          "name": "metadata",
+          "number": 5,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".google.protobuf.Struct",
+          "json_name": "metadata"
+        },
+        {
+          "name": "extensions",
+          "number": 6,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_STRING",
+          "json_name": "extensions"
+        }
+      ]
+    },
+    {
+      "name": "TaskStatusUpdateEvent",
+      "field": [
+        {
+          "name": "task_id",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "taskId"
+        },
+        {
+          "name": "context_id",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "contextId"
+        },
+        {
+          "name": "status",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.TaskStatus",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "status"
+        },
+        {
+          "name": "metadata",
+          "number": 4,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".google.protobuf.Struct",
+          "json_name": "metadata"
+        }
+      ]
+    },
+    {
+      "name": "TaskArtifactUpdateEvent",
+      "field": [
+        {
+          "name": "task_id",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "taskId"
+        },
+        {
+          "name": "context_id",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "contextId"
+        },
+        {
+          "name": "artifact",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.Artifact",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "artifact"
+        },
+        {
+          "name": "append",
+          "number": 4,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_BOOL",
+          "json_name": "append"
+        },
+        {
+          "name": "last_chunk",
+          "number": 5,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_BOOL",
+          "json_name": "lastChunk"
+        },
+        {
+          "name": "metadata",
+          "number": 6,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".google.protobuf.Struct",
+          "json_name": "metadata"
+        }
+      ]
+    },
+    {
+      "name": "AuthenticationInfo",
+      "field": [
+        {
+          "name": "scheme",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "scheme"
+        },
+        {
+          "name": "credentials",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "credentials"
+        }
+      ]
+    },
+    {
+      "name": "AgentInterface",
+      "field": [
+        {
+          "name": "url",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "url"
+        },
+        {
+          "name": "protocol_binding",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "protocolBinding"
+        },
+        {
+          "name": "tenant",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "tenant"
+        },
+        {
+          "name": "protocol_version",
+          "number": 4,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "protocolVersion"
+        }
+      ]
+    },
+    {
+      "name": "AgentCard",
+      "field": [
+        {
+          "name": "name",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "name"
+        },
+        {
+          "name": "description",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "description"
+        },
+        {
+          "name": "supported_interfaces",
+          "number": 3,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.AgentInterface",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "supportedInterfaces"
+        },
+        {
+          "name": "provider",
+          "number": 4,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.AgentProvider",
+          "json_name": "provider"
+        },
+        {
+          "name": "version",
+          "number": 5,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "version"
+        },
+        {
+          "name": "documentation_url",
+          "number": 6,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "oneof_index": 0,
+          "json_name": "documentationUrl",
+          "proto3_optional": true
+        },
+        {
+          "name": "capabilities",
+          "number": 7,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.AgentCapabilities",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "capabilities"
+        },
+        {
+          "name": "security_schemes",
+          "number": 8,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.AgentCard.SecuritySchemesEntry",
+          "json_name": "securitySchemes"
+        },
+        {
+          "name": "security_requirements",
+          "number": 9,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.SecurityRequirement",
+          "json_name": "securityRequirements"
+        },
+        {
+          "name": "default_input_modes",
+          "number": 10,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "defaultInputModes"
+        },
+        {
+          "name": "default_output_modes",
+          "number": 11,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "defaultOutputModes"
+        },
+        {
+          "name": "skills",
+          "number": 12,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.AgentSkill",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "skills"
+        },
+        {
+          "name": "signatures",
+          "number": 13,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.AgentCardSignature",
+          "json_name": "signatures"
+        },
+        {
+          "name": "icon_url",
+          "number": 14,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "oneof_index": 1,
+          "json_name": "iconUrl",
+          "proto3_optional": true
+        }
+      ],
+      "nested_type": [
+        {
+          "name": "SecuritySchemesEntry",
+          "field": [
+            {
+              "name": "key",
+              "number": 1,
+              "label": "LABEL_OPTIONAL",
+              "type": "TYPE_STRING",
+              "json_name": "key"
+            },
+            {
+              "name": "value",
+              "number": 2,
+              "label": "LABEL_OPTIONAL",
+              "type": "TYPE_MESSAGE",
+              "type_name": ".lf.a2a.v1.SecurityScheme",
+              "json_name": "value"
+            }
+          ],
+          "options": {
+            "map_entry": true
+          }
+        }
+      ],
+      "oneof_decl": [
+        {
+          "name": "_documentation_url"
+        },
+        {
+          "name": "_icon_url"
+        }
+      ]
+    },
+    {
+      "name": "AgentProvider",
+      "field": [
+        {
+          "name": "url",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "url"
+        },
+        {
+          "name": "organization",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "organization"
+        }
+      ]
+    },
+    {
+      "name": "AgentCapabilities",
+      "field": [
+        {
+          "name": "streaming",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_BOOL",
+          "oneof_index": 0,
+          "json_name": "streaming",
+          "proto3_optional": true
+        },
+        {
+          "name": "push_notifications",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_BOOL",
+          "oneof_index": 1,
+          "json_name": "pushNotifications",
+          "proto3_optional": true
+        },
+        {
+          "name": "extensions",
+          "number": 3,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.AgentExtension",
+          "json_name": "extensions"
+        },
+        {
+          "name": "extended_agent_card",
+          "number": 4,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_BOOL",
+          "oneof_index": 2,
+          "json_name": "extendedAgentCard",
+          "proto3_optional": true
+        }
+      ],
+      "oneof_decl": [
+        {
+          "name": "_streaming"
+        },
+        {
+          "name": "_push_notifications"
+        },
+        {
+          "name": "_extended_agent_card"
+        }
+      ]
+    },
+    {
+      "name": "AgentExtension",
+      "field": [
+        {
+          "name": "uri",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "uri"
+        },
+        {
+          "name": "description",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "description"
+        },
+        {
+          "name": "required",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_BOOL",
+          "json_name": "required"
+        },
+        {
+          "name": "params",
+          "number": 4,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".google.protobuf.Struct",
+          "json_name": "params"
+        }
+      ]
+    },
+    {
+      "name": "AgentSkill",
+      "field": [
+        {
+          "name": "id",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "id"
+        },
+        {
+          "name": "name",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "name"
+        },
+        {
+          "name": "description",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "description"
+        },
+        {
+          "name": "tags",
+          "number": 4,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "tags"
+        },
+        {
+          "name": "examples",
+          "number": 5,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_STRING",
+          "json_name": "examples"
+        },
+        {
+          "name": "input_modes",
+          "number": 6,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_STRING",
+          "json_name": "inputModes"
+        },
+        {
+          "name": "output_modes",
+          "number": 7,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_STRING",
+          "json_name": "outputModes"
+        },
+        {
+          "name": "security_requirements",
+          "number": 8,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.SecurityRequirement",
+          "json_name": "securityRequirements"
+        }
+      ]
+    },
+    {
+      "name": "AgentCardSignature",
+      "field": [
+        {
+          "name": "protected",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "protected"
+        },
+        {
+          "name": "signature",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "signature"
+        },
+        {
+          "name": "header",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".google.protobuf.Struct",
+          "json_name": "header"
+        }
+      ]
+    },
+    {
+      "name": "TaskPushNotificationConfig",
+      "field": [
+        {
+          "name": "tenant",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "tenant"
+        },
+        {
+          "name": "id",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "id"
+        },
+        {
+          "name": "task_id",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "taskId"
+        },
+        {
+          "name": "url",
+          "number": 4,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "url"
+        },
+        {
+          "name": "token",
+          "number": 5,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "token"
+        },
+        {
+          "name": "authentication",
+          "number": 6,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.AuthenticationInfo",
+          "json_name": "authentication"
+        }
+      ]
+    },
+    {
+      "name": "StringList",
+      "field": [
+        {
+          "name": "list",
+          "number": 1,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_STRING",
+          "json_name": "list"
+        }
+      ]
+    },
+    {
+      "name": "SecurityRequirement",
+      "field": [
+        {
+          "name": "schemes",
+          "number": 1,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.SecurityRequirement.SchemesEntry",
+          "json_name": "schemes"
+        }
+      ],
+      "nested_type": [
+        {
+          "name": "SchemesEntry",
+          "field": [
+            {
+              "name": "key",
+              "number": 1,
+              "label": "LABEL_OPTIONAL",
+              "type": "TYPE_STRING",
+              "json_name": "key"
+            },
+            {
+              "name": "value",
+              "number": 2,
+              "label": "LABEL_OPTIONAL",
+              "type": "TYPE_MESSAGE",
+              "type_name": ".lf.a2a.v1.StringList",
+              "json_name": "value"
+            }
+          ],
+          "options": {
+            "map_entry": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "SecurityScheme",
+      "field": [
+        {
+          "name": "api_key_security_scheme",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.APIKeySecurityScheme",
+          "oneof_index": 0,
+          "json_name": "apiKeySecurityScheme"
+        },
+        {
+          "name": "http_auth_security_scheme",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.HTTPAuthSecurityScheme",
+          "oneof_index": 0,
+          "json_name": "httpAuthSecurityScheme"
+        },
+        {
+          "name": "oauth2_security_scheme",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.OAuth2SecurityScheme",
+          "oneof_index": 0,
+          "json_name": "oauth2SecurityScheme"
+        },
+        {
+          "name": "open_id_connect_security_scheme",
+          "number": 4,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.OpenIdConnectSecurityScheme",
+          "oneof_index": 0,
+          "json_name": "openIdConnectSecurityScheme"
+        },
+        {
+          "name": "mtls_security_scheme",
+          "number": 5,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.MutualTlsSecurityScheme",
+          "oneof_index": 0,
+          "json_name": "mtlsSecurityScheme"
+        }
+      ],
+      "oneof_decl": [
+        {
+          "name": "scheme"
+        }
+      ]
+    },
+    {
+      "name": "APIKeySecurityScheme",
+      "field": [
+        {
+          "name": "description",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "description"
+        },
+        {
+          "name": "location",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "location"
+        },
+        {
+          "name": "name",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "name"
+        }
+      ]
+    },
+    {
+      "name": "HTTPAuthSecurityScheme",
+      "field": [
+        {
+          "name": "description",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "description"
+        },
+        {
+          "name": "scheme",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "scheme"
+        },
+        {
+          "name": "bearer_format",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "bearerFormat"
+        }
+      ]
+    },
+    {
+      "name": "OAuth2SecurityScheme",
+      "field": [
+        {
+          "name": "description",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "description"
+        },
+        {
+          "name": "flows",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.OAuthFlows",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "flows"
+        },
+        {
+          "name": "oauth2_metadata_url",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "oauth2MetadataUrl"
+        }
+      ]
+    },
+    {
+      "name": "OpenIdConnectSecurityScheme",
+      "field": [
+        {
+          "name": "description",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "description"
+        },
+        {
+          "name": "open_id_connect_url",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "openIdConnectUrl"
+        }
+      ]
+    },
+    {
+      "name": "MutualTlsSecurityScheme",
+      "field": [
+        {
+          "name": "description",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "description"
+        }
+      ]
+    },
+    {
+      "name": "OAuthFlows",
+      "field": [
+        {
+          "name": "authorization_code",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.AuthorizationCodeOAuthFlow",
+          "oneof_index": 0,
+          "json_name": "authorizationCode"
+        },
+        {
+          "name": "client_credentials",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.ClientCredentialsOAuthFlow",
+          "oneof_index": 0,
+          "json_name": "clientCredentials"
+        },
+        {
+          "name": "implicit",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.ImplicitOAuthFlow",
+          "options": {
+            "deprecated": true
+          },
+          "oneof_index": 0,
+          "json_name": "implicit"
+        },
+        {
+          "name": "password",
+          "number": 4,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.PasswordOAuthFlow",
+          "options": {
+            "deprecated": true
+          },
+          "oneof_index": 0,
+          "json_name": "password"
+        },
+        {
+          "name": "device_code",
+          "number": 5,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.DeviceCodeOAuthFlow",
+          "oneof_index": 0,
+          "json_name": "deviceCode"
+        }
+      ],
+      "oneof_decl": [
+        {
+          "name": "flow"
+        }
+      ]
+    },
+    {
+      "name": "AuthorizationCodeOAuthFlow",
+      "field": [
+        {
+          "name": "authorization_url",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "authorizationUrl"
+        },
+        {
+          "name": "token_url",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "tokenUrl"
+        },
+        {
+          "name": "refresh_url",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "refreshUrl"
+        },
+        {
+          "name": "scopes",
+          "number": 4,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.AuthorizationCodeOAuthFlow.ScopesEntry",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "scopes"
+        },
+        {
+          "name": "pkce_required",
+          "number": 5,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_BOOL",
+          "json_name": "pkceRequired"
+        }
+      ],
+      "nested_type": [
+        {
+          "name": "ScopesEntry",
+          "field": [
+            {
+              "name": "key",
+              "number": 1,
+              "label": "LABEL_OPTIONAL",
+              "type": "TYPE_STRING",
+              "json_name": "key"
+            },
+            {
+              "name": "value",
+              "number": 2,
+              "label": "LABEL_OPTIONAL",
+              "type": "TYPE_STRING",
+              "json_name": "value"
+            }
+          ],
+          "options": {
+            "map_entry": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "ClientCredentialsOAuthFlow",
+      "field": [
+        {
+          "name": "token_url",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "tokenUrl"
+        },
+        {
+          "name": "refresh_url",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "refreshUrl"
+        },
+        {
+          "name": "scopes",
+          "number": 3,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.ClientCredentialsOAuthFlow.ScopesEntry",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "scopes"
+        }
+      ],
+      "nested_type": [
+        {
+          "name": "ScopesEntry",
+          "field": [
+            {
+              "name": "key",
+              "number": 1,
+              "label": "LABEL_OPTIONAL",
+              "type": "TYPE_STRING",
+              "json_name": "key"
+            },
+            {
+              "name": "value",
+              "number": 2,
+              "label": "LABEL_OPTIONAL",
+              "type": "TYPE_STRING",
+              "json_name": "value"
+            }
+          ],
+          "options": {
+            "map_entry": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "ImplicitOAuthFlow",
+      "field": [
+        {
+          "name": "authorization_url",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "authorizationUrl"
+        },
+        {
+          "name": "refresh_url",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "refreshUrl"
+        },
+        {
+          "name": "scopes",
+          "number": 3,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.ImplicitOAuthFlow.ScopesEntry",
+          "json_name": "scopes"
+        }
+      ],
+      "nested_type": [
+        {
+          "name": "ScopesEntry",
+          "field": [
+            {
+              "name": "key",
+              "number": 1,
+              "label": "LABEL_OPTIONAL",
+              "type": "TYPE_STRING",
+              "json_name": "key"
+            },
+            {
+              "name": "value",
+              "number": 2,
+              "label": "LABEL_OPTIONAL",
+              "type": "TYPE_STRING",
+              "json_name": "value"
+            }
+          ],
+          "options": {
+            "map_entry": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "PasswordOAuthFlow",
+      "field": [
+        {
+          "name": "token_url",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "tokenUrl"
+        },
+        {
+          "name": "refresh_url",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "refreshUrl"
+        },
+        {
+          "name": "scopes",
+          "number": 3,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.PasswordOAuthFlow.ScopesEntry",
+          "json_name": "scopes"
+        }
+      ],
+      "nested_type": [
+        {
+          "name": "ScopesEntry",
+          "field": [
+            {
+              "name": "key",
+              "number": 1,
+              "label": "LABEL_OPTIONAL",
+              "type": "TYPE_STRING",
+              "json_name": "key"
+            },
+            {
+              "name": "value",
+              "number": 2,
+              "label": "LABEL_OPTIONAL",
+              "type": "TYPE_STRING",
+              "json_name": "value"
+            }
+          ],
+          "options": {
+            "map_entry": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "DeviceCodeOAuthFlow",
+      "field": [
+        {
+          "name": "device_authorization_url",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "deviceAuthorizationUrl"
+        },
+        {
+          "name": "token_url",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "tokenUrl"
+        },
+        {
+          "name": "refresh_url",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "refreshUrl"
+        },
+        {
+          "name": "scopes",
+          "number": 4,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.DeviceCodeOAuthFlow.ScopesEntry",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "scopes"
+        }
+      ],
+      "nested_type": [
+        {
+          "name": "ScopesEntry",
+          "field": [
+            {
+              "name": "key",
+              "number": 1,
+              "label": "LABEL_OPTIONAL",
+              "type": "TYPE_STRING",
+              "json_name": "key"
+            },
+            {
+              "name": "value",
+              "number": 2,
+              "label": "LABEL_OPTIONAL",
+              "type": "TYPE_STRING",
+              "json_name": "value"
+            }
+          ],
+          "options": {
+            "map_entry": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "SendMessageRequest",
+      "field": [
+        {
+          "name": "tenant",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "tenant"
+        },
+        {
+          "name": "message",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.Message",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "message"
+        },
+        {
+          "name": "configuration",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.SendMessageConfiguration",
+          "json_name": "configuration"
+        },
+        {
+          "name": "metadata",
+          "number": 4,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".google.protobuf.Struct",
+          "json_name": "metadata"
+        }
+      ]
+    },
+    {
+      "name": "GetTaskRequest",
+      "field": [
+        {
+          "name": "tenant",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "tenant"
+        },
+        {
+          "name": "id",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "id"
+        },
+        {
+          "name": "history_length",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_INT32",
+          "oneof_index": 0,
+          "json_name": "historyLength",
+          "proto3_optional": true
+        }
+      ],
+      "oneof_decl": [
+        {
+          "name": "_history_length"
+        }
+      ]
+    },
+    {
+      "name": "ListTasksRequest",
+      "field": [
+        {
+          "name": "tenant",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "tenant"
+        },
+        {
+          "name": "context_id",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "contextId"
+        },
+        {
+          "name": "status",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_ENUM",
+          "type_name": ".lf.a2a.v1.TaskState",
+          "json_name": "status"
+        },
+        {
+          "name": "page_size",
+          "number": 4,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_INT32",
+          "oneof_index": 0,
+          "json_name": "pageSize",
+          "proto3_optional": true
+        },
+        {
+          "name": "page_token",
+          "number": 5,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "pageToken"
+        },
+        {
+          "name": "history_length",
+          "number": 6,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_INT32",
+          "oneof_index": 1,
+          "json_name": "historyLength",
+          "proto3_optional": true
+        },
+        {
+          "name": "status_timestamp_after",
+          "number": 7,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".google.protobuf.Timestamp",
+          "json_name": "statusTimestampAfter"
+        },
+        {
+          "name": "include_artifacts",
+          "number": 8,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_BOOL",
+          "oneof_index": 2,
+          "json_name": "includeArtifacts",
+          "proto3_optional": true
+        }
+      ],
+      "oneof_decl": [
+        {
+          "name": "_page_size"
+        },
+        {
+          "name": "_history_length"
+        },
+        {
+          "name": "_include_artifacts"
+        }
+      ]
+    },
+    {
+      "name": "ListTasksResponse",
+      "field": [
+        {
+          "name": "tasks",
+          "number": 1,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.Task",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "tasks"
+        },
+        {
+          "name": "next_page_token",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "nextPageToken"
+        },
+        {
+          "name": "page_size",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_INT32",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "pageSize"
+        },
+        {
+          "name": "total_size",
+          "number": 4,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_INT32",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "totalSize"
+        }
+      ]
+    },
+    {
+      "name": "CancelTaskRequest",
+      "field": [
+        {
+          "name": "tenant",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "tenant"
+        },
+        {
+          "name": "id",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "id"
+        },
+        {
+          "name": "metadata",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".google.protobuf.Struct",
+          "json_name": "metadata"
+        }
+      ]
+    },
+    {
+      "name": "GetTaskPushNotificationConfigRequest",
+      "field": [
+        {
+          "name": "tenant",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "tenant"
+        },
+        {
+          "name": "task_id",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "taskId"
+        },
+        {
+          "name": "id",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "id"
+        }
+      ]
+    },
+    {
+      "name": "DeleteTaskPushNotificationConfigRequest",
+      "field": [
+        {
+          "name": "tenant",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "tenant"
+        },
+        {
+          "name": "task_id",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "taskId"
+        },
+        {
+          "name": "id",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "id"
+        }
+      ]
+    },
+    {
+      "name": "SubscribeToTaskRequest",
+      "field": [
+        {
+          "name": "tenant",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "tenant"
+        },
+        {
+          "name": "id",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "id"
+        }
+      ]
+    },
+    {
+      "name": "ListTaskPushNotificationConfigsRequest",
+      "field": [
+        {
+          "name": "tenant",
+          "number": 4,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "tenant"
+        },
+        {
+          "name": "task_id",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "options": {
+            "[google.api.field_behavior]": [
+              "REQUIRED"
+            ]
+          },
+          "json_name": "taskId"
+        },
+        {
+          "name": "page_size",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_INT32",
+          "json_name": "pageSize"
+        },
+        {
+          "name": "page_token",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "pageToken"
+        }
+      ]
+    },
+    {
+      "name": "GetExtendedAgentCardRequest",
+      "field": [
+        {
+          "name": "tenant",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "tenant"
+        }
+      ]
+    },
+    {
+      "name": "SendMessageResponse",
+      "field": [
+        {
+          "name": "task",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.Task",
+          "oneof_index": 0,
+          "json_name": "task"
+        },
+        {
+          "name": "message",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.Message",
+          "oneof_index": 0,
+          "json_name": "message"
+        }
+      ],
+      "oneof_decl": [
+        {
+          "name": "payload"
+        }
+      ]
+    },
+    {
+      "name": "StreamResponse",
+      "field": [
+        {
+          "name": "task",
+          "number": 1,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.Task",
+          "oneof_index": 0,
+          "json_name": "task"
+        },
+        {
+          "name": "message",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.Message",
+          "oneof_index": 0,
+          "json_name": "message"
+        },
+        {
+          "name": "status_update",
+          "number": 3,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.TaskStatusUpdateEvent",
+          "oneof_index": 0,
+          "json_name": "statusUpdate"
+        },
+        {
+          "name": "artifact_update",
+          "number": 4,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.TaskArtifactUpdateEvent",
+          "oneof_index": 0,
+          "json_name": "artifactUpdate"
+        }
+      ],
+      "oneof_decl": [
+        {
+          "name": "payload"
+        }
+      ]
+    },
+    {
+      "name": "ListTaskPushNotificationConfigsResponse",
+      "field": [
+        {
+          "name": "configs",
+          "number": 1,
+          "label": "LABEL_REPEATED",
+          "type": "TYPE_MESSAGE",
+          "type_name": ".lf.a2a.v1.TaskPushNotificationConfig",
+          "json_name": "configs"
+        },
+        {
+          "name": "next_page_token",
+          "number": 2,
+          "label": "LABEL_OPTIONAL",
+          "type": "TYPE_STRING",
+          "json_name": "nextPageToken"
+        }
+      ]
+    }
+  ],
+  "enum_type": [
+    {
+      "name": "TaskState",
+      "value": [
+        {
+          "name": "TASK_STATE_UNSPECIFIED",
+          "number": 0
+        },
+        {
+          "name": "TASK_STATE_SUBMITTED",
+          "number": 1
+        },
+        {
+          "name": "TASK_STATE_WORKING",
+          "number": 2
+        },
+        {
+          "name": "TASK_STATE_COMPLETED",
+          "number": 3
+        },
+        {
+          "name": "TASK_STATE_FAILED",
+          "number": 4
+        },
+        {
+          "name": "TASK_STATE_CANCELED",
+          "number": 5
+        },
+        {
+          "name": "TASK_STATE_INPUT_REQUIRED",
+          "number": 6
+        },
+        {
+          "name": "TASK_STATE_REJECTED",
+          "number": 7
+        },
+        {
+          "name": "TASK_STATE_AUTH_REQUIRED",
+          "number": 8
+        }
+      ]
+    },
+    {
+      "name": "Role",
+      "value": [
+        {
+          "name": "ROLE_UNSPECIFIED",
+          "number": 0
+        },
+        {
+          "name": "ROLE_USER",
+          "number": 1
+        },
+        {
+          "name": "ROLE_AGENT",
+          "number": 2
+        }
+      ]
+    }
+  ],
+  "service": [
+    {
+      "name": "A2AService",
+      "method": [
+        {
+          "name": "SendMessage",
+          "input_type": ".lf.a2a.v1.SendMessageRequest",
+          "output_type": ".lf.a2a.v1.SendMessageResponse",
+          "options": {
+            "[google.api.http]": {
+              "post": "/message:send",
+              "body": "*",
+              "additional_bindings": [
+                {
+                  "post": "/{tenant}/message:send",
+                  "body": "*"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "SendStreamingMessage",
+          "input_type": ".lf.a2a.v1.SendMessageRequest",
+          "output_type": ".lf.a2a.v1.StreamResponse",
+          "options": {
+            "[google.api.http]": {
+              "post": "/message:stream",
+              "body": "*",
+              "additional_bindings": [
+                {
+                  "post": "/{tenant}/message:stream",
+                  "body": "*"
+                }
+              ]
+            }
+          },
+          "server_streaming": true
+        },
+        {
+          "name": "GetTask",
+          "input_type": ".lf.a2a.v1.GetTaskRequest",
+          "output_type": ".lf.a2a.v1.Task",
+          "options": {
+            "[google.api.method_signature]": [
+              "id"
+            ],
+            "[google.api.http]": {
+              "get": "/tasks/{id=*}",
+              "additional_bindings": [
+                {
+                  "get": "/{tenant}/tasks/{id=*}"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ListTasks",
+          "input_type": ".lf.a2a.v1.ListTasksRequest",
+          "output_type": ".lf.a2a.v1.ListTasksResponse",
+          "options": {
+            "[google.api.http]": {
+              "get": "/tasks",
+              "additional_bindings": [
+                {
+                  "get": "/{tenant}/tasks"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "CancelTask",
+          "input_type": ".lf.a2a.v1.CancelTaskRequest",
+          "output_type": ".lf.a2a.v1.Task",
+          "options": {
+            "[google.api.http]": {
+              "post": "/tasks/{id=*}:cancel",
+              "body": "*",
+              "additional_bindings": [
+                {
+                  "post": "/{tenant}/tasks/{id=*}:cancel",
+                  "body": "*"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "SubscribeToTask",
+          "input_type": ".lf.a2a.v1.SubscribeToTaskRequest",
+          "output_type": ".lf.a2a.v1.StreamResponse",
+          "options": {
+            "[google.api.http]": {
+              "get": "/tasks/{id=*}:subscribe",
+              "additional_bindings": [
+                {
+                  "get": "/{tenant}/tasks/{id=*}:subscribe"
+                }
+              ]
+            }
+          },
+          "server_streaming": true
+        },
+        {
+          "name": "CreateTaskPushNotificationConfig",
+          "input_type": ".lf.a2a.v1.TaskPushNotificationConfig",
+          "output_type": ".lf.a2a.v1.TaskPushNotificationConfig",
+          "options": {
+            "[google.api.method_signature]": [
+              "task_id,config"
+            ],
+            "[google.api.http]": {
+              "post": "/tasks/{task_id=*}/pushNotificationConfigs",
+              "body": "*",
+              "additional_bindings": [
+                {
+                  "post": "/{tenant}/tasks/{task_id=*}/pushNotificationConfigs",
+                  "body": "*"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "GetTaskPushNotificationConfig",
+          "input_type": ".lf.a2a.v1.GetTaskPushNotificationConfigRequest",
+          "output_type": ".lf.a2a.v1.TaskPushNotificationConfig",
+          "options": {
+            "[google.api.method_signature]": [
+              "task_id,id"
+            ],
+            "[google.api.http]": {
+              "get": "/tasks/{task_id=*}/pushNotificationConfigs/{id=*}",
+              "additional_bindings": [
+                {
+                  "get": "/{tenant}/tasks/{task_id=*}/pushNotificationConfigs/{id=*}"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "ListTaskPushNotificationConfigs",
+          "input_type": ".lf.a2a.v1.ListTaskPushNotificationConfigsRequest",
+          "output_type": ".lf.a2a.v1.ListTaskPushNotificationConfigsResponse",
+          "options": {
+            "[google.api.method_signature]": [
+              "task_id"
+            ],
+            "[google.api.http]": {
+              "get": "/tasks/{task_id=*}/pushNotificationConfigs",
+              "additional_bindings": [
+                {
+                  "get": "/{tenant}/tasks/{task_id=*}/pushNotificationConfigs"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "GetExtendedAgentCard",
+          "input_type": ".lf.a2a.v1.GetExtendedAgentCardRequest",
+          "output_type": ".lf.a2a.v1.AgentCard",
+          "options": {
+            "[google.api.http]": {
+              "get": "/extendedAgentCard",
+              "additional_bindings": [
+                {
+                  "get": "/{tenant}/extendedAgentCard"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "DeleteTaskPushNotificationConfig",
+          "input_type": ".lf.a2a.v1.DeleteTaskPushNotificationConfigRequest",
+          "output_type": ".google.protobuf.Empty",
+          "options": {
+            "[google.api.method_signature]": [
+              "task_id,id"
+            ],
+            "[google.api.http]": {
+              "delete": "/tasks/{task_id=*}/pushNotificationConfigs/{id=*}",
+              "additional_bindings": [
+                {
+                  "delete": "/{tenant}/tasks/{task_id=*}/pushNotificationConfigs/{id=*}"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "options": {
+    "java_package": "com.lf.a2a.v1",
+    "java_outer_classname": "A2aProto",
+    "java_multiple_files": true,
+    "go_package": "google.golang.org/lf/a2a/v1",
+    "objc_class_prefix": "LAX",
+    "csharp_namespace": "Lf.A2a.V1",
+    "php_namespace": "Lf\\A2a\\V1",
+    "php_metadata_namespace": "Lf\\A2a\\V1\\GPBMetadata",
+    "ruby_package": "Lf::A2a::V1"
+  },
+  "syntax": "proto3"
+}

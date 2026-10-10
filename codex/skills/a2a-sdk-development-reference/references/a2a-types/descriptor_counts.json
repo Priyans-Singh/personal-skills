@@ -1,0 +1,10 @@
+{
+  "top_level_messages": 44,
+  "all_messages_including_nested": 51,
+  "fields_including_map_entries": 190,
+  "oneofs_including_synthetic_optional": 15,
+  "top_level_enums": 2,
+  "enum_values": 12,
+  "services": 1,
+  "rpc_methods": 11
+}

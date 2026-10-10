@@ -1,0 +1,29 @@
+{
+  "distribution": "a2a-sdk",
+  "version": "1.1.4",
+  "date": "2026-10-07",
+  "source": ".venv/lib/python3.11/site-packages/a2a/extensions",
+  "files": {
+    "__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "guide": "init_knowledge.md",
+      "declarations": []
+    },
+    "common.py": {
+      "sha256": "924cc0651e941fc8689033ef7a3b11f4d1bc26ffcb5196b7ba063fa5238ac77e",
+      "guide": "common_knowledge.md",
+      "declarations": [
+        [
+          "get_requested_extensions",
+          7,
+          "FunctionDef"
+        ],
+        [
+          "find_extension_by_uri",
+          21,
+          "FunctionDef"
+        ]
+      ]
+    }
+  }
+}

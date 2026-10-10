@@ -1,0 +1,24 @@
+{
+  "agents": [
+    "agento11y-instrument",
+    "bedrock-agentcore",
+    "diagnosing-bugs",
+    "find-skills",
+    "grilling",
+    "handoff",
+    "herdr",
+    "langchain-library-skill",
+    "langgraph-reference",
+    "library-deep-dive"
+  ],
+  "codex": [
+    "a2a-sdk-development-reference",
+    "bedrock-agentcore",
+    "hatch-pet",
+    "langchain-library-skill",
+    "langgraph-reference",
+    "library-deep-dive",
+    "mcp-client",
+    "mcp-server-development"
+  ]
+}
